@@ -1,0 +1,12 @@
+{
+  "locked": false,
+  "name": "Barely Modded Default",
+  "overrides": {},
+  "packIds": [
+    "highlight:highlight_extended",
+    "itemswapper:default",
+    "black_icons",
+    "fabric",
+    "vanilla"
+  ]
+}

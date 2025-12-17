@@ -1,0 +1,13 @@
+name = "Copper Fire"
+filename = "copperfire-1.0.2+1.21.7.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/afn7Sdzl/versions/GgJReKtc/copperfire-1.0.2%2B1.21.7.jar"
+hash-format = "sha512"
+hash = "fd3189a1f047794473ddf3f88c579f56f1446fae3d71aa8ee5d22ba48053a3d17d2e2283b04c0ef27fb790670982fbae6015370d07f769647fc7f366b44e1ae5"
+
+[update]
+[update.modrinth]
+mod-id = "afn7Sdzl"
+version = "GgJReKtc"

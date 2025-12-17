@@ -1,0 +1,13 @@
+name = "Wandering Trader Maps"
+filename = "wandering-trader-maps-v1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FWd8OQg3/versions/eeFMtOwI/wandering-trader-maps-v1.0.0.jar"
+hash-format = "sha512"
+hash = "72ffa6fa26cae951fbc7e319b867cf896cdf19f5d5e97567f1504f32f492b7d8eeb7db89a2501acd4c6d494e374c08a0e6d6b8edcec53188e73a7a9f0612696f"
+
+[update]
+[update.modrinth]
+mod-id = "FWd8OQg3"
+version = "eeFMtOwI"

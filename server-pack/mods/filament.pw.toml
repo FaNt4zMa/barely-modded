@@ -1,0 +1,13 @@
+name = "filament"
+filename = "filament-1.3.20+1.21.10.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/yANxwqSX/versions/NGX1jVdc/filament-1.3.20%2B1.21.10.jar"
+hash-format = "sha512"
+hash = "ccbe9f1d39a9dcdaea48db0964a0df3d3681d81eba073377cfb0118453c8b0148b0a4e4beff0f480db75613b9824524eca4c775a4670a783b5aaad4444e39c9f"
+
+[update]
+[update.modrinth]
+mod-id = "yANxwqSX"
+version = "NGX1jVdc"

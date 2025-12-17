@@ -1,0 +1,13 @@
+name = "Happy Ghast Scaffolding"
+filename = "happy-ghast-scaffolding-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/R50aBq2b/versions/oSGmeE5W/happy-ghast-scaffolding-1.0.0.jar"
+hash-format = "sha512"
+hash = "c911aa9edb04c26bd14b1a49a28251475de791d9161ef8d1f7171f3503859c3824e47fa2503f9962e2d5a24c33dc3ce3fe02d8150fa3fb56b11a95228de968fd"
+
+[update]
+[update.modrinth]
+mod-id = "R50aBq2b"
+version = "oSGmeE5W"

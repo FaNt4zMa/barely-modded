@@ -1,0 +1,13 @@
+name = "Advanced Shulkerboxes"
+filename = "shulkerbox-fabric-1.21.10-2.0.5.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/PZAaSx6B/versions/k1b88TtL/shulkerbox-fabric-1.21.10-2.0.5.jar"
+hash-format = "sha512"
+hash = "ae47143319aa6470ce86fcab214c09b843ff1d9bde6210e66e8c13dd666dc326125213d5e798010299e16ea4faf8e06bfe55c897c5cbbc649c283c5f03ff8d91"
+
+[update]
+[update.modrinth]
+mod-id = "PZAaSx6B"
+version = "k1b88TtL"

@@ -1,0 +1,13 @@
+name = "Magnetic Enchantment"
+filename = "magnetic-enchantment-v1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cqIcXVf5/versions/n4zKTbv6/magnetic-enchantment-v1.0.5.jar"
+hash-format = "sha512"
+hash = "223873b7b28267f70021018f94d8df8628f5d46ec6a76c4d0e24b9f407a4d4a96ea3f0f84122f10f0edff5c569e7d9ce24ba0fbb92045e721d24c06461df4145"
+
+[update]
+[update.modrinth]
+mod-id = "cqIcXVf5"
+version = "n4zKTbv6"

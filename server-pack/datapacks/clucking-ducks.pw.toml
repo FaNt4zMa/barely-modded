@@ -1,0 +1,13 @@
+name = "Clucking Ducks"
+filename = "clucking-ducks-v1-0-0-mc-1-21-9.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pDnk8s7J/versions/5UlEJOMT/clucking-ducks-v1-0-0-mc-1-21-9.zip"
+hash-format = "sha512"
+hash = "b3fe865aceae541d06ed3745e20d2e04521fa3bdfbbcd74dff69a0f48ae7804ff7b3224edd3fb15644326b2baffea87aebd3a7859a7e2b441ed49989d096fa49"
+
+[update]
+[update.modrinth]
+mod-id = "pDnk8s7J"
+version = "5UlEJOMT"

@@ -1,0 +1,13 @@
+name = "Name Tag Tweaks"
+filename = "nametagtweaks-1.21.10-4.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/LrLZEnPl/versions/7OJRbPyT/nametagtweaks-1.21.10-4.0.jar"
+hash-format = "sha512"
+hash = "6e46561ea2ca1bb9123890540a92629d374b23f943d32a635c4b50ca5a2420290fa31db5ba9c521ae7a9485962dc7783444f2dfe05424aa4321b8e3574db4736"
+
+[update]
+[update.modrinth]
+mod-id = "LrLZEnPl"
+version = "7OJRbPyT"

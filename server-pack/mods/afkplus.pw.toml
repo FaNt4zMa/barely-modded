@@ -1,0 +1,13 @@
+name = "AfkPlus"
+filename = "afkplus-v1.7.10-mc1.21.10.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/y8K2TFS3/versions/zW1GRVwR/afkplus-v1.7.10-mc1.21.10.jar"
+hash-format = "sha512"
+hash = "54e3df5b1eece75105610f2355592bf37a304dd6385af3351e0930d811a8b5c0c3f0fde6cbff07c14dac1939fdf940fa94c88f93a2acd4153d1f45aab9a7d449"
+
+[update]
+[update.modrinth]
+mod-id = "y8K2TFS3"
+version = "zW1GRVwR"

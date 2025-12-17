@@ -1,0 +1,13 @@
+name = "Lively Lily Pads"
+filename = "gm4_lively_lily_pads_1_21_5.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7wnTwrbr/versions/3UTHB7pF/gm4_lively_lily_pads_1_21_5.zip"
+hash-format = "sha512"
+hash = "7299b1c969a7cf66d4d0d2c220aaa85a1db70d4cd5088d07906001021d4b82923d60b9c4531088d6acce2f91922a54a7d78f156d40ff5b611edc0a027fa02c07"
+
+[update]
+[update.modrinth]
+mod-id = "7wnTwrbr"
+version = "3UTHB7pF"

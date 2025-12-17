@@ -1,0 +1,13 @@
+name = "Better F1 Reborn"
+filename = "BetterF1-Fabric-1.1+1.21.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/2JIeCmxb/versions/ZGXovn58/BetterF1-Fabric-1.1%2B1.21.9.jar"
+hash-format = "sha512"
+hash = "114566a05e5d384643b5eddabed5435ecf6623ca2e273e4700a7a68a78b776366bfee0a1951181439439ae6a8199756563ad5208f0a63e6a8c9732ddabe6a53d"
+
+[update]
+[update.modrinth]
+mod-id = "2JIeCmxb"
+version = "ZGXovn58"

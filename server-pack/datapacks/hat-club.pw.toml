@@ -1,0 +1,13 @@
+name = "Hat Club"
+filename = "HatClub-1.0.0-1.21.10.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4TZZFHd4/versions/U4SR7oBh/HatClub-1.0.0-1.21.10.zip"
+hash-format = "sha512"
+hash = "2fce0955dc1ecf927e9ab640bb5307e9ffa5ed078f519191bc3e7609155629486611b697845ccb18d91f49dabc2caefd8e0c1f5f70b106b9442cef196f178a4d"
+
+[update]
+[update.modrinth]
+mod-id = "4TZZFHd4"
+version = "U4SR7oBh"

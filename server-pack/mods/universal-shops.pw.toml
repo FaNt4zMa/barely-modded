@@ -1,0 +1,13 @@
+name = "Universal Shops"
+filename = "universal_shops-1.12.0+1.21.9.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/cnIatHrN/versions/RPyWQqDJ/universal_shops-1.12.0%2B1.21.9.jar"
+hash-format = "sha512"
+hash = "1450536489b264a2930bd15b930327be90c1244629f035baffafff10ee8909c77356ce0732d8030e60f9dafd7e0e87f4cd220b8e9af7bcd86fa91ba205df983d"
+
+[update]
+[update.modrinth]
+mod-id = "cnIatHrN"
+version = "RPyWQqDJ"

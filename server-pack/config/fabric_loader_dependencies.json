@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "overrides": {
+    "clientsort": {
+      "-recommends": {
+        "modmenu": "IGNORED"
+      }
+    },
+	"forgeconfigapiport": {
+      "-recommends": {
+        "modmenu": "IGNORED"
+      }
+    },
+	"textile_backup": {
+      "-recommends": {
+        "modmenu": "IGNORED"
+      }
+    },
+	"villagerconfig": {
+      "-recommends": {
+        "modmenu": "IGNORED"
+      }
+    }
+  }
+}

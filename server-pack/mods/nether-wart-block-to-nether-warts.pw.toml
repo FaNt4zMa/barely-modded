@@ -1,0 +1,13 @@
+name = "Nether Wart Blocks to Nether Warts"
+filename = "netherwartblock-1.21.10-fabric-7.3.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/CahyPDjh/versions/qTf4Bhor/netherwartblock-1.21.10-fabric-7.3.jar"
+hash-format = "sha512"
+hash = "91332ef17bcca0f6fcac9cd36bc6e00806ced20677721ebc39a612541cb2cf57f52807560fffb409b315d444ba18c663ce6bdbf377486ac653accec8e746b704"
+
+[update]
+[update.modrinth]
+mod-id = "CahyPDjh"
+version = "qTf4Bhor"

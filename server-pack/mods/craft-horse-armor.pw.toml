@@ -1,0 +1,13 @@
+name = "Craftable Horse Armor"
+filename = "craft-horse-armor-88.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ua9u8yK9/versions/y5ztwM3S/craft-horse-armor-88.0.jar"
+hash-format = "sha512"
+hash = "b1728c1653a7613e29e6163aaa3c91ff300611848ed3bb8b4f4f362d8a60720858f21ffca8be09c22a38d29a492d7e0d0df50a0bc59db14b29bac3a9178a3494"
+
+[update]
+[update.modrinth]
+mod-id = "ua9u8yK9"
+version = "y5ztwM3S"

@@ -1,0 +1,13 @@
+name = "BetterHappyGhastControl"
+filename = "BetterHappyGhastControl-25w16a-0.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/hpJbiy3h/versions/WmYFFh1k/BetterHappyGhastControl-25w16a-0.0.1.jar"
+hash-format = "sha512"
+hash = "8b8f5b69462bf024d137ff2eec2b4db826b6aec42a95d41b1b5e4acf3ffedf7752908bbce30bb897e12506b441fa36e93e80e54c557238ea50b25cf60db13b63"
+
+[update]
+[update.modrinth]
+mod-id = "hpJbiy3h"
+version = "WmYFFh1k"

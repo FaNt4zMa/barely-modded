@@ -1,0 +1,86 @@
+name: GitHub Release - Client
+
+on:
+  push:
+    tags:
+      - 'client/v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract version from tag
+        id: version
+        run: |
+          TAG="${{ github.ref_name }}"
+          VERSION="${TAG#client/v}"
+          echo "number=$VERSION" >> $GITHUB_OUTPUT
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+
+      - name: Install packwiz
+        run: |
+          wget -q https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip -O packwiz.zip
+          unzip packwiz.zip
+          chmod +x packwiz
+          sudo mv packwiz /usr/local/bin/
+
+      - name: Load pack config
+        id: config
+        run: |
+          PACK_NAME=$(yq '.client.pack_name' pack-config.yml)
+          MODRINTH_ID=$(yq '.client.modrinth_id' pack-config.yml)
+          MINECRAFT_VERSION=$(yq '.client.minecraft_version' pack-config.yml)
+          LOADER_VERSION=$(yq '.client.loader_version' pack-config.yml)
+          echo "pack_name=$PACK_NAME" >> $GITHUB_OUTPUT
+          echo "modrinth_id=$MODRINTH_ID" >> $GITHUB_OUTPUT
+          echo "minecraft_version=$MINECRAFT_VERSION" >> $GITHUB_OUTPUT
+          echo "loader_version=$LOADER_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Export modpack
+        working-directory: client-pack
+        run: |
+          VERSION="${{ steps.version.outputs.number }}"
+          
+          # Update placeholders
+          sed -i "s/<MODPACKVERSION>/$VERSION/g" pack.toml
+          sed -i "s/<PACKNAME>/${{ steps.config.outputs.pack_name }}/g" pack.toml
+          sed -i "s/<MINECRAFTVERSION>/${{ steps.config.outputs.minecraft_version }}/g" pack.toml
+          sed -i "s/<FABRICVERSION>/${{ steps.config.outputs.loader_version }}/g" pack.toml
+          sed -i "s/<PROJECTID>/${{ steps.config.outputs.modrinth_id }}/g" config/simpleupdatechecker_modpack.json
+          sed -i "s/<PACKNAME>/${{ steps.config.outputs.pack_name }}/g" config/simpleupdatechecker_modpack.json
+          sed -i "s/<MODPACKVERSION>/$VERSION/g" config/simpleupdatechecker_modpack.json
+          
+          # Refresh and export
+          packwiz refresh
+          
+          # Create export directory
+          mkdir -p export/v$VERSION
+          
+          # Export to .mrpack
+          packwiz modrinth export --output "export/v$VERSION/barely-modded-$VERSION.mrpack"
+
+      - name: Extract latest changelog entry
+        id: changelog
+        run: |
+          cd client-pack
+          awk '/^## /{if (NR>1) exit} {print}' changelog.md > ../latest_changelog.txt
+          cd ..
+          {
+            echo "body<<EOF"
+            cat latest_changelog.txt
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          body: ${{ steps.changelog.outputs.body }}
+          files: "client-pack/export/v${{ steps.version.outputs.number }}/barely-modded-${{ steps.version.outputs.number }}.mrpack"
+          name: "${{ steps.config.outputs.pack_name }} ${{ steps.version.outputs.tag }}"

@@ -1,0 +1,6 @@
+export/
+update-logs/
+version.txt
+*.md
+*.bkp
+*.bat

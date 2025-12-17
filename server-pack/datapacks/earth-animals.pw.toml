@@ -1,0 +1,13 @@
+name = "Earth Animals"
+filename = "earth-animals-v1-1-2-mc-1-21-9.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/doNucsNZ/versions/DaUehx61/earth-animals-v1-1-2-mc-1-21-9.zip"
+hash-format = "sha512"
+hash = "b45bdd980d740de4a852cebc7ced3a3b773d4eb2dd420394af32872fc6c253dc1260921d08efefedc34bbe5ac7813076167cf4408194868a7e12f76c49902221"
+
+[update]
+[update.modrinth]
+mod-id = "doNucsNZ"
+version = "DaUehx61"

@@ -1,0 +1,13 @@
+name = "Hit The Dummy"
+filename = "hit-the-dummy-2.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1iWHuzOM/versions/KOax5M8d/hit-the-dummy-2.3.jar"
+hash-format = "sha512"
+hash = "7d0989406ab818429137e8a1c3115d26ceed43a672800881c6596e5e72d15b4321e9818c7805bdcc7cb5f9c14612677ce233a9d2a5387e2d986a0d76fc505d69"
+
+[update]
+[update.modrinth]
+mod-id = "1iWHuzOM"
+version = "KOax5M8d"

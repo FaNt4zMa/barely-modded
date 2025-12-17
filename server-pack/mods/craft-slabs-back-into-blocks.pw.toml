@@ -1,0 +1,13 @@
+name = "Craft Slabs Back Into Blocks"
+filename = "slabstoblocks-fabric-1.21.10-2.4.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/8MosnjaC/versions/bCNK0U2M/slabstoblocks-fabric-1.21.10-2.4.jar"
+hash-format = "sha512"
+hash = "30f2327773059ffc852fdf5dd7e4de80447507e73ad6d82ade9534e100a3a00cd0d175d147801e79c6eb3e868227bdfef54150c28c3417e9a0c3fbe4a34fc53b"
+
+[update]
+[update.modrinth]
+mod-id = "8MosnjaC"
+version = "bCNK0U2M"

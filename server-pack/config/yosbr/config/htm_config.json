@@ -1,0 +1,7 @@
+{
+  "canTrustedPlayersBreakChests": true,
+  "defaultFlags": {
+    "hoppers": true
+  },
+  "autolockingContainers": []
+}

@@ -1,0 +1,13 @@
+name = "BluemapFrontiers"
+filename = "bluemapfrontiers-1.21_fabric-1.1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/OGGG6gVy/versions/xsNNTp8k/bluemapfrontiers-1.21_fabric-1.1.0.jar"
+hash-format = "sha512"
+hash = "f76c961f3a2a756c0359efa04992a757ccf8893be0edd2919c44952a29dd718de86578a00687cd644c3427b81b004bef6a0d6b325de564801304f0ea3e3df75b"
+
+[update]
+[update.modrinth]
+mod-id = "OGGG6gVy"
+version = "xsNNTp8k"

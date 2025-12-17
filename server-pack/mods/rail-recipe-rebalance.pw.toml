@@ -1,0 +1,13 @@
+name = "Rail Recipe Rebalance"
+filename = "rail-recipe-rebalance-0.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qzAj3Hc0/versions/LFXwP9wY/rail-recipe-rebalance-0.2.2.jar"
+hash-format = "sha512"
+hash = "93cfd39ea7c27b79c924c2c6712d086af4c4a25a1a321410ac4f734eecc0412b091368b8c45d2e3784c4f3035b8bd3eb64a3f61a6e6ddbbf6813110ad1f0e49e"
+
+[update]
+[update.modrinth]
+mod-id = "qzAj3Hc0"
+version = "LFXwP9wY"

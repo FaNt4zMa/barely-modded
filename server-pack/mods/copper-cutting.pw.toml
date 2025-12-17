@@ -1,0 +1,13 @@
+name = "Copper Cutting"
+filename = "copper-cutting-2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UGsUeDDB/versions/PD2m7N2D/copper-cutting-2.1.jar"
+hash-format = "sha512"
+hash = "077708936ba6e790da9e65d6e0bbab28eaa7a1abcbe2e9ca7dc00adc161356f29aaa2a493663aa39d5ee49d96087ab8b5a93c25651ad899c47ce4ab5eb242b20"
+
+[update]
+[update.modrinth]
+mod-id = "UGsUeDDB"
+version = "PD2m7N2D"

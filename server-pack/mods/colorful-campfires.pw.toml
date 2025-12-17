@@ -1,0 +1,13 @@
+name = "Colorful Campfires"
+filename = "colorful_campfires-0.1.0+1.21.10.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/WSTi5Tp4/versions/W4a4HmIA/colorful_campfires-0.1.0%2B1.21.10.jar"
+hash-format = "sha512"
+hash = "9caa74afa115d227889718b178eb91c7a4a41d7fbc2f554c0530964782fa0d89981756df1e25b9464d513af6d53e5b5846d06c623c8f63ec01c88b227de97dfc"
+
+[update]
+[update.modrinth]
+mod-id = "WSTi5Tp4"
+version = "W4a4HmIA"

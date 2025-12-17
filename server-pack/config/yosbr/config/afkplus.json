@@ -1,0 +1,86 @@
+{
+  "___comment": "AfkPlus-1.21.8-1.7.9 Config",
+  "config_date": "Mon, 13 Oct 2025 01:50:32 -0400",
+  "afk_plus": {
+    "enableAfkCommand": true,
+    "enableNoAfkCommand": false,
+    "enableAfkInfoCommand": false,
+    "afkCommandPermissions": 0,
+    "noAfkCommandPermissions": 0,
+    "afkInfoCommandPermissions": 0,
+    "afkPlusCommandPermissions": 3,
+    "afkCommandCooldown": 5,
+    "debugMode": false
+  },
+  "packet": {
+    "timeoutSeconds": 300,
+    "resetOnMovement": true,
+    "resetOnLook": false,
+    "ignoreAttacks": true,
+    "bypassSleepCount": true,
+    "bypassInsomnia": true,
+    "afkTimeoutString": "",
+    "afkTimeoutIgnoreAttack": ""
+  },
+  "disable_damage": {
+    "disableDamage": false,
+    "disableDamageCooldown": 15,
+    "whenDamageDisabled": "%player:displayname% <yellow>is marked as <red>Invulnerable.<r>",
+    "whenDamageEnabled": "%player:displayname% <yellow>is no longer <red>Invulnerable.<r>"
+  },
+  "afk_kick": {
+    "afkKickEnabled": false,
+    "afkKickNonSurvival": false,
+    "afkKickTimer": 3000,
+    "afkKickSafePermissions": 3,
+    "afkKickMessage": "<copper>AFK beyond the allowed time limit set by your Administrator.<r>",
+    "whenKicked": "%player:displayname% <copper>was kicked for being AFK.<r>",
+    "whenKickedDefaultReason": "<copper>AFK timeout",
+    "whenKickedDurationDefaultPrefix": " <gray>(Gone for: <green>",
+    "whenKickedDurationNamedPrefix": " <gray>(%player:displayname% was gone for: <green>",
+    "whenKickedDurationSuffix": "<gray>)"
+  },
+  "player_list": {
+    "enableListDisplay": true,
+    "afkPlayerName": "<i><gray>[AFK%afkplus:invulnerable%] %player:displayname%<r>",
+    "updateInterval": 15
+  },
+  "place_holder": {
+    "afkPlaceholder": "<i><gray>[AFK%afkplus:invulnerable%]<r>",
+    "afkPlusNamePlaceholderAfk": "<i><gray>[AFK%afkplus:invulnerable%] %player:displayname_unformatted%<r>",
+    "afkPlusNamePlaceholder": "%player:displayname%",
+    "afkDurationPlaceholderFormatting": "<green>",
+    "afkTimePlaceholderFormatting": "<green>",
+    "afkReasonPlaceholderFormatting": "",
+    "afkInvulnerablePlaceholder": ":<red>I<r>",
+    "duration": {
+      "option": "REGULAR",
+      "customFormat": ""
+    },
+    "timeDate": {
+      "option": "REGULAR",
+      "customFormat": ""
+    }
+  },
+  "message": {
+    "enableMessages": true,
+    "whenAfk": "%player:displayname% <yellow>is now AFK<r>",
+    "whenAfkPunctuation": "<yellow>,<r> ",
+    "whenReturn": "%player:displayname% <yellow>is no longer AFK<r>",
+    "whenReturnDurationPrefix": " <gray>(Gone for: <green>",
+    "whenReturnDurationSuffix": "<gray>)",
+    "defaultReason": "",
+    "afkCooldownGreeting": "<yellow>Welcome back, <r>%player:display_name%<r>, <yellow>did you miss anything fun?",
+    "whileYourVanished": "<red>You are vanished, and probably shouldn't be doing that.<r>",
+    "whileVanished": "<red> is vanished, and probably shouldn't be doing that.<r>",
+    "displayDuration": false,
+    "duration": {
+      "option": "PRETTY",
+      "customFormat": ""
+    },
+    "timeDate": {
+      "option": "REGULAR",
+      "customFormat": ""
+    }
+  }
+}

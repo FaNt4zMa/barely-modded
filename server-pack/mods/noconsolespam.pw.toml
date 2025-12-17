@@ -1,0 +1,13 @@
+name = "NoConsoleSpam"
+filename = "noconsolespam-1.8.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/c4YY0EJn/versions/3EjCTww2/noconsolespam-1.8.jar"
+hash-format = "sha512"
+hash = "033ee8e3d2f0e2b33884fb201846b5c306f554b4350b013ea662a6a5ea58874b14dc478b150b4a03ae44aa9ec93e6a41b98ef46a7a852e589225872d56400dba"
+
+[update]
+[update.modrinth]
+mod-id = "c4YY0EJn"
+version = "3EjCTww2"

@@ -1,0 +1,13 @@
+name = "Simple Golden+ ResourcePack"
+filename = "SimpleGolden+Resourcepack-1.21.9+1.21.10.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/UOMUGdIf/versions/JystPfIn/SimpleGolden%2BResourcepack-1.21.9%2B1.21.10.zip"
+hash-format = "sha512"
+hash = "d699c36df829cf00e8421e4653109e7a75bc4e836a51df83c6432fc9793842fbd7d03a5a3a0648a4f9437b09cb961c291e0596e492bab6ac9c7f4796887b3a23"
+
+[update]
+[update.modrinth]
+mod-id = "UOMUGdIf"
+version = "JystPfIn"

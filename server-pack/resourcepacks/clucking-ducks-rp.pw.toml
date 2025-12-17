@@ -1,0 +1,8 @@
+name = "Clucking Ducks RP"
+filename = "clucking-ducks-rp-v1-0-0-mc-1-21-9.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pDnk8s7J/versions/5UlEJOMT/clucking-ducks-rp-v1-0-0-mc-1-21-9.zip"
+hash-format = "sha512"
+hash = "895cbc859eabe071a76d11da58b49a169a3309a406ef4a76e2e59ecdccfa6cfd5612eccaa2e3ca1099bdbecf0ba6b96fe782d5e7932a668a579d2505d743f708"

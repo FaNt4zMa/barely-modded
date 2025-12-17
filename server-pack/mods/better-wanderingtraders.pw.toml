@@ -1,0 +1,13 @@
+name = "Better Wandering Traders"
+filename = "better-wanderingtraders-1.0.0+1.21.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zBa7cdvh/versions/G01X6iLP/better-wanderingtraders-1.0.0%2B1.21.6.jar"
+hash-format = "sha512"
+hash = "a4e0a3765c14c772e7ff27f83f365e84b2fc2e6743bd1c01c218684218f918685f22b9bda678905715aba8694e43c5e7f4c02f630decd8258b9e8783e94e1a77"
+
+[update]
+[update.modrinth]
+mod-id = "zBa7cdvh"
+version = "G01X6iLP"

@@ -1,0 +1,13 @@
+name = "Colorful Lamp"
+filename = "colorful-lamp-0.1.0+1.21.6.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Btea7vhZ/versions/HTt7AwnG/colorful-lamp-0.1.0%2B1.21.6.jar"
+hash-format = "sha512"
+hash = "62d5893464f1efa1b497b0ceb660c213a1ea04b3155b67ce77897e69a1149516b096da9c729b14963e19f12aaf42a455f81cecdf6e66949d811a6780b5943985"
+
+[update]
+[update.modrinth]
+mod-id = "Btea7vhZ"
+version = "HTt7AwnG"

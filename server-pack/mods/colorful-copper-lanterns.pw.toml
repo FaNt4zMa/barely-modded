@@ -1,0 +1,13 @@
+name = "Colorful Copper Lanterns"
+filename = "colored-copper-lanterns-1.0.0+1.21.10.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/xfdfzgAA/versions/VZKGlLqD/colored-copper-lanterns-1.0.0%2B1.21.10.jar"
+hash-format = "sha512"
+hash = "db2fece88a46ad7abcc676969af8e7604e15ed96dd93e26bc5c65062cb3d392509d951dbc1d48d291b1092dd3230e89ef7e530bfb1a3ce15d2a45698061d5575"
+
+[update]
+[update.modrinth]
+mod-id = "xfdfzgAA"
+version = "VZKGlLqD"

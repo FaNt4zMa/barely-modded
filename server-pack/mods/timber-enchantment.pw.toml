@@ -1,0 +1,13 @@
+name = "Timber Enchantment"
+filename = "timber-enchantment-v1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/niwEgO5W/versions/ley3D9R1/timber-enchantment-v1.0.1.jar"
+hash-format = "sha512"
+hash = "814740a4f8ad1c74be7fe6f6049557e5bd3322f5650cb52b7c6a7d587a8bdb538ccffe03080819499a1c86477301b39b6c394b1711fac662433ea51987894279"
+
+[update]
+[update.modrinth]
+mod-id = "niwEgO5W"
+version = "ley3D9R1"

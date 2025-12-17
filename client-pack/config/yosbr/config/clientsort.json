@@ -1,0 +1,109 @@
+{
+  "options": {
+    "interactionInterval": 10,
+    "useServerAcceleration": true,
+    "useClientFallback": false,
+    "optimizeCreativeSorting": true,
+    "hotbarScope": "HOTBAR",
+    "extraSlotScope": "NONE",
+    "bundlesUseRightClick": false,
+    "alwaysMatchByType": true,
+    "typeMatchTags": [
+      "enchantable/weapon",
+      "enchantable/mining",
+      "enchantable/armor"
+    ],
+    "sortOrderStr": "creative",
+    "shiftSortOrderStr": "quantity",
+    "ctrlSortOrderStr": "alphabet",
+    "altSortOrderStr": "rawId",
+    "useStartOverrides": true,
+    "startOverrideItems": [],
+    "useEndOverrides": true,
+    "endOverrideItems": [],
+    "playSoundSort": false,
+    "playSoundOther": false,
+    "interactionSound": "minecraft:block.note_block.xylophone",
+    "soundInterval": 1,
+    "soundPitchMin": 0.5,
+    "soundPitchMax": 2.0,
+    "soundVolume": 0.2,
+    "allowSoundOverlap": true,
+    "isolateKeybinds": true,
+    "showButtons": false,
+    "firstButtonOp": "SORT",
+    "secondButtonOp": "STACK_FILL",
+    "thirdButtonOp": "MATCH_TRANSFER",
+    "fourthButtonOp": "TRANSFER",
+    "layoutOffset": {
+      "x": -4,
+      "y": 0
+    },
+    "classPolicies": {
+      "com.simibubi.create.content.equipment.toolbox.ToolboxMenu": {
+        "className": "com.simibubi.create.content.equipment.toolbox.ToolboxMenu",
+        "sortPolicy": "NONE",
+        "stackFillPolicy": "NONE",
+        "matchTransferPolicy": "NONE",
+        "transferPolicy": "NONE",
+        "ignoredSlots": []
+      },
+      "net.minecraft.class_1661": {
+        "className": "net.minecraft.class_1661",
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "KEYBIND_BUTTON",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "ignoredSlots": []
+      },
+      "net.minecraft.class_1707": {
+        "className": "net.minecraft.class_1707",
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "KEYBIND_BUTTON",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "ignoredSlots": []
+      },
+      "net.minecraft.class_1722": {
+        "className": "net.minecraft.class_1722",
+        "sortPolicy": "KEYBIND",
+        "stackFillPolicy": "KEYBIND",
+        "matchTransferPolicy": "KEYBIND_BUTTON",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "ignoredSlots": []
+      },
+      "net.minecraft.class_1724": {
+        "className": "net.minecraft.class_1724",
+        "sortPolicy": "NONE",
+        "stackFillPolicy": "NONE",
+        "matchTransferPolicy": "NONE",
+        "transferPolicy": "NONE",
+        "ignoredSlots": []
+      },
+      "net.minecraft.class_1730": {
+        "className": "net.minecraft.class_1730",
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "KEYBIND_BUTTON",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "ignoredSlots": []
+      },
+      "net.minecraft.class_1733": {
+        "className": "net.minecraft.class_1733",
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "KEYBIND_BUTTON",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "ignoredSlots": []
+      },
+      "net.minecraft.class_2621": {
+        "className": "net.minecraft.class_2621",
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "KEYBIND_BUTTON",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "ignoredSlots": []
+      }
+    }
+  }
+}

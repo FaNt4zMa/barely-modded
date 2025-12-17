@@ -1,0 +1,13 @@
+name = "Phantom Spawning"
+filename = "phantom-spawning-v0.1.3-mc1.21.10.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/3bVvvVXu/versions/O0jWKXGT/phantom-spawning-v0.1.3-mc1.21.10.jar"
+hash-format = "sha512"
+hash = "3a2359b7bd17c570a273cfe7e837b1e6b1f28411c06898b0fb18baa862d2e000b6ce141486ee858e10c21920fd0b3e0afd6da811012822f17512acbdfdb29a90"
+
+[update]
+[update.modrinth]
+mod-id = "3bVvvVXu"
+version = "O0jWKXGT"

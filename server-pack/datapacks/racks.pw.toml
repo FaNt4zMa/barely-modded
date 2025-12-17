@@ -1,0 +1,13 @@
+name = "Racks"
+filename = "pk_racks_V.3.1.5_mc_1.21.9.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ws2vw51R/versions/m1Nmg57f/pk_racks_V.3.1.5_mc_1.21.9.zip"
+hash-format = "sha512"
+hash = "b67aa3b3fc39174f7730ee230a9e88ca127b5723857a095f8e755dfccdffbafc9e5f8dfadff3f60935220e2d2958756105857b996e5636d4df6c8ac96865d01e"
+
+[update]
+[update.modrinth]
+mod-id = "Ws2vw51R"
+version = "m1Nmg57f"

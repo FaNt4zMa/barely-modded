@@ -1,0 +1,13 @@
+name = "Shields Knock Back"
+filename = "shieldsknockback1.0+1.21.5.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Uld3KwfT/versions/dPvVNsRq/shieldsknockback1.0%2B1.21.5.jar"
+hash-format = "sha512"
+hash = "3224a67d0d73fd440bc601082fa9a6515b6760e10357cbb18a3388a65924046e61adbfb38994ece3020674a323196f7022a58d36f88db2ab52190822afbba054"
+
+[update]
+[update.modrinth]
+mod-id = "Uld3KwfT"
+version = "dPvVNsRq"

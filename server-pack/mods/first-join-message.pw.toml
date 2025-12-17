@@ -1,0 +1,13 @@
+name = "First Join Message"
+filename = "firstjoinmessage-1.21.10-3.8.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ppny3rjF/versions/xeInJWiH/firstjoinmessage-1.21.10-3.8.jar"
+hash-format = "sha512"
+hash = "a8814743062671f27584308f875abaf9dfc0073bbd222eacaf3ece749dc6411ddec8700e229adc682a855d27d59012a59ac0d865270aebd21c2f60a304598315"
+
+[update]
+[update.modrinth]
+mod-id = "Ppny3rjF"
+version = "xeInJWiH"

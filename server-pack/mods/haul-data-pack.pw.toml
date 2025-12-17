@@ -1,0 +1,13 @@
+name = "Haul"
+filename = "haul-data-pack-1.3.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EdR8bCZO/versions/mAPc8ZYK/haul-data-pack-1.3.3.jar"
+hash-format = "sha512"
+hash = "6929dd493764742f5abbd54a89a3b60d203e4ea63889a2f3db713659751c73946a839719f389b70403135314a9deae7954cd7bdbcb644d1582cb63f00909b2f5"
+
+[update]
+[update.modrinth]
+mod-id = "EdR8bCZO"
+version = "mAPc8ZYK"

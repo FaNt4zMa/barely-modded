@@ -1,0 +1,13 @@
+name = "Wooly Animals"
+filename = "wooly_animals_v1_0_1_mc_1_21_9.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Xkf5eLJT/versions/SwQblLvU/wooly_animals_v1_0_1_mc_1_21_9.zip"
+hash-format = "sha512"
+hash = "3422777cf1858453c4fc350ec882a3d83129df76c86a7b5ad0c6c8c1bee1f955a7a28c556202adb90bf59ac1bd09a9fbb9e9efff18562511b8298de94dea11f8"
+
+[update]
+[update.modrinth]
+mod-id = "Xkf5eLJT"
+version = "SwQblLvU"

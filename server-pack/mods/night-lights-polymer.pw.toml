@@ -1,0 +1,13 @@
+name = "Polymer Patch for Night Lights"
+filename = "night-lights-patch-1.3.0+1.21.8.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/QQJYvZ6X/versions/ELW9Pfaq/night-lights-patch-1.3.0%2B1.21.8.jar"
+hash-format = "sha512"
+hash = "b754c2c1a6a0e091eb21cfbb3ee8a59e7ace583d3019d1d684ad30c84f2003b71280ed553216584bb5e1891022e4d8c6439fdaa521648aa42be6dc4eaaed73ec"
+
+[update]
+[update.modrinth]
+mod-id = "QQJYvZ6X"
+version = "ELW9Pfaq"

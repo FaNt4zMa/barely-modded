@@ -1,0 +1,13 @@
+name = "End Fire"
+filename = "endfire-1.0.1+1.21.7.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/pKcvR1NX/versions/T1ucQzao/endfire-1.0.1%2B1.21.7.jar"
+hash-format = "sha512"
+hash = "ee7fe90b4d769e369aa00ace1f3900e02e7604f2ad68a35c8cc13c08369fc166ea99314d3f368b014fba8a65eae17b2bc64ac1b8759c41c287269d02329cf0bf"
+
+[update]
+[update.modrinth]
+mod-id = "pKcvR1NX"
+version = "T1ucQzao"

@@ -1,0 +1,13 @@
+name = "Nether Coords"
+filename = "NetherCoords 2.0.2 for 1.21.9-1.21.10.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/KHwGUCPn/versions/yxxJ1Pgy/NetherCoords%202.0.2%20for%201.21.9-1.21.10.jar"
+hash-format = "sha512"
+hash = "3da196fe695563561322499c12acef7baf27ea7f9bd87b1fcdd6627388e58f59340f572381f51a4c9c5417ac2909d9f1f434413ad8a29d559b9492f15ec8005d"
+
+[update]
+[update.modrinth]
+mod-id = "KHwGUCPn"
+version = "yxxJ1Pgy"

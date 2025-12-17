@@ -1,0 +1,13 @@
+name = "NetherPortalFix"
+filename = "netherportalfix-fabric-1.21.10-21.10.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/nPZr02ET/versions/EQ03E7hB/netherportalfix-fabric-1.21.10-21.10.1.jar"
+hash-format = "sha512"
+hash = "6e8d8569c4ce93f2c8487a4a496199cdb5a0b1d254901c1c2629e071322a1c3f213436eaaf1f52b8aef69953950c1252ae8b52d16c71c936a9a4961f17d49698"
+
+[update]
+[update.modrinth]
+mod-id = "nPZr02ET"
+version = "EQ03E7hB"

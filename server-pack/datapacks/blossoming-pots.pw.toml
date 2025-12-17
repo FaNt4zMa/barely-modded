@@ -1,0 +1,13 @@
+name = "Blossoming Pots"
+filename = "gm4_blossoming_pots_1_21_5.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wOnn6VDU/versions/iwk8A7mG/gm4_blossoming_pots_1_21_5.zip"
+hash-format = "sha512"
+hash = "1bf983bafe0225f161b162aa92cb99cd4ca944514f10b9f68ddb45d1b29ef6cd4a44dae0e677b5a21a30ee513c41c170f0c86f7c08d417ad27d7fc2d4dcf4827"
+
+[update]
+[update.modrinth]
+mod-id = "wOnn6VDU"
+version = "iwk8A7mG"

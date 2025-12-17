@@ -1,0 +1,13 @@
+name = "No Feather Trample"
+filename = "nofeathertrample-1.21.10-1.3.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/VmGOLJeH/versions/OUQfpxro/nofeathertrample-1.21.10-1.3.jar"
+hash-format = "sha512"
+hash = "7b2b5c139a802704d849c913a1327d254ccdfcbdc83cb0faa59cf99bd32010ff607281ecad5f338a5a68c754fe8c66aefa8c2ef1816f55f851d9083a14ccf118"
+
+[update]
+[update.modrinth]
+mod-id = "VmGOLJeH"
+version = "OUQfpxro"

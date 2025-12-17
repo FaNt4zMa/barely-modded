@@ -1,0 +1,13 @@
+name = "Nice Wandering Trader Announcements"
+filename = "nice-wandering-trader-announcement-1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ho5PSno9/versions/u2dTqSqa/nice-wandering-trader-announcement-1.2.jar"
+hash-format = "sha512"
+hash = "9f365fc9e8fb26f3c7ea4a84a5a3b20c6c946dfa9ca6ffe794085d459558dd878f4f9da7354810a63292b3d036a33c5b2f3c46cad73112611c5e73ce28609997"
+
+[update]
+[update.modrinth]
+mod-id = "Ho5PSno9"
+version = "u2dTqSqa"

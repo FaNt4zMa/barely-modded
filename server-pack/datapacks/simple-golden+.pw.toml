@@ -1,0 +1,13 @@
+name = "Simple Golden+"
+filename = "SimpleGolden+Datapack-1.21.9+1.21.10.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ESN5oMfV/versions/VNiaorsH/SimpleGolden%2BDatapack-1.21.9%2B1.21.10.zip"
+hash-format = "sha512"
+hash = "e40913befcb0bc664d3a9e2287a17cc0f735e6d8e2ba2a850d9540fe6ebb3c92042c83de2750e31c1cc058c1136583ce037f0a15b6324fd9e1a52b6c8d601144"
+
+[update]
+[update.modrinth]
+mod-id = "ESN5oMfV"
+version = "VNiaorsH"

@@ -1,0 +1,13 @@
+name = "Better Unpackables"
+filename = "BetterUnpackables_v3.1.0+mod_mc1.21.9-1.21.11.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bUmlsA7b/versions/cBqZVYKO/BetterUnpackables_v3.1.0%2Bmod_mc1.21.9-1.21.11.jar"
+hash-format = "sha512"
+hash = "15608744c61f013f33135beb4b1ed6fc55c0d13943a7fc24a254d29e4b296b01e34974f05efc8dab19f8dd8d43dd0f59663d0a15e14fee14490aca87318667ce"
+
+[update]
+[update.modrinth]
+mod-id = "bUmlsA7b"
+version = "cBqZVYKO"

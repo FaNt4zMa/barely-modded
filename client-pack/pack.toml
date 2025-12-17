@@ -1,0 +1,16 @@
+name = "<PACKNAME>"
+author = "Fantaz"
+version = "<MODPACKVERSION>"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c14fffe981613b2695f85f502a50af8f5e09bea9f577c2854092d9943ce9b865"
+
+[versions]
+fabric = "<FABRICVERSION>"
+minecraft = "<MINECRAFTVERSION>"
+
+[options]
+acceptable-game-versions = ["1.21.10"]

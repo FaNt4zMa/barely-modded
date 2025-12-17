@@ -1,0 +1,13 @@
+name = "Call Your Happy Ghast"
+filename = "call-your-happy-ghast-v1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UsjYt3wc/versions/498xx3rD/call-your-happy-ghast-v1.2.1.jar"
+hash-format = "sha512"
+hash = "4b6a5b2efe9f28724e4c7ac6b796b364cd3f1b195b33fe9015427005674676bb648375f179bb841d16328bba66c41753af0ab77f736078d568ade80d53cacd85"
+
+[update]
+[update.modrinth]
+mod-id = "UsjYt3wc"
+version = "498xx3rD"

@@ -1,0 +1,10 @@
+{
+  "env": {
+    "mcmetaSummaryOverrides": {
+      "commands": {
+        "path": "spyglass/commands.json",
+        "replace": false
+      }
+    }
+  }
+}

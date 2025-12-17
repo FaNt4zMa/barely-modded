@@ -1,0 +1,13 @@
+name = "Backpack Club"
+filename = "BackpackClub-1.0.0-1.21.10.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ET9mun4Y/versions/ch1cNVLS/BackpackClub-1.0.0-1.21.10.zip"
+hash-format = "sha512"
+hash = "1a93cb509ac6ab6c7b3be8573f7abf675a939871d27f34c8b9848eeb4d98226629568db12a5e91ed4860291d1bdf684c5e301cc0d7201aeb83d2fc37c61d5c80"
+
+[update]
+[update.modrinth]
+mod-id = "ET9mun4Y"
+version = "ch1cNVLS"

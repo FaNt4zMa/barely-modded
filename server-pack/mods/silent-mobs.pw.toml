@@ -1,0 +1,13 @@
+name = "Silent Mobs/Minecarts"
+filename = "silent-mobs-3.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ShlEFXjF/versions/RohzYGtk/silent-mobs-3.2.jar"
+hash-format = "sha512"
+hash = "4154f04227928dd2df9bf61cdeff864a03a0f8a326ca13a115ae53b51fdeb232e94b3eb234f02bdd694ab9905f4a0108cb2f9531582f1aff4ccba9fbd1f1fae9"
+
+[update]
+[update.modrinth]
+mod-id = "ShlEFXjF"
+version = "RohzYGtk"
