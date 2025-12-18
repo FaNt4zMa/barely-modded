@@ -1,5 +1,10 @@
 ## [2.4.3] - 2025-12-18
 
+### Added
+
+- Vanilla Tweaks Age Lock Datapack
+  - For info on how to use, watch [this video](https://youtu.be/MPG7xiq6Vsk?si=_7hXKtwsHab3I7aP&t=411) by Xisuma
+
 ### Changed
 
 - Updated mods to their latest version
