@@ -3,6 +3,7 @@ name: Modrinth Release - Server
 on:
   release:
     types: [published]
+  workflow_dispatch:
 
 permissions:
   contents: read
