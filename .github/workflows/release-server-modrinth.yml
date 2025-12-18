@@ -68,6 +68,6 @@ jobs:
           DESCRIPTION=$(jq -Rs . < server-pack/readme.md)
 
           curl -X PATCH "https://api.modrinth.com/v2/project/${{ steps.config.outputs.modrinth_id }}" \
-            -H "Authorization: ${{ secrets.MODRINTH_TOKEN }}" \
+            -H "Authorization: Bearer ${{ secrets.MODRINTH_TOKEN }}" \
             -H "Content-Type: application/json" \
             -d "{\"body\": $DESCRIPTION}"
