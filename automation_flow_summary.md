@@ -2,12 +2,13 @@
 
 This document outlines the complete automation process for the "Barely Modded" project, from local development and release preparation to automated publishing on GitHub and Modrinth.
 
-### Summary of Scripts
+### Summary of Scripts & Configs
 
+*   **`pack-config.yml`**: A centralized configuration file that stores essential metadata for both the client and server packs. This includes the Minecraft version, Fabric loader version, Modrinth project ID, and the public-facing pack name. It is the single source of truth for this data, ensuring consistency across all automation scripts.
 *   **`release.ps1`**: The main, interactive PowerShell script that orchestrates the entire release process from a local machine. It handles versioning, changelog generation, file updates, and Git tagging.
 *   **`update-mods.ps1`**: A helper script designed to update mods for a specific pack (`client` or `server`). It automatically logs which mods were updated into a staging changelog file (`changelog-staging.md`).
 *   **`changelog-generator.ps1`**: This script reads the content from `changelog-staging.md`, prepends it to the main `changelog.md` file with the new version and date, and then clears the staging file for the next release cycle.
-*   **`mrpack-export.ps1`**: A script that temporarily injects correct version numbers and metadata into the pack files and then uses `packwiz` to export the `.mrpack` file.
+*   **`mrpack-export.ps1`**: A script that reads metadata from `pack-config.yml` (like Minecraft and loader versions) and temporarily injects these values into the pack's files (e.g., `pack.toml`). It then uses `packwiz` to export the `.mrpack` file with the correct, up-to-date information.
 *   **`update-readme.ps1`**: Combines the `readme.md` files from the `client-pack` and `server-pack` directories into the main `README.md` file at the project root.
 
 ### The Complete Automation Flow
