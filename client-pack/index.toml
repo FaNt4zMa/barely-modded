@@ -194,7 +194,7 @@ metafile = true
 
 [[files]]
 file = "mods/clickthrough+.pw.toml"
-hash = "7503f66e68fe90dbf50f8ad08d2274820b1501b85126fffce6c66a7b0033401f"
+hash = "83b7b654e6ab243d095284dd1bb42b6f72ab967323a84ef0fd0de55d52220626"
 metafile = true
 
 [[files]]
@@ -249,12 +249,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "cbda4f1881cfb9f054395a3db225df4202d1f2e7bd0ed27d803b837fcf728621"
+hash = "0345fbfa8542b5ec84535fe2aff0f5cc4e801ecc337f926d4e2310b53f458569"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "d7c055f277c1751122d9abc5f09015e629699e04a9383cd0c666b33436293079"
+hash = "61afd7af5c645ffd966b2bd86be944eacd1e48a8044e8f67082225d4d9989f0c"
 metafile = true
 
 [[files]]
@@ -299,7 +299,7 @@ metafile = true
 
 [[files]]
 file = "mods/itemswapper.pw.toml"
-hash = "88657ecc974b915a3ca6c8230f2e38f25696388b5a056aecfcba5d8095212773"
+hash = "ff4f97eed3daf03b8db12d77696932e078e347db7cfb86322d057abe1bb479e9"
 metafile = true
 
 [[files]]
@@ -334,7 +334,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "47e38eeda17a991d3201448e71f68081893c8e7aee15b44088dc86eacfc8ca43"
+hash = "6af96fd44a1b26c5ce47829bd11953722a2f58e94d948a6d2285f537c37ca9ff"
 metafile = true
 
 [[files]]
@@ -349,7 +349,7 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "df5ce30f6ac464f7b06400e03568d2b9087dd1849fd8c21a2381fe2f666338b6"
+hash = "bda12a83dc36c4a8e5b45438700b54bf21c182d923f7f8255570893628281e06"
 metafile = true
 
 [[files]]
@@ -369,7 +369,7 @@ metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "ae2060c6233ba1715c06f687148af5b2fbd9ac511c28d653fe2887ad7ecb1fc1"
+hash = "4e67580688464bd3e7065f96da1fba23cc593e0a7eabd8b0522c6d82129fc6ec"
 metafile = true
 
 [[files]]
@@ -439,7 +439,7 @@ metafile = true
 
 [[files]]
 file = "mods/polymer.pw.toml"
-hash = "22a83a04b4df87ab4bbea18228c3cc695551610c66cc79ccc315d783d3f7848f"
+hash = "d3ad1a85a4b58934658b7034ef8f670277591106fbe6488f05a0402ab01a5112"
 metafile = true
 
 [[files]]
@@ -519,7 +519,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "8c80e3393ce1fb38159f02af4dd3a7aba0b656945aac8c3da5aef04b22915e35"
+hash = "1794498da990b61fa0727ebed1a1948441a8294a77400e784dc11e1ff5f02791"
 metafile = true
 
 [[files]]
@@ -564,7 +564,7 @@ metafile = true
 
 [[files]]
 file = "mods/syncmatica.pw.toml"
-hash = "79633dee69bfed5a202edb07ba521db36fdb06c58742fe04655a6c7361aff29e"
+hash = "50eb0e7f1524dec313a55ba1f70493fa3d01c0fb2167ce1d4f7554cc01b926b6"
 metafile = true
 
 [[files]]

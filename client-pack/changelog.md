@@ -1,3 +1,21 @@
+## [2.4.3] - 2025-12-18
+
+### Changed
+
+- Updated mods to their latest version
+  - MaLiLib
+  - ClickThrough Plus
+  - ItemSwapper
+  - Litematica
+  - Polymer
+  - Syncmatica
+  - MiniHUD
+  - Fabric Language Kotlin
+  - Fabric API
+  - Simple Voice Chat
+
+
+
 ## [2.4.2] - 2025-12-14
 
 ### Added
