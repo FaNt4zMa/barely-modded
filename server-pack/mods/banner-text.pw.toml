@@ -1,6 +1,7 @@
 name = "Banner Text"
 filename = "banner-text-1.4.0.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/zg8QRuv4/versions/YTKyLmEs/banner-text-1.4.0.jar"

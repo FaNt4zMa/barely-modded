@@ -1,13 +1,13 @@
 name = "VillagerConfig"
-filename = "villagerconfig-fabric-4.5.1+1.21.10.jar"
+filename = "villagerconfig-fabric-4.5.2+1.21.10.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/OClpEDe3/versions/E9QUc9cQ/villagerconfig-fabric-4.5.1%2B1.21.10.jar"
+url = "https://cdn.modrinth.com/data/OClpEDe3/versions/c6dCznSC/villagerconfig-fabric-4.5.2%2B1.21.10.jar"
 hash-format = "sha512"
-hash = "7c0727d79d218956cfed7bd58822e870081bbd3bb374fe21adf7c91f01d79266e714f5e20311ca651eb5a753e7d9e91c2a40e14c11b4251d6a45f2932daf23f3"
+hash = "80977b9dfe4aa6d1d91e1661c98d40caf4d5d5fc523d5c9ce3b5610f282912e9b7c888dbb9e8db1cf78d82b6b05bb102fe8a7772e33d2aefec8aa4bc6a74f8e5"
 
 [update]
 [update.modrinth]
 mod-id = "OClpEDe3"
-version = "E9QUc9cQ"
+version = "c6dCznSC"

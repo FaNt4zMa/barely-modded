@@ -97,12 +97,16 @@ file = "datapacks/DefaultGamerules-v1.0.0/pack.mcmeta"
 hash = "cc19c5eccd3dd0ddbfa82984ca3d6f6e4c899233cd94a888b61857797ccc8e05"
 
 [[files]]
-file = "datapacks/VanillaTweaks_kill_empty_boats_v1.1.15.zip"
-hash = "26c5fb4414dd38944c6f07c0e9889cd73e1031268eb4bd1944701979867ed820"
+file = "datapacks/VanillaTweaks_age_lock_v1.0.0.zip"
+hash = "c467dccf5ed6456ba5e5935cf21cebaa7d29b9b5ddc0e436a510b508276d6220"
 
 [[files]]
-file = "datapacks/VanillaTweaks_nether_portal_coords_v1.1.14.zip"
-hash = "24c720e3b2e655e801d9d142460d49ab462dd392246283a0bf481b5104971070"
+file = "datapacks/VanillaTweaks_kill_empty_boats_v1.1.16.zip"
+hash = "6ace0a7ec2deca9a9ff0ef04648ae7c5a9283a57ed3a865d1a0ea04c863ca952"
+
+[[files]]
+file = "datapacks/VanillaTweaks_nether_portal_coords_v1.1.15.zip"
+hash = "2a5258d92e4e2053f759c82e82a09bde0c66aa0128adb62e71d7caf60d138719"
 
 [[files]]
 file = "datapacks/armor-statues-datapack.pw.toml"
@@ -250,7 +254,7 @@ metafile = true
 
 [[files]]
 file = "mods/banner-text.pw.toml"
-hash = "4520322e2dfe05a4fc20bab367c245333490926e33023bb905b0e493fc4618ff"
+hash = "a80bb7a4947a3150d38464d7356cdf677da39440897a047a2a52dbbc7cae3b3f"
 metafile = true
 
 [[files]]
@@ -260,7 +264,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-craftables.pw.toml"
-hash = "e4dd60c3bcc5d409236c16618f182935f0da7cc88524b3a8d60c5f4bd869b423"
+hash = "9901e49bb85fda973d07af2e54da27e56b2dd787816c7d618fe319e2c694277d"
 metafile = true
 
 [[files]]
@@ -440,7 +444,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "cbda4f1881cfb9f054395a3db225df4202d1f2e7bd0ed27d803b837fcf728621"
+hash = "0345fbfa8542b5ec84535fe2aff0f5cc4e801ecc337f926d4e2310b53f458569"
 metafile = true
 
 [[files]]
@@ -530,7 +534,7 @@ metafile = true
 
 [[files]]
 file = "mods/itemswapper.pw.toml"
-hash = "88657ecc974b915a3ca6c8230f2e38f25696388b5a056aecfcba5d8095212773"
+hash = "ff4f97eed3daf03b8db12d77696932e078e347db7cfb86322d057abe1bb479e9"
 metafile = true
 
 [[files]]
@@ -669,7 +673,7 @@ metafile = true
 
 [[files]]
 file = "mods/phantom-spawning.pw.toml"
-hash = "e1fcf5a9206022814b80f9134aa870b390c351e245d3260b12d4cb36bd98bf2b"
+hash = "4d5126aed478d9c388ec9b372e861e8f962925d9cde610f21b1c56c42d56c840"
 metafile = true
 
 [[files]]
@@ -689,7 +693,7 @@ metafile = true
 
 [[files]]
 file = "mods/polymer.pw.toml"
-hash = "22a83a04b4df87ab4bbea18228c3cc695551610c66cc79ccc315d783d3f7848f"
+hash = "d3ad1a85a4b58934658b7034ef8f670277591106fbe6488f05a0402ab01a5112"
 metafile = true
 
 [[files]]
@@ -764,7 +768,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "8c80e3393ce1fb38159f02af4dd3a7aba0b656945aac8c3da5aef04b22915e35"
+hash = "1794498da990b61fa0727ebed1a1948441a8294a77400e784dc11e1ff5f02791"
 metafile = true
 
 [[files]]
@@ -794,7 +798,7 @@ metafile = true
 
 [[files]]
 file = "mods/syncmatica.pw.toml"
-hash = "79633dee69bfed5a202edb07ba521db36fdb06c58742fe04655a6c7361aff29e"
+hash = "50eb0e7f1524dec313a55ba1f70493fa3d01c0fb2167ce1d4f7554cc01b926b6"
 metafile = true
 
 [[files]]
@@ -844,7 +848,7 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "56e401a0e456a497c43f68bf61034b2bbfd761cc41d9d0e176d59a9ccea1334e"
+hash = "ea7c4c7c69aeea9b01cca8d1699f43d0f65475aba9cc7efea58a8014dfafbbc8"
 metafile = true
 
 [[files]]
@@ -854,7 +858,7 @@ metafile = true
 
 [[files]]
 file = "mods/villagerconfig.pw.toml"
-hash = "395bc7d9174748098641f281ff6333da9bdf5c4d7c0c6cc3cd90c6ab675bbe85"
+hash = "cde125554491fc60cdcc482ac169b380ee881c49d846f7583e9326e059e77c90"
 metafile = true
 
 [[files]]

@@ -1,3 +1,24 @@
+## [2.4.3] - 2025-12-18
+
+### Changed
+
+- Updated mods to their latest version
+  - Fabric API
+  - Better Craftables
+  - ItemSwapper
+  - Phantom Spawning
+  - Syncmatica
+  - Simple Voice Chat
+  - ViaVersion
+  - Polymer
+  - VillagerConfig
+
+### Fixed
+
+- Clucking Ducks, Earth Animals, and Frog Concept Variants resourcepacks no longer have malformed pack.mcmeta files and can now be properly added by Polymer
+
+
+
 ## [2.4.2] - 2025-12-14
 
 ### Added
