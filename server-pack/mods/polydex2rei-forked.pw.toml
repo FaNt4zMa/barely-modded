@@ -1,0 +1,13 @@
+name = "Polydex2REI-Forked"
+filename = "polydex2rei-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/meFqVkls/versions/UzXXo4an/polydex2rei-1.0.1.jar"
+hash-format = "sha512"
+hash = "a5055afa513931a69baa7a6402afe0cf33b418b847410ca98b5c6b124e6fd7a503b7cf16d32bf77c8a1a13811e31db22cf374198b705a24eba6b99b3e5717ed8"
+
+[update]
+[update.modrinth]
+mod-id = "meFqVkls"
+version = "UzXXo4an"

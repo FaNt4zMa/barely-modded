@@ -1,3 +1,25 @@
+## [2.4.4] - 2025-12-19
+
+### Added
+
+- Roughly Enough Items
+- Polydex2REI-Forked
+
+### Changed
+
+- Updated mods to their latest version
+  - ViaVersion
+  - Phantom Spawning
+
+- Updated Fabric Loader to 0.18.3
+
+### Fixed
+
+- Server freeze / slowdown caused by Polymer console spam when REI is installed
+  - Fixed upstream by Patbox in the latest Polymer update (failed to encode polymer item stack errors)
+
+
+
 ## [2.4.3] - 2025-12-18
 
 ### Added

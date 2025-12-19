@@ -673,7 +673,7 @@ metafile = true
 
 [[files]]
 file = "mods/phantom-spawning.pw.toml"
-hash = "4d5126aed478d9c388ec9b372e861e8f962925d9cde610f21b1c56c42d56c840"
+hash = "45dd7e81df9aee0e09c13ccb08896b7a8b99b33c6ff044464ffe07d54babbd6f"
 metafile = true
 
 [[files]]
@@ -689,6 +689,11 @@ metafile = true
 [[files]]
 file = "mods/polydex.pw.toml"
 hash = "a4c95d31ecbf27a1d4466d72e804132ff728872a945e6a92941262c2c03389f7"
+metafile = true
+
+[[files]]
+file = "mods/polydex2rei-forked.pw.toml"
+hash = "655f5b634cc91e0c10ba81c37ced75fb985dbb77b79864fedab58e8ccc815cd1"
 metafile = true
 
 [[files]]
@@ -714,6 +719,11 @@ metafile = true
 [[files]]
 file = "mods/rail-recipe-rebalance.pw.toml"
 hash = "9f1a471258e62cc41c26ed0f1f95733e579b289a3896ea6e20484d31eadf531e"
+metafile = true
+
+[[files]]
+file = "mods/rei.pw.toml"
+hash = "81cc0f80816be9c95b82354d4e1aaee5818513795f706e403ff93c063d3601ad"
 metafile = true
 
 [[files]]
@@ -848,7 +858,7 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "ea7c4c7c69aeea9b01cca8d1699f43d0f65475aba9cc7efea58a8014dfafbbc8"
+hash = "2ab5460d2cc07080edc5a39dc8a242a3565fd7b0b49b5ff843d84f85bc29e2dc"
 metafile = true
 
 [[files]]

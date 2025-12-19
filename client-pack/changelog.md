@@ -1,3 +1,19 @@
+## [2.4.4] - 2025-12-19
+
+### Changed
+
+- Updated mods to their latest version
+  - ImmediatelyFast
+  - Iris Shaders
+
+- Updated Fabric Loader to 0.18.3
+
+### Fixed
+
+- Sit! mod missing on the client due to incorrect Packwiz TOML configuration
+
+
+
 ## [2.4.3] - 2025-12-18
 
 ### Changed
