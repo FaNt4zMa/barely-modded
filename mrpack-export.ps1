@@ -14,10 +14,10 @@ $packDir = Join-Path $PSScriptRoot "$($PackName)-pack"
 
 # Read Minecraft and loader versions from pack-config.yml
 $config = Get-Content "$PSScriptRoot\pack-config.yml" -Raw
-$packNameFromFile = $config | Select-String -Pattern "(?sm)${$PackName}:.*?pack_name: `"(.*?)`"" -AllMatches | ForEach-Object { $_.Matches.Groups[1].Value }
-$modrinthId = $config | Select-String -Pattern "(?sm)${$PackName}:.*?modrinth_id: `"(.*?)`"" -AllMatches | ForEach-Object { $_.Matches.Groups[1].Value }
-$minecraftVersion = $config | Select-String -Pattern "(?sm)${$PackName}:.*?minecraft_version: `"(.*?)`"" -AllMatches | ForEach-Object { $_.Matches.Groups[1].Value }
-$loaderVersion = $config | Select-String -Pattern "(?sm)${$PackName}:.*?loader_version: `"(.*?)`"" -AllMatches | ForEach-Object { $_.Matches.Groups[1].Value }
+$packNameFromFile = $config | Select-String -Pattern "(?sm)^${PackName}:.*?pack_name: `"(.*?)`"" -AllMatches | ForEach-Object { $_.Matches.Groups[1].Value }
+$modrinthId = $config | Select-String -Pattern "(?sm)^${PackName}:.*?modrinth_id: `"(.*?)`"" -AllMatches | ForEach-Object { $_.Matches.Groups[1].Value }
+$minecraftVersion = $config | Select-String -Pattern "(?sm)^${PackName}:.*?minecraft_version: `"(.*?)`"" -AllMatches | ForEach-Object { $_.Matches.Groups[1].Value }
+$loaderVersion = $config | Select-String -Pattern "(?sm)^${PackName}:.*?loader_version: `"(.*?)`"" -AllMatches | ForEach-Object { $_.Matches.Groups[1].Value }
 
 if ([string]::IsNullOrWhiteSpace($packNameFromFile)) {
     Write-Host "Error: Could not find pack_name for $PackName in pack-config.yml" -ForegroundColor Red
