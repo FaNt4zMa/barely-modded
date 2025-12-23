@@ -60,20 +60,22 @@ switch ($choice) {
 # Prompt for version number
 $clientVersion = $null
 $serverVersion = $null
+$currentVersionClient = (Get-Content "$PSScriptRoot\client-pack\version.txt" -Raw).Trim()
+$currentVersionServer = (Get-Content "$PSScriptRoot\server-pack\version.txt" -Raw).Trim()
 
 if ($releaseClient -and $releaseServer) {
-    Write-Host "`nEnter CLIENT version number (e.g., 1.2.3): " -NoNewline
+    Write-Host "`nEnter CLIENT version number (current: $currentVersionClient): " -NoNewline
     $clientVersion = Read-Host
 
-    Write-Host "Enter SERVER version number (e.g., 1.2.3): " -NoNewline
+    Write-Host "Enter SERVER version number (current: $currentVersionServer): " -NoNewline
     $serverVersion = Read-Host
 }
 elseif ($releaseClient) {
-    Write-Host "`nEnter version number (e.g., 1.2.3): " -NoNewline
+    Write-Host "`nEnter version number (current: $currentVersionClient): " -NoNewline
     $clientVersion = Read-Host
 }
 elseif ($releaseServer) {
-    Write-Host "`nEnter version number (e.g., 1.2.3): " -NoNewline
+    Write-Host "`nEnter version number (current: $currentVersionServer): " -NoNewline
     $serverVersion = Read-Host
 }
 
