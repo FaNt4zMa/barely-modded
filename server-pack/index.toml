@@ -273,6 +273,11 @@ hash = "957a5120692de62637551a55949902c02eac0a19743b9d64a1a8dc2d536bd367"
 metafile = true
 
 [[files]]
+file = "mods/better-mason-trades.pw.toml"
+hash = "d4cffe0b1c55e59fff6ed2786080156595527fb917ed10ce13f55225879ac8cb"
+metafile = true
+
+[[files]]
 file = "mods/better-snowy-biome.pw.toml"
 hash = "46b6505043ebd859586843ec8ff4702f7ef4ac247f8adcfa817eaf1e154d4fba"
 metafile = true
@@ -329,7 +334,7 @@ metafile = true
 
 [[files]]
 file = "mods/clientsort.pw.toml"
-hash = "94f43cd957f4c6bbf49b21e0d8eb923ed91fefe0bc2a18a0c75175bf79de5c66"
+hash = "2e78bf35b9e6cef85a91377fad015125ba2e457e24650a3ae3ed8b3376ee9d18"
 metafile = true
 
 [[files]]
@@ -778,7 +783,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "1794498da990b61fa0727ebed1a1948441a8294a77400e784dc11e1ff5f02791"
+hash = "69786785c676fc55890792c5906fa360b34a89dd76d072eec30294b49155c00d"
 metafile = true
 
 [[files]]
@@ -858,7 +863,7 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "2ab5460d2cc07080edc5a39dc8a242a3565fd7b0b49b5ff843d84f85bc29e2dc"
+hash = "47548597783410d8bec2499ab4345c46a118d02da57150fda50204e809a24223"
 metafile = true
 
 [[files]]

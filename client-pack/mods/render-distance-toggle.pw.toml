@@ -1,13 +1,13 @@
 name = "Render Distance Toggle"
-filename = "renderdistancetoggle-1.0.1.jar"
+filename = "renderdistancetoggle-1.0.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/nna9OEpZ/versions/QmN7s1HS/renderdistancetoggle-1.0.1.jar"
+url = "https://cdn.modrinth.com/data/nna9OEpZ/versions/E2aegOqv/renderdistancetoggle-1.0.2.jar"
 hash-format = "sha512"
-hash = "b40083eb2e0bdd1c6ada291e6d92498ebe9a2d0360d0234af5e1f0c1f5d978f297959563ef6e45f7539651a1844ba6098e999134496efec7d0aeaac42f79c694"
+hash = "8dc30bf18023a40d9e9ff3c65f62b20ac1656dcb3ab66eb49527f9531dcfc108cef165fcd4a26c198f5e114ffd603b6343ab53549fed4cc988d7e510587656c3"
 
 [update]
 [update.modrinth]
 mod-id = "nna9OEpZ"
-version = "QmN7s1HS"
+version = "E2aegOqv"

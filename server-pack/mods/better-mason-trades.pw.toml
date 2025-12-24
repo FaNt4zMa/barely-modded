@@ -1,0 +1,13 @@
+name = "Better Mason Trades"
+filename = "better-mason-trades-v1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2BqALtEV/versions/5l5FkHYA/better-mason-trades-v1.0.1.jar"
+hash-format = "sha512"
+hash = "1c062de6756d3dcd10bf739b4a8619b8ee7180cd0f0450d6947143f438a67bfac2cf50f82a1fd8a242af36e03d80b06ea0fee4f71d54f95650d564a544af02dd"
+
+[update]
+[update.modrinth]
+mod-id = "2BqALtEV"
+version = "5l5FkHYA"

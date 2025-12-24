@@ -1,3 +1,18 @@
+## [2.4.5] - 2025-12-24
+
+### Added
+
+- Better Mason Trades
+
+### Changed
+
+- Updated mods to their latest version
+  - Client Sort
+  - Simple Voice Chat
+  - ViaVersion
+
+
+
 ## [2.4.4] - 2025-12-19
 
 ### Added

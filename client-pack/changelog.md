@@ -1,3 +1,26 @@
+## [2.4.5] - 2025-12-24
+
+### Added
+
+- VTDownloader 1.21.10 (Official Mod)
+
+### Changed
+
+- Updated mods to their latest version
+  - Render Distance Toggle
+  - ClickThrough Plus
+  - Client Sort
+  - LibJF
+  - Better Advancements
+  - Mod Menu
+  - Simple Voice Chat
+
+### Removed
+
+- VTDownloader 1.21.10 (Fork)
+
+
+
 ## [2.4.4] - 2025-12-19
 
 ### Changed

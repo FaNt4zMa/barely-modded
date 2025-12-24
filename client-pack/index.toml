@@ -124,7 +124,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-advancements.pw.toml"
-hash = "94c3fc74cf184c9e5c597609dde733137f823bed718fcce32cdefaa040aa9977"
+hash = "8bf1d7e6764da75a1cdab93bf106ca874a2a879bd78d6782ec64703ebe4b0686"
 metafile = true
 
 [[files]]
@@ -194,12 +194,12 @@ metafile = true
 
 [[files]]
 file = "mods/clickthrough+.pw.toml"
-hash = "83b7b654e6ab243d095284dd1bb42b6f72ab967323a84ef0fd0de55d52220626"
+hash = "cbf30a1b2794ca9fd3f19d00bb48e841c07a5a422ed2fb24a2533737d9ac4c02"
 metafile = true
 
 [[files]]
 file = "mods/clientsort.pw.toml"
-hash = "94f43cd957f4c6bbf49b21e0d8eb923ed91fefe0bc2a18a0c75175bf79de5c66"
+hash = "2e78bf35b9e6cef85a91377fad015125ba2e457e24650a3ae3ed8b3376ee9d18"
 metafile = true
 
 [[files]]
@@ -324,7 +324,7 @@ metafile = true
 
 [[files]]
 file = "mods/libjf.pw.toml"
-hash = "8c75e0407d200803b12333bc2dc59f25b3e0060aa3f07ccfa59ebaa194acd560"
+hash = "c3329a5ef6175da57c779d04ee5bfe7115bcda5c403e25c43565c98f97f3bea9"
 metafile = true
 
 [[files]]
@@ -379,7 +379,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "5dd45d5fd5e1ae2bd521b93a70b83c69b57ada18f424c6562d8c6ea9980cfb3e"
+hash = "802981efce132e93b99352dacae410bf7b3e356f2e9de14b0ff9cea0beb31bb9"
 metafile = true
 
 [[files]]
@@ -464,7 +464,7 @@ metafile = true
 
 [[files]]
 file = "mods/render-distance-toggle.pw.toml"
-hash = "2422585ab66f02f02ed374a8dc8abdfad3d6d60028011eb9cfa61e72b88b4ee0"
+hash = "3798b9a10190f821ef843e7bcdb1e7c8c7a365cf06d36e71352b34217859a5c2"
 metafile = true
 
 [[files]]
@@ -519,7 +519,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "1794498da990b61fa0727ebed1a1948441a8294a77400e784dc11e1ff5f02791"
+hash = "69786785c676fc55890792c5906fa360b34a89dd76d072eec30294b49155c00d"
 metafile = true
 
 [[files]]
@@ -578,8 +578,9 @@ hash = "fffdc745512a47f794ed2d828bb8bf8009d7c4bbaba4be58c888f9b54ff11c8d"
 metafile = true
 
 [[files]]
-file = "mods/vt-downloader-2.4.1+1.21.10.jar"
-hash = "89c7630f45b50a755be64cb11888285c6f01c26afa8ca6c952649b55b07e8e6f"
+file = "mods/vtdownloader.pw.toml"
+hash = "6fe1dd91d091d9d29e6a64b649644e5cb48ae901e86378cef524a3c5b60f2c1d"
+metafile = true
 
 [[files]]
 file = "mods/wavey-capes.pw.toml"
