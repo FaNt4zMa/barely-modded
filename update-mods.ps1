@@ -48,7 +48,7 @@ try {
     # Display the output
     Get-Content $logFile | ForEach-Object { Write-Host $_ }
 
-    # Parse the log file for updated mods
+    # Parse the log file for updated mods and datapacks
     $logContent = Get-Content $logFile -Raw
 
     # Check if any updates were found
@@ -58,8 +58,9 @@ try {
         return
     }
 
-    # Extract mod names from "Updates found:" section
+    # Extract mod and datapack names from "Updates found:" section
     $updatedMods = @()
+    $updatedDatapacks = @()
     $lines = Get-Content $logFile
 
     $inUpdatesSection = $false
@@ -76,45 +77,70 @@ try {
             }
             
             # Parse lines like: "Fast Trading: fasttrading-0.2.3+1.21.6.jar -> fasttrading-0.2.3+1.21.10-rc1.jar"
-            if ($line -match "^([^:]+): .* -> .*") {
-                $modName = $matches[1].Trim()
-                $updatedMods += $modName
+            if ($line -match "^([^:]+): .* -> (.*)") {
+                $itemName = $matches[1].Trim()
+                $newFile = $matches[2].Trim()
+                
+                # Check file extension to differentiate between mods and datapacks
+                if ($newFile -match "\.jar$") {
+                    $updatedMods += $itemName
+                } elseif ($newFile -match "\.zip$") {
+                    $updatedDatapacks += $itemName
+                }
             }
         }
     }
 
-    if ($updatedMods.Count -eq 0) {
+    $totalUpdates = $updatedMods.Count + $updatedDatapacks.Count
+    
+    if ($totalUpdates -eq 0) {
         Write-Host "`n✓ No updates were applied" -ForegroundColor Green
         return
     }
 
-    Write-Host "`n✓ Updated $($updatedMods.Count) mod(s)" -ForegroundColor Green
+    if ($updatedMods.Count -gt 0) {
+        Write-Host "`n✓ Updated $($updatedMods.Count) mod(s)" -ForegroundColor Green
+    }
+    if ($updatedDatapacks.Count -gt 0) {
+        Write-Host "`n✓ Updated $($updatedDatapacks.Count) datapack(s)" -ForegroundColor Green
+    }
 
     # Read current changelog-staging.md
     $stagingContent = Get-Content "changelog-staging.md" -Raw
 
-    # Build the updated mods section
-    $modsSection = "- Updated mods to their latest version`n"
-    foreach ($mod in $updatedMods) {
-        $modsSection += "  - $mod`n"
+    # Build the changelog sections
+    $changelogSection = ""
+    
+    if ($updatedMods.Count -gt 0) {
+        $changelogSection += "- Updated mods to their latest version`n"
+        foreach ($mod in $updatedMods) {
+            $changelogSection += "  - $mod`n"
+        }
+        $changelogSection += "`n"
     }
-    $modsSection += "`n"
+    
+    if ($updatedDatapacks.Count -gt 0) {
+        $changelogSection += "- Updated datapacks to their latest version`n"
+        foreach ($datapack in $updatedDatapacks) {
+            $changelogSection += "  - $datapack`n"
+        }
+        $changelogSection += "`n"
+    }
 
     # Insert into the Changed section
-    # Find the ### Changed section and insert after it
     if ($stagingContent -match "(?s)(### Changed\s*)") {
-        # Insert the mods list after "### Changed"
-        $stagingContent = $stagingContent -replace "(### Changed\s*\n)", "`$1$modsSection"
+        # Insert the changelog section after "### Changed"
+        $stagingContent = $stagingContent -replace "(### Changed\s*\n)", "`$1$changelogSection"
         
         Set-Content -Path "changelog-staging.md" -Value $stagingContent -NoNewline
         
         Write-Host "`n✓ Updated changelog-staging.md" -ForegroundColor Green
         Write-Host "`nAdded to changelog:" -ForegroundColor Cyan
-        Write-Host $modsSection -ForegroundColor White
+        Write-Host $changelogSection -ForegroundColor White
     } else {
         Write-Host "`nWarning: Could not find '### Changed' section in changelog-staging.md" -ForegroundColor Yellow
         Write-Host "Please manually add the following:" -ForegroundColor Yellow
-        Write-Host $modsSection -ForegroundColor White
+        Write-Host $changelogSection -ForegroundColor White
     }
 } finally {
     Pop-Location
