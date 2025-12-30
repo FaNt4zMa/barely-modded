@@ -93,6 +93,11 @@ file = "config/yosbr/options.txt"
 hash = "d461172c734509053a0e08ec01c99d93057576c69f390b41162602fd6640319a"
 
 [[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "2d3cbf3d77196a08a014270238740515c1b634bc11ad83a51140d7bcfc62d6b3"
+metafile = true
+
+[[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "da436c26003ac49101f5dea0a217ac57c92260e350979d15e5a3730bdf1a5a62"
 metafile = true
@@ -189,7 +194,7 @@ metafile = true
 
 [[files]]
 file = "mods/chatnotify.pw.toml"
-hash = "132987d051860eac8660826c9b34eb1bb68450f881498ac5b81f0b3c754d911c"
+hash = "c7c989827b67cb689eeb1cf8bd6f63f273784b554cbdf4ef141bde578d6e7656"
 metafile = true
 
 [[files]]
@@ -349,7 +354,7 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "bda12a83dc36c4a8e5b45438700b54bf21c182d923f7f8255570893628281e06"
+hash = "9946fd3c2a85099bb68cff8a2168601c3f1c7879fc42d018171c7cf5f25693d2"
 metafile = true
 
 [[files]]
@@ -369,7 +374,7 @@ metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "4e67580688464bd3e7065f96da1fba23cc593e0a7eabd8b0522c6d82129fc6ec"
+hash = "9901b4a332af2554d61e1a0547a8d6dce114232ecc48f5b4512ab867c1d680ef"
 metafile = true
 
 [[files]]
@@ -424,7 +429,7 @@ metafile = true
 
 [[files]]
 file = "mods/particle-effects.pw.toml"
-hash = "c9d4c901eaa237d005c58b094108e93a07a5238916c855bc44a1565c5a0da62e"
+hash = "c679c18d85e87c27bf4fc34332feceae9da31f6ce8f0f3e2417f5660544a8c89"
 metafile = true
 
 [[files]]

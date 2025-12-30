@@ -1,6 +1,6 @@
 name = "Simple Golden+ ResourcePack"
 filename = "SimpleGolden+Resourcepack-1.21.9+1.21.10.zip"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/UOMUGdIf/versions/JystPfIn/SimpleGolden%2BResourcepack-1.21.9%2B1.21.10.zip"

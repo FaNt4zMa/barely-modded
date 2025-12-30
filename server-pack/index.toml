@@ -10,7 +10,7 @@ hash = "ddee6b8d6ef7e0f36362ef46d67e6624f706fafef5da1486d0ed0f72045d4ff5"
 
 [[files]]
 file = "config/polymer/resource-pack.json"
-hash = "1b92258343e8a5083b5120a26cbd31b49a1152d2aa626eb36da3655fe291016d"
+hash = "1fa00875ee0ebdee1b0715758f60e7ec06afdb421404c09356a97686a871d01b"
 
 [[files]]
 file = "config/simpleupdatechecker_modpack.json"
@@ -120,7 +120,7 @@ metafile = true
 
 [[files]]
 file = "datapacks/blossoming-pots.pw.toml"
-hash = "860b60f29c8ce94c698bce8d1ed357c0afcb7f0b9405a760defcb2fd83db7a01"
+hash = "8df077c83562ea84fac98c10bc88bce682e8c70eeb4cffcea9620d1746d4d45d"
 metafile = true
 
 [[files]]
@@ -160,7 +160,7 @@ metafile = true
 
 [[files]]
 file = "datapacks/lively-lily-pads.pw.toml"
-hash = "b427a0ae1ea6fa03b9846a65d4115583633f5bb1780cdd234d3e5fb48b270cb7"
+hash = "8fa3e472158647979108eb9f06a30b978c7f59c846883db76224afb2c2594814"
 metafile = true
 
 [[files]]
@@ -189,12 +189,21 @@ hash = "d4cf47d16a8e12bc7a5cabe5697f2cf1e836ae9dfa70677092af985e569d4d32"
 metafile = true
 
 [[files]]
+file = "datapacks/zzz_777-Custom-Rewards-v1.0.0.zip"
+hash = "dea06235360c143a161298089365ecf54e016ea8b1689480d6f13aacf3bac632"
+
+[[files]]
 file = "datapacks/zzz_RecipeRemover-v1.0.1.zip"
 hash = "45ee82e696dd50a7d96cb0f51523b82a65aac54a0ba7f4657767d6c285f89377"
 
 [[files]]
 file = "mods/777.pw.toml"
 hash = "6e2c77abdb322b029dbd2e8bd00c388281e849d77da30214dbe86ed79a55bae0"
+metafile = true
+
+[[files]]
+file = "mods/a-very-1999-christmas-music-discs-fork.pw.toml"
+hash = "88b66c71d2fcf25835453f97848be5094cfe2a138f4bf23ad07555fff25810c2"
 metafile = true
 
 [[files]]
@@ -333,6 +342,11 @@ hash = "43989e6b8691ff6ec1554babf88bc240065f8abe37000f6223947438805cb38a"
 metafile = true
 
 [[files]]
+file = "mods/cheaper-shelves.pw.toml"
+hash = "773324d85c3301b867759232a5555f3e6035a6b5f8daf8f9e385300522042193"
+metafile = true
+
+[[files]]
 file = "mods/clientsort.pw.toml"
 hash = "2e78bf35b9e6cef85a91377fad015125ba2e457e24650a3ae3ed8b3376ee9d18"
 metafile = true
@@ -458,8 +472,18 @@ hash = "5b0491bcaad6a280809d8abc33eb20a9613fec528d29b645567aad981fff4972"
 metafile = true
 
 [[files]]
+file = "mods/fantazs-amethyst-equipment.pw.toml"
+hash = "e8df6da46072899235d7ab919646a08d9c9456a8e6d30d136b38cad6d5533ed0"
+metafile = true
+
+[[files]]
 file = "mods/fantazs-better-ghast-harness.pw.toml"
-hash = "227c501bbd1c1d56f5cf27810c66442b67e48b478b048be0006a07aadbaece49"
+hash = "d77f5cf598eceb43902aabfa784c5a1a5a130aff797081ffe8433e0cffdd4c60"
+metafile = true
+
+[[files]]
+file = "mods/fantazs-emerald-equipment.pw.toml"
+hash = "474ca3f5ae67e92b423c98c79f7b17fade155b64dbaef667b042d04cd5193b55"
 metafile = true
 
 [[files]]
@@ -659,6 +683,11 @@ metafile = true
 [[files]]
 file = "mods/noisiumforked.pw.toml"
 hash = "a3b275726e1953dd46c5ef4637d2ab82500c9b58be1c25325a704a9423c5deba"
+metafile = true
+
+[[files]]
+file = "mods/open-sesame.pw.toml"
+hash = "30626f76d1f9ff9e570dd3675537a52c3f060b4acbccfa6e2b93771db311cb34"
 metafile = true
 
 [[files]]
@@ -863,7 +892,7 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "47548597783410d8bec2499ab4345c46a118d02da57150fda50204e809a24223"
+hash = "13672d0f6a34c9cfc45f49d8e1a381c85e9ec2e30fabdb416bf4cbf2e79491cf"
 metafile = true
 
 [[files]]
@@ -912,6 +941,11 @@ hash = "649c259a4777ba1b544b69d04a79f2b1b0e1a3c520033cc86a3c14d5fa53564a"
 metafile = true
 
 [[files]]
+file = "resourcepacks/better-ghast-harness-rp.pw.toml"
+hash = "832fafaf6403738b7e76feed015aa17ddcdafa5ded419e4f1c8cd6f7905bc7ce"
+metafile = true
+
+[[files]]
 file = "resourcepacks/clucking-ducks-rp.pw.toml"
 hash = "d7f95a926b8129ce31f122308adeee3d9bd70d73aba2a9bc4475b3d0ca64348c"
 metafile = true
@@ -928,22 +962,32 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/gentler-weather-sounds.pw.toml"
-hash = "907d76d306276636447fbb12f86d4771646278d35cf2bb24c44e015336713931"
+hash = "8a73955bc5390a817d104a7e028c08dd1a0e6e5019c7c89dbd7d053e945ef3c3"
+metafile = true
+
+[[files]]
+file = "resourcepacks/re-gifted.pw.toml"
+hash = "247e9ab11bfab8ee52482ee7920e61dd5776c80bb38d42d1a4ce2f963ad7d375"
 metafile = true
 
 [[files]]
 file = "resourcepacks/simple-golden+-resourcepack.pw.toml"
-hash = "e097c8f2455066cc2a02bc3fb879b50ea0be531a01a5af24626a23de72ab6889"
+hash = "14a967be64935f256ebfb147f4f5627b0db5022aca8e477179974c450d40d2ea"
+metafile = true
+
+[[files]]
+file = "resourcepacks/strings-and-things.pw.toml"
+hash = "96f02cfdc234bad9191ca1de18d421881d5b99e96e4390df6f41cc6a68ef5a15"
 metafile = true
 
 [[files]]
 file = "resourcepacks/visual-armor-trims.pw.toml"
-hash = "79b6048871040b57be573e600edd1e4b47c0127e89c28a7a7e0f404bdf3e54a7"
+hash = "603940e20d241e1da1f5949a7d5b93a220934ef8f32feefa81b8dca8994e27a4"
 metafile = true
 
 [[files]]
 file = "resourcepacks/vvi.pw.toml"
-hash = "c27d7f15e62850450221bfc629f00fb2fd5b8247d0684d05b77c1daa7bbcf1a9"
+hash = "abac6da32390243637baa3ebce869cd1a57064d45a96d1bd8167e064e861c4e4"
 metafile = true
 
 [[files]]

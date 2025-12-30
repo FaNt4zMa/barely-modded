@@ -54,7 +54,7 @@ Perfect for community servers, this pack adds **quality-of-life improvements, fu
 
 ---
 
-## 🆕NEW! (2025-12-10)
+## 🆕NEW! (2025-12-30)
 
 - 🧩 **Polymer Integration:** Adds **server-side custom blocks and items** — no client mods required!
 Seamlessly expands what’s possible on a pure vanilla client, powering new decorative and gameplay content.
@@ -86,6 +86,11 @@ Seamlessly expands what’s possible on a pure vanilla client, powering new deco
   - [Night Lights](https://modrinth.com/mod/nightlights): Light up the night with decorative glowing blocks that make every build shine after dark!
   - [Vocal Villagers](https://modrinth.com/resourcepack/vvi): Give villagers real personality with expressive new voices that bring your villages to life!
   - [Gentler Weather Sounds](https://modrinth.com/resourcepack/gentler-weather-sounds): Calm the storm with softer, smoother weather audio for a more peaceful world!
+  - [Emerald Equipment](https://modrinth.com/datapack/fantazs-emerald-equipment): The armor tier Mojang never gave you, until now!
+  - [Amethyst Equipment](https://modrinth.com/datapack/fantazs-amethyst-equipment): A crystalline counterpart to that long-forgotten tier!
+  - [A Very 1999 Christmas Music Discs](https://modrinth.com/datapack/a-very-1999-christmas-music-discs-fork): Jam to jschlatt's festive album with all tracks from the Deluxe Edition!
+  - [Strings & Things](https://modrinth.com/resourcepack/strings-and-things): String up fairy lights and festive garlands to make your builds sparkle!
+  - [Re-Gifted](https://modrinth.com/resourcepack/re-gifted): Transform bundles into wrapped Christmas gifts with a simple rename!
   - *More to come...*
 
   </details>

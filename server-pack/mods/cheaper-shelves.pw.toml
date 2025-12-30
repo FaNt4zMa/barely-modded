@@ -1,0 +1,13 @@
+name = "Cheaper Shelves"
+filename = "cheaper-shelves-88.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wTNKRL8L/versions/FXingrw9/cheaper-shelves-88.0.jar"
+hash-format = "sha512"
+hash = "2ea3c3724da4da6969376847fb9b0e027279a2d40bf5888665ef894827ff6347c5473b47874a386ed589364559ce8390352c51dac367463b02de4fef4e27ab64"
+
+[update]
+[update.modrinth]
+mod-id = "wTNKRL8L"
+version = "FXingrw9"

@@ -1,3 +1,44 @@
+## [2.5.0] - 2025-12-30
+
+### Added
+
+- Amethyst Equipment
+- Emerald Equipment
+- Better Ghast Harness Optional Resource Pack
+- Open Sesame
+- Cheaper Shelves
+- A Very 1999 Christmas Music Discs (1.21.5-1.21.11)
+- Strings & Things (Resource Pack)
+- Re-Gifted (Resource Pack)
+- 777-Custom-Rewards (Custom Datapack)
+  - Expands upon the default rewards for the slot machines, adding stuff like:
+  - Emeralds & Emeralds Blocks
+  - Ancient Debris
+  - XP Bottles
+  - Ender Pearls
+  - Shulker Boxes
+  - Beacons
+  - Nether Stars
+  - Tridents
+  - Maces
+  - Netherite Blocks
+  - Crossbow
+  - New Infinite Potions
+
+### Changed
+
+- Updated mods to their latest version
+  - Better Ghast Harness
+  - ViaVersion
+
+- Updated datapacks to their latest version
+  - Blossoming Pots
+  - Lively Lily Pads
+
+- Updated Fabric Loader to 0.18.4
+
+
+
 ## [2.4.5] - 2025-12-24
 
 ### Added

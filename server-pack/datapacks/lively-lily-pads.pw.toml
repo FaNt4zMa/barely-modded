@@ -3,11 +3,11 @@ filename = "gm4_lively_lily_pads_1_21_5.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/7wnTwrbr/versions/3UTHB7pF/gm4_lively_lily_pads_1_21_5.zip"
+url = "https://cdn.modrinth.com/data/7wnTwrbr/versions/7vIH67nj/gm4_lively_lily_pads_1_21_5.zip"
 hash-format = "sha512"
-hash = "7299b1c969a7cf66d4d0d2c220aaa85a1db70d4cd5088d07906001021d4b82923d60b9c4531088d6acce2f91922a54a7d78f156d40ff5b611edc0a027fa02c07"
+hash = "c7b0baee4ac087ebd56b16a3a505b45ec98157da30e236a6eba43c4d07be9e76483c282e836deaa7e0bedf116b382510835f1302e1529ad2ae97cb457ccb606d"
 
 [update]
 [update.modrinth]
 mod-id = "7wnTwrbr"
-version = "3UTHB7pF"
+version = "7vIH67nj"

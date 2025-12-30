@@ -1,6 +1,6 @@
 name = "Vocal Villagers"
 filename = "§a§lVocal Villagers §r§71.2.zip"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/SEt2q8cl/versions/ekl7GAgD/%C2%A7a%C2%A7lVocal%20Villagers%20%C2%A7r%C2%A771.2.zip"

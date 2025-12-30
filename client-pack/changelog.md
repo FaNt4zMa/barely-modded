@@ -1,3 +1,21 @@
+## [2.5.0] - 2025-12-30
+
+### Added
+
+- 3D Skin Layers
+
+### Changed
+
+- Updated mods to their latest version
+  - Particle Effects
+  - MaLiLib
+  - MiniHUD
+  - Chat Notify
+
+- Updated Fabric Loader to 0.18.4
+
+
+
 ## [2.4.5] - 2025-12-24
 
 ### Added

@@ -1,0 +1,13 @@
+name = "A Very 1999 Christmas Music Discs (1.21.5-1.21.11)"
+filename = "a-very-1999-christmas-music-discs-fork-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cgggpLwP/versions/osdKLKng/a-very-1999-christmas-music-discs-fork-1.1.1.jar"
+hash-format = "sha512"
+hash = "643f53d85ebaac50987474516c2e5de37f4801544e035eb851ec68e88cb9306fb802f72cb396cdec17c9dec7d77b252fc75aeae79644be6583e5f1c9cbf9e0b0"
+
+[update]
+[update.modrinth]
+mod-id = "cgggpLwP"
+version = "osdKLKng"

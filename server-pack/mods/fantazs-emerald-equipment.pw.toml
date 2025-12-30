@@ -1,0 +1,13 @@
+name = "Emerald Equipment"
+filename = "fantazs-emerald-equipment-v1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/T3vt10wr/versions/CLVTWSJC/fantazs-emerald-equipment-v1.1.0.jar"
+hash-format = "sha512"
+hash = "2ff3cd547af58fcacba43d7f93861b07c0c3d8c2b233289010b2356d11650fbad99177f0401345c2428f2d983eec3a64ed21c9f5ea6cbf0ef1c128bbd6f6c64d"
+
+[update]
+[update.modrinth]
+mod-id = "T3vt10wr"
+version = "CLVTWSJC"

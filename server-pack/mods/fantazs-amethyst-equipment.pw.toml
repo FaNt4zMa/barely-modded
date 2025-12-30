@@ -1,0 +1,13 @@
+name = "Amethyst Equipment"
+filename = "fantazs-amethyst-equipment-v1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qFTZtnLc/versions/xXGFzCRS/fantazs-amethyst-equipment-v1.1.0.jar"
+hash-format = "sha512"
+hash = "f4a827a986b15e93c67b98e80a187bd88e47222958b7eac8e9d532cc187697b4680945d874d6c340795952e8b33307eacf038b988e273b9a4cad5e49d512c450"
+
+[update]
+[update.modrinth]
+mod-id = "qFTZtnLc"
+version = "xXGFzCRS"

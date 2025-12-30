@@ -1,13 +1,13 @@
 name = "Better Ghast Harness"
-filename = "fantazs-better-ghast-harness-v1.1.1.jar"
+filename = "fantazs-better-ghast-harness-v1.2.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/tXHowlQJ/versions/uZxFK5an/fantazs-better-ghast-harness-v1.1.1.jar"
+url = "https://cdn.modrinth.com/data/tXHowlQJ/versions/t4ArTtqU/fantazs-better-ghast-harness-v1.2.0.jar"
 hash-format = "sha512"
-hash = "a62ed607e4dc8f375d604cc4a7936d409e40ca7568560692a1dfe2ee7f282e605c2ca97578df430e63be47f50648e5284ed6e37530953e138c00e4ef2147b20a"
+hash = "d7b122913980775c16e983de93ffda0b93b8b660935e30fabc424b7fac1e6beeb59d3187323b9b6b447a2b72497c61a67be9216a3093cf4560f6b07e89f19179"
 
 [update]
 [update.modrinth]
 mod-id = "tXHowlQJ"
-version = "uZxFK5an"
+version = "t4ArTtqU"
