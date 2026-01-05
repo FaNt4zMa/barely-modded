@@ -1,3 +1,24 @@
+## [2.5.1] - 2026-01-05
+
+### Added
+
+- Animatica
+- [EMF] Entity Model Features
+- [ETF] Entity Texture Features
+- OptiGUI
+- Notes
+
+### Changed
+
+- Updated mods to their latest version
+  - Wavey Capes
+  - Simple Voice Chat
+  - Litematica
+  - Entity Culling
+  - Dynamic FPS
+
+
+
 ## [2.5.0] - 2025-12-30
 
 ### Added

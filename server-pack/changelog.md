@@ -1,3 +1,17 @@
+## [2.5.1] - 2026-01-05
+
+### Changed
+
+- Updated mods to their latest version
+  - Simple Voice Chat
+  - AudioPlayer
+  - ViaVersion
+
+- Updated datapacks to their latest version
+  - Name Formatting Station Datapack
+
+
+
 ## [2.5.0] - 2025-12-30
 
 ### Added

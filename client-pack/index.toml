@@ -103,6 +103,11 @@ hash = "da436c26003ac49101f5dea0a217ac57c92260e350979d15e5a3730bdf1a5a62"
 metafile = true
 
 [[files]]
+file = "mods/animatica.pw.toml"
+hash = "7749a788cd34e08e2280dc5e05db1bbf375d7a184d787f682f7df19709a754e3"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "1fc1e482945dff68e6aab34b22d61d054a6177869408ed4af3fef6117a33faab"
 metafile = true
@@ -239,7 +244,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "3a96a1e5bef30c16a8738c2a8acf54693225122424c39fa06f589a11ccc83b90"
+hash = "1adccdf12bf5475db4651b96574f9147fa5253e7c0116fffe02ab43b35261aff"
 metafile = true
 
 [[files]]
@@ -248,8 +253,18 @@ hash = "75c9ddc7d95af7f17845cf2b003e14372604047c62366c8189d0e0f8e13f15e8"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "b7f3af0e77e5a5a32d5c8a4884e6e3792e418e10119bdfa9f7416da3e7000c2e"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
-hash = "b6dd8c2e3c0b386b2551844c81c41940554f373c24aa8a35f20dfd63022e59fb"
+hash = "d3bbfa6dfe862010467f79ee37fb0dd51cf6bb8253d4b0fa1eb7d7f2f30e3801"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "05c4bab9b066b825a39ea67731ff5af15dfae112e1a7b17542f518bf72dd27a7"
 metafile = true
 
 [[files]]
@@ -339,7 +354,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "6af96fd44a1b26c5ce47829bd11953722a2f58e94d948a6d2285f537c37ca9ff"
+hash = "cb330220512be399e4423c39f01f56f8bc413f15b0b5a7fa8079699bcdd133bc"
 metafile = true
 
 [[files]]
@@ -415,6 +430,16 @@ metafile = true
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "d3d3ebf53454b237e6ac91a6e3dc5fd34bfeefcf0714a11bfadd3e1488161772"
+metafile = true
+
+[[files]]
+file = "mods/notes.pw.toml"
+hash = "48d1238696802170b744d817003f1eae69e7c6f0a8a77a81c8eea95804c8ec29"
+metafile = true
+
+[[files]]
+file = "mods/optigui.pw.toml"
+hash = "08b89b53c392b5fa29198418df8598404d93c58eae40d432caed797c828adbd5"
 metafile = true
 
 [[files]]
@@ -524,7 +549,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "69786785c676fc55890792c5906fa360b34a89dd76d072eec30294b49155c00d"
+hash = "a2f4d9dda96c16714c36b3ad813e1d720dd6d8d4bf87e5c0bbc7bf54ed62540e"
 metafile = true
 
 [[files]]
@@ -589,7 +614,7 @@ metafile = true
 
 [[files]]
 file = "mods/wavey-capes.pw.toml"
-hash = "2cc887be984dcee8817b2a51a47c79bbdbf569ef89559bb224d11451d8904887"
+hash = "e2d4d5661d29833946a55d8c49d2b443f39cf218f2ccdc917abb45da0aabe68b"
 metafile = true
 
 [[files]]

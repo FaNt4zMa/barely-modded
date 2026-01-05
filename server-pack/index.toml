@@ -170,7 +170,7 @@ metafile = true
 
 [[files]]
 file = "datapacks/name-formatting-station-datapack.pw.toml"
-hash = "8728ea0b7c4350299dfb8e4fcaf22807233de5eee4b6295b4d24edb37aeeab73"
+hash = "f7d84ccc61af722a639cf8f9fbb9c2d21cf7315078eb6d61c6833ea84fab0dfd"
 metafile = true
 
 [[files]]
@@ -248,7 +248,7 @@ metafile = true
 
 [[files]]
 file = "mods/audioplayer.pw.toml"
-hash = "7e1f02c60c897af0558c3c72e1d9d4ef376e849d69e75bbea47c81d76d68513e"
+hash = "7663c3d87463525aaa19227fbad70890b949fcff91be01a1313e8acbde74188d"
 metafile = true
 
 [[files]]
@@ -812,7 +812,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "69786785c676fc55890792c5906fa360b34a89dd76d072eec30294b49155c00d"
+hash = "a2f4d9dda96c16714c36b3ad813e1d720dd6d8d4bf87e5c0bbc7bf54ed62540e"
 metafile = true
 
 [[files]]
@@ -892,7 +892,7 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "13672d0f6a34c9cfc45f49d8e1a381c85e9ec2e30fabdb416bf4cbf2e79491cf"
+hash = "359ea43b2f7b530779d0c7a6bb6e47be2445530ae1cff44bccb5817904ea9cd5"
 metafile = true
 
 [[files]]
