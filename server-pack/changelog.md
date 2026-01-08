@@ -1,3 +1,16 @@
+## [2.5.2] - 2026-01-08
+
+### Changed
+
+- Updated RecipeRemover Datapack
+
+### Fixed
+
+- Strings & Lights and Re-Gifted resourcepacks now download properly for server installs
+- SimpleGolden recipes not showingdue to incorrect configuration in RecipeRemover Datapack
+
+
+
 ## [2.5.1] - 2026-01-05
 
 ### Changed

@@ -1,6 +1,6 @@
 name = "Strings & Things"
 filename = "§eStrings & Things 1.21.5-11.zip"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/4ALa3Lnq/versions/qfHhVyI1/%C2%A7eStrings%20%26%20Things%201.21.5-11.zip"

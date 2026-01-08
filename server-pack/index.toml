@@ -193,8 +193,8 @@ file = "datapacks/zzz_777-Custom-Rewards-v1.0.0.zip"
 hash = "dea06235360c143a161298089365ecf54e016ea8b1689480d6f13aacf3bac632"
 
 [[files]]
-file = "datapacks/zzz_RecipeRemover-v1.0.1.zip"
-hash = "45ee82e696dd50a7d96cb0f51523b82a65aac54a0ba7f4657767d6c285f89377"
+file = "datapacks/zzz_RecipeRemover-v1.0.2.zip"
+hash = "6710fc96bd05fc6fba56d950a21d9b3201c32aa5e03a09b8e984105f91385bec"
 
 [[files]]
 file = "mods/777.pw.toml"
@@ -967,7 +967,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/re-gifted.pw.toml"
-hash = "247e9ab11bfab8ee52482ee7920e61dd5776c80bb38d42d1a4ce2f963ad7d375"
+hash = "16084c98ab85edda84eee0bbab9f8445b01de3e624dc0b62c53e2158034ea0f8"
 metafile = true
 
 [[files]]
@@ -977,7 +977,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/strings-and-things.pw.toml"
-hash = "96f02cfdc234bad9191ca1de18d421881d5b99e96e4390df6f41cc6a68ef5a15"
+hash = "3c64267f9ce70c32364b7206fd092f55274a6250c6211d2872962616a3756141"
 metafile = true
 
 [[files]]
