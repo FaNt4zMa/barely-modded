@@ -1,3 +1,12 @@
+## [2.5.3] - 2026-01-08
+
+### Fixed
+
+- YOSBR now downloads properly for server installs
+  - Default configs are now properly applied on launch
+
+
+
 ## [2.5.2] - 2026-01-08
 
 ### Changed
