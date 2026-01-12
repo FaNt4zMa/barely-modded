@@ -116,6 +116,7 @@
   - Earth Animals RP
   - Clucking Ducks RP
   - Visual Armor Trims
+  - Too Many Renames
 
 ### Removed
 
