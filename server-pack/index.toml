@@ -1293,6 +1293,11 @@ hash = "1a158aac245634f9c75b87a2e7e705c44fa53eeaba28db495246461cbea25af7"
 metafile = true
 
 [[files]]
+file = "mods/polydex2rei-forked.pw.toml"
+hash = "655f5b634cc91e0c10ba81c37ced75fb985dbb77b79864fedab58e8ccc815cd1"
+metafile = true
+
+[[files]]
 file = "mods/polymer.pw.toml"
 hash = "b39ee5a28d5548d591e8f396d2407893affcc71470d7c058d3287039a960e55d"
 metafile = true
@@ -1320,6 +1325,11 @@ metafile = true
 [[files]]
 file = "mods/rail-recipe-rebalance.pw.toml"
 hash = "9f1a471258e62cc41c26ed0f1f95733e579b289a3896ea6e20484d31eadf531e"
+metafile = true
+
+[[files]]
+file = "mods/rei.pw.toml"
+hash = "b382f1b37b1db21ecfcb9709d8863d2e98e1eb420335b734baf4952b64c21d3f"
 metafile = true
 
 [[files]]

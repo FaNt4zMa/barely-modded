@@ -7,6 +7,7 @@
 - Update to Minecraft 1.21.11
 
 - Updated mods to their latest version
+  - Roughly Enough Items ([Fork](https://github.com/michiel1106/RoughlyEnoughItems-port))
   - Textile Backup ([Fork](https://github.com/MordorsElite/textile_backup/tree/mc_1.21.11))
   - Architectury API
   - NoisiumForked
@@ -121,11 +122,10 @@
 
 ### Removed
 
+- ViaVersion
+- ViaFabric
+
 - Temporarily disabled mods
   - Craft Slabs Back Into Blocks
   - Unjank
   - owo-lib
-  - REI
-  - Polydex2REI-Forked
-  - ViaVersion
-  - ViaFabric
