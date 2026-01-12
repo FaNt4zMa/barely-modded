@@ -3,6 +3,7 @@
 - Updated to Minecraft 1.21.11
 
 - Updated mods to their latest version
+  - Better Clouds ([Fork](https://github.com/orangishcat/better-clouds))
   - Roughly Enough Items ([Fork](https://github.com/michiel1106/RoughlyEnoughItems-port))
   - Online Emotes
   - Remove Reloading Screen
@@ -108,7 +109,6 @@
   - 1.21.11 finally fixed this bug. No longer needed
 
 - Temporarily disabled mods
-  - Better Clouds
   - Highlight
   - Unjank
   - owo-lib
