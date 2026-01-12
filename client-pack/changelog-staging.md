@@ -1,3 +1,7 @@
+### Added
+
+- Text Placeholder API
+
 ### Changed
 
 - Updated to Minecraft 1.21.11
