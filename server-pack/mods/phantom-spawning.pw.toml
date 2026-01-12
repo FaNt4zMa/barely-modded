@@ -1,13 +1,13 @@
 name = "Phantom Spawning"
-filename = "phantom-spawning-v0.1.5-mc1.21.10.jar"
+filename = "phantom-spawning-v0.1.5-mc1.21.11.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/3bVvvVXu/versions/VKgSupvB/phantom-spawning-v0.1.5-mc1.21.10.jar"
+url = "https://cdn.modrinth.com/data/3bVvvVXu/versions/tXYcZXho/phantom-spawning-v0.1.5-mc1.21.11.jar"
 hash-format = "sha512"
-hash = "24bb8a83a752b85b5758119039ca4acb67262e86493797f9aaa6750e54c0389ba5f9b0313772ed9ae81fa5fcdfe7972cc44b675d4c2db19ee0230fb06fd28913"
+hash = "c072eb59f6be8921a5debc77174c1a66d903012ff7b66bb73124cdf0e6f555e8e309348a9e77e74946fa577797e67abd78beeb6beee75993471de381bcbb3ca3"
 
 [update]
 [update.modrinth]
 mod-id = "3bVvvVXu"
-version = "VKgSupvB"
+version = "tXYcZXho"

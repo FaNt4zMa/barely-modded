@@ -1,5 +1,6 @@
 export/
 update-logs/
+disabled-mods/
 version.txt
 *.md
 *.bkp

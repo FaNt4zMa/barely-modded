@@ -1,8 +1,8 @@
 name = "Clucking Ducks RP"
-filename = "clucking-ducks-rp-v1-0-0-mc-1-21-9.zip"
+filename = "clucking-ducs-rp-mc-1-21-11.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/pDnk8s7J/versions/5UlEJOMT/clucking-ducks-rp-v1-0-0-mc-1-21-9.zip"
+url = "https://cdn.modrinth.com/data/pDnk8s7J/versions/cZsCryUM/clucking-ducs-rp-mc-1-21-11.zip"
 hash-format = "sha512"
-hash = "927df510fb4dacdf06b3bca6c417c42185bea8b2699bd1e2349eba4efa8ae733385ac8f52dbd9dfd7f90bdd0dcda3ebd338e61e2bed044f70b8724329fe4a199"
+hash = "895cbc859eabe071a76d11da58b49a169a3309a406ef4a76e2e59ecdccfa6cfd5612eccaa2e3ca1099bdbecf0ba6b96fe782d5e7932a668a579d2505d743f708"

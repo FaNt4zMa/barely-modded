@@ -1,13 +1,13 @@
 name = "Image2Map"
-filename = "image2map-0.11.0+1.21.9.jar"
+filename = "image2map-0.12.0+1.21.11.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/13RpG7dA/versions/1dazBIRA/image2map-0.11.0%2B1.21.9.jar"
+url = "https://cdn.modrinth.com/data/13RpG7dA/versions/GFJiLICt/image2map-0.12.0%2B1.21.11.jar"
 hash-format = "sha512"
-hash = "0d595be528d09a122d27d44863004c90fe3489799db125e04f017c480afd57003f1624fceaedb05732f52aee3465f016605d78969d08048ef9b3da9c48f69904"
+hash = "8f2c6916f4048c353219bb6c8c4309571cb14679cb1dd1f67b939898a663dca4bd22c5e7871d350b8d4d64cc07dd8aa1cdf67aa404c34cd3b3bb11a94fb705e7"
 
 [update]
 [update.modrinth]
 mod-id = "13RpG7dA"
-version = "1dazBIRA"
+version = "GFJiLICt"

@@ -1,13 +1,13 @@
 name = "Mindful Darkness"
-filename = "MindfulDarkness-v21.10.0+mc1.21.10-Fabric.jar"
+filename = "MindfulDarkness-v21.11.0-mc1.21.11-Fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/pzCY6C3e/versions/Ny7Jx1HR/MindfulDarkness-v21.10.0%2Bmc1.21.10-Fabric.jar"
+url = "https://cdn.modrinth.com/data/pzCY6C3e/versions/zi2M8QAc/MindfulDarkness-v21.11.0-mc1.21.11-Fabric.jar"
 hash-format = "sha512"
-hash = "be0bb0b3ef5aa805315a901fae7df95f70948bea69108d6b513cc8fae5eae4c188013007acc8d8bb628ad5a66744b4b9729f22a3b886b42fa15c0c52b421663d"
+hash = "f1a38d1298dbfdb6fd81a112f2e684f889c73eb9ea6c32064676968a14165e6776613a536310fc9d9ba284c32dee28b50a5794daefa4506b819b260067911f65"
 
 [update]
 [update.modrinth]
 mod-id = "pzCY6C3e"
-version = "Ny7Jx1HR"
+version = "zi2M8QAc"

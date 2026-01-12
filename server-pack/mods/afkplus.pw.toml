@@ -1,13 +1,13 @@
 name = "AfkPlus"
-filename = "afkplus-v1.7.10-mc1.21.10.jar"
+filename = "afkplus-v1.7.10-mc1.21.11.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/y8K2TFS3/versions/zW1GRVwR/afkplus-v1.7.10-mc1.21.10.jar"
+url = "https://cdn.modrinth.com/data/y8K2TFS3/versions/ptazYvL9/afkplus-v1.7.10-mc1.21.11.jar"
 hash-format = "sha512"
-hash = "54e3df5b1eece75105610f2355592bf37a304dd6385af3351e0930d811a8b5c0c3f0fde6cbff07c14dac1939fdf940fa94c88f93a2acd4153d1f45aab9a7d449"
+hash = "9dfcd2e3e6dc7dab89392d1693e663f9276d3d0e7b4705038c5b63fbf205163b8c7253570f9f35f691e9b3037cd6d7a78cc3b2f93436868875f0994146e063ce"
 
 [update]
 [update.modrinth]
 mod-id = "y8K2TFS3"
-version = "zW1GRVwR"
+version = "ptazYvL9"

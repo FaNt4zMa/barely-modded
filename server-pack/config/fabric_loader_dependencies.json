@@ -20,6 +20,16 @@
       "-recommends": {
         "modmenu": "IGNORED"
       }
+    },
+	"deimos": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    },
+	"darkpaintings": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
     }
   }
 }

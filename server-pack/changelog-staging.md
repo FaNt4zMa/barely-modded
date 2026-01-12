@@ -1,7 +1,130 @@
 ### Added
 
+- Amethyst & Emerald Equipment 1.21.11 assets as separate resourcepacks (since Polymer doesn't handle overlays)
+
 ### Changed
+
+- Update to Minecraft 1.21.11
+
+- Updated mods to their latest version
+  - Architectury API
+  - NoisiumForked
+  - Dismount Entity
+  - Advanced Shulkerboxes
+  - Phantom Spawning
+  - Alternate Current
+  - Wool Tweaks
+  - Very Many Players (Fabric)
+  - Hey That's Mine
+  - Clumps
+  - Sit!
+  - Player Animation Library
+  - Bookshelf Inspector
+  - Forge Config API Port
+  - Craftable Horse Armor
+  - Cheaper Shelves
+  - Cycle Paintings
+  - Respawning Animals
+  - Shulker Drops Two
+  - spark
+  - FabricExporter
+  - OtterLib
+  - Syncmatica
+  - AppleSkin
+  - filament
+  - Get It Together, Drops!
+  - Peek
+  - Fire Spread Tweaks
+  - PolyDecorations
+  - Cloth Config API
+  - No Chat Reports
+  - Audaki Cart Engine (Faster Minecarts)
+  - Voice Chat Interaction
+  - MapFrontiers
+  - JamLib
+  - VillagerConfig
+  - Image2Map
+  - NetherPortalFix
+  - Visual Jukebox
+  - BlueMap
+  - Simple Voice Chat Enhanced Groups
+  - Scaffolding Drops Nearby
+  - View Distance Fix
+  - ItemSwapper
+  - JourneyMap
+  - YetAnotherConfigLib (YACL)
+  - Concurrent Chunk Management Engine (Fabric)
+  - Collective
+  - TabTPS
+  - Universal Shops
+  - Client Sort
+  - Just Mob Heads
+  - Polymer
+  - Beautified Chat [Server]
+  - Hoe Tweaks
+  - Simple Update Checker
+  - Status
+  - Armor Hider
+  - AudioPlayer
+  - Snowy Biomes
+  - Armor Poser
+  - CraterLib
+  - PerPlayerWanderingTraders
+  - Shulker Box Tooltip
+  - Polydex
+  - Skin Restorer
+  - Cobweb
+  - Emotecraft
+  - First Join Message
+  - Universal Graves
+  - Colorful Copper Lanterns
+  - Easy Elytra Takeoff
+  - Toms Server Additions
+  - Balm
+  - I'm Fast
+  - FerriteCore
+  - Name Tag Tweaks
+  - Datapack Injector
+  - No Feather Trample
+  - Better Spawner Control
+  - Puzzles Lib
+  - KleeSlabs
+  - Leaves Be Gone
+  - Pyrotechnic Elytra
+  - RightClickHarvest
+  - Crop & Kettle
+  - Just Player Heads
+  - Unlock All Recipes
+  - Extended Bone Meal
+  - Better Hanging Signs
+  - Lithium
+  - AfkPlus
+  - Fabric API
+  - Simple Voice Chat
+
+- Updated datapacks to their latest version
+  - Racks
+  - Creative Dimension
+  - Frog Concept Variants
+  - Earth Animals
+  - Clucking Ducks
+  - Mini Blocks
+  - Wooly Animals
+
+- Updated resourcepacks to their latest version
+  - Frog Concept Variants RP
+  - Earth Animals RP
+  - Clucking Ducks RP
+  - Visual Armor Trims
 
 ### Removed
 
-### Fixed
+- Temporarily disabled mods
+  - Craft Slabs Back Into Blocks
+  - Unjank
+  - owo-lib
+  - REI
+  - Polydex2REI-Forked
+  - Textile Backup
+  - ViaVersion
+  - ViaFabric

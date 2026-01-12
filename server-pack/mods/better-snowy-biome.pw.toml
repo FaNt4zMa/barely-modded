@@ -3,11 +3,11 @@ filename = "better-snowy-biome-v2.5.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/qW8hUuD1/versions/YuViVhAw/better-snowy-biome-v2.5.1.jar"
+url = "https://cdn.modrinth.com/data/qW8hUuD1/versions/A5j239Po/better-snowy-biome-v2.5.1.jar"
 hash-format = "sha512"
-hash = "ff9a98505a6e2ef624e1ec638aef7e41a222dd28ff12c5814ff1742a4978893f4e42d209f530bbbd3874168927e11900f29b9b52de3c05be86ec34a8426c3810"
+hash = "b189f36ac0b02b4ef4cc5aa9c00a9faacd92869196ce3d1e56698e9b9b4aaf919a12cfee53e7cabf5636a2e5ca049d97967a03afa21dcc05ab1c4c5f7fcd6d4b"
 
 [update]
 [update.modrinth]
 mod-id = "qW8hUuD1"
-version = "YuViVhAw"
+version = "A5j239Po"

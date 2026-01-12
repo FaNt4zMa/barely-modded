@@ -1,8 +1,8 @@
 name = "Frog Concept Variants RP"
-filename = "frog-concept-variants-rp-v1-0-0-mc-1-21-9.zip"
+filename = "frog-concept-variants-rp-mc-1-21-11.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/nCPMn0pj/versions/7il9buAn/frog-concept-variants-rp-v1-0-0-mc-1-21-9.zip"
+url = "https://cdn.modrinth.com/data/nCPMn0pj/versions/GediFLKg/frog-concept-variants-rp-mc-1-21-11.zip"
 hash-format = "sha512"
-hash = "c2bce164771b60c71dc41f4d6973c308ce017ae9add2b3b3b2acf10290b1aeb9c8b78e3fe730566d9565e9dccb6c8c612d17f3b331cadaf3644cd9c943263cfe"
+hash = "041e86d2430480a74caae325635cbfcba1da98d89b818eaa00868e3ea745c3b76f6067b34211b59fb230ec0437f58e1fb1093fa10144d27e16461c40f38ec31d"

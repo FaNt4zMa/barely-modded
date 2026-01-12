@@ -3,7 +3,7 @@ client:
   modrinth_id: "KYuEjHC3"
   modrinth_slug: "fantazs-barely-modded"
   pack_name: "Barely Modded"
-  minecraft_version: "1.21.10"
+  minecraft_version: "1.21.11"
   loader: "fabric"
   loader_version: "0.18.4"
 
@@ -11,6 +11,6 @@ server:
   modrinth_id: "MmLJ3gYm"
   modrinth_slug: "fantazs-barely-modded-server"
   pack_name: "Barely Modded Server"
-  minecraft_version: "1.21.10"
+  minecraft_version: "1.21.11"
   loader: "fabric"
   loader_version: "0.18.4"

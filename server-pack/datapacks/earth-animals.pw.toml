@@ -1,13 +1,13 @@
 name = "Earth Animals"
-filename = "earth-animals-v1-1-2-mc-1-21-9.zip"
+filename = "earth-animals-v1-1-3-mc-1-21-11.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/doNucsNZ/versions/DaUehx61/earth-animals-v1-1-2-mc-1-21-9.zip"
+url = "https://cdn.modrinth.com/data/doNucsNZ/versions/gTcCry01/earth-animals-v1-1-3-mc-1-21-11.zip"
 hash-format = "sha512"
-hash = "b45bdd980d740de4a852cebc7ced3a3b773d4eb2dd420394af32872fc6c253dc1260921d08efefedc34bbe5ac7813076167cf4408194868a7e12f76c49902221"
+hash = "8ac8cfaf01d66fcbc8709986c5cac7e755d77ab43c6771852146a813749e029914a60f9f89d30b7e986a655be90c85ca0b59bf7f49453117bc77587778aac23d"
 
 [update]
 [update.modrinth]
 mod-id = "doNucsNZ"
-version = "DaUehx61"
+version = "gTcCry01"
