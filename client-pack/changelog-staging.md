@@ -103,6 +103,9 @@
 
 ### Removed
 
+- Model Gap Fix
+  - 1.21.11 finally fixed this bug. No longer needed
+
 - Temporarily disabled mods
   - Better Clouds
   - Highlight
