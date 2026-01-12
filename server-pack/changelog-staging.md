@@ -1,6 +1,7 @@
 ### Added
 
 - Amethyst & Emerald Equipment 1.21.11 assets as separate resourcepacks (since Polymer doesn't handle overlays)
+- Double Doors
 
 ### Changed
 
@@ -124,6 +125,7 @@
 
 - ViaVersion
 - ViaFabric
+- Open Sesame
 
 - Temporarily disabled mods
   - Craft Slabs Back Into Blocks

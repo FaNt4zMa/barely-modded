@@ -1003,6 +1003,11 @@ hash = "ae1a89aa74a41d681d4624a355ad48b5390cc350414625cd92e031be1507c6a1"
 metafile = true
 
 [[files]]
+file = "mods/double-doors.pw.toml"
+hash = "f2df7f4675bf3d2a5c3113521c836c9df3c8933ce63e0b988c25c5d91b0b379d"
+metafile = true
+
+[[files]]
 file = "mods/easy-elytra-takeoff.pw.toml"
 hash = "ecfa1c53c0bc383d61b0f72381ee2e6cc4705567da7b5f1f8f1e52e8cd5ba26b"
 metafile = true
@@ -1245,11 +1250,6 @@ metafile = true
 [[files]]
 file = "mods/noisiumforked.pw.toml"
 hash = "e2690ce7e51e74527ead933b1aef4566c84d2a4d0d482edd9e329c8a2a06963b"
-metafile = true
-
-[[files]]
-file = "mods/open-sesame.pw.toml"
-hash = "30626f76d1f9ff9e570dd3675537a52c3f060b4acbccfa6e2b93771db311cb34"
 metafile = true
 
 [[files]]
