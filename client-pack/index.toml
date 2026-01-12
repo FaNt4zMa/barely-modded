@@ -57,6 +57,10 @@ file = "config/yosbr/config/minihud.json"
 hash = "67a6b094e71949ba135acc63d0d23f410a2e815172c15cdab4c58d5799fcadc4"
 
 [[files]]
+file = "config/yosbr/config/packed_packs/config.json"
+hash = "2e92711ddea4f394304a2e9cfbd4aad2655ab1a26278fd62d0acb86442927c9d"
+
+[[files]]
 file = "config/yosbr/config/packed_packs/profiles/resourcepacks/Barely Modded Default.profile.json"
 hash = "53a4fdcab7f4468e91f7a258ce59fe660a0d93afa9d49ed5f5b8ddb858421ebf"
 
@@ -98,7 +102,7 @@ hash = "b3e581c52520478ed00cee66afd8233e9d4155a884078e61e8356b01552e8941"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "62d273eb69f000df3fdf69bb20040e6befca99cdecc430fa1e2d655b2f4990a7"
+hash = "fa09aefe5fbccd069feb21ebff0d7b32c3d961dbde715fe4fe86521848fa49bb"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
