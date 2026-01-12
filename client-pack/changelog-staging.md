@@ -3,6 +3,7 @@
 - Updated to Minecraft 1.21.11
 
 - Updated mods to their latest version
+  - Roughly Enough Items ([Fork](https://github.com/michiel1106/RoughlyEnoughItems-port))
   - Online Emotes
   - Remove Reloading Screen
   - Auth Me
@@ -111,5 +112,4 @@
   - Highlight
   - Unjank
   - owo-lib
-  - REI
   - VTDownloader
