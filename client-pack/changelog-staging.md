@@ -1,6 +1,7 @@
 ### Added
 
 - Text Placeholder API
+- Big Sign Writer
 
 ### Changed
 

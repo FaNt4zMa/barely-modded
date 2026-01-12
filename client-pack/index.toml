@@ -184,6 +184,11 @@ hash = "2f04ec554ac81eced90fbd5075a30d2b9e9b72ecf6ebc4ff713f1bf6331f2959"
 metafile = true
 
 [[files]]
+file = "mods/bigsignwriter.pw.toml"
+hash = "a388b42d212ebfb35be5c6f32614dc3cf298da77bdff1f3dcec9be4fa41aa878"
+metafile = true
+
+[[files]]
 file = "mods/boat-item-view.pw.toml"
 hash = "5ab81359d4654812c2f4dd40f6db5bb51e217a228827d5cc351a40611f05d7de"
 metafile = true
