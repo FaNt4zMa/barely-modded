@@ -3,9 +3,9 @@ filename = "RoughlyEnoughItems-21.11.9999-fabric.jar"
 side = "both"
 
 [download]
-url = "https://github.com/michiel1106/RoughlyEnoughItems-port/releases/download/1.21.11/RoughlyEnoughItems-21.11.9999-fabric.jar"
+url = "https://github.com/michiel1106/RoughlyEnoughItems-port/releases/download/1.21.11-release/RoughlyEnoughItems-21.11.9999-fabric.jar"
 hash-format = "sha512"
-hash = "1df6b7b577cb52e5fc9181d48ffac7daaee810bf80c2bad225d41777ecd572fc9d1c9ac39be3728b8afdf47a5c9c0210d0f36c02b5f10e07fa045349e42217a7"
+hash = "412003d31f5e47d7af08de47da3aaf0c35aaac6993155df4d1239b7fd6bb5d6bf7ae5b18941be9f3d4bcdeb852480ab986c10a9452d347425feaf8d37be6667d"
 
 [update]
 [update.modrinth]
