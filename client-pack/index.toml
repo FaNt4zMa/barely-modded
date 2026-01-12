@@ -49,6 +49,10 @@ file = "config/yosbr/config/held-item-info.json"
 hash = "b7384f7652e2bae395e004f059d008d48e09b22d9eb5c80cdee16cd0b1172d69"
 
 [[files]]
+file = "config/yosbr/config/locator-heads.json"
+hash = "4c93cc502f6dda0dc917698cc407ba6dabdaa48b3ecc0dba8e5ffc1f2ea44ec7"
+
+[[files]]
 file = "config/yosbr/config/mindfuldarkness-client.toml"
 hash = "11713cf8c4d2d30dfea8c28f76237205daccf1e93ed30d5951ae4460d784362e"
 
@@ -502,6 +506,11 @@ metafile = true
 [[files]]
 file = "mods/ping-view.pw.toml"
 hash = "a25ff2b7f1fe489dcecbbcb67907f15f3e1b18892916615050fb1f741c57440c"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "e674752dd4dd07c33d9b94f6e19c15ef893c356c3c5ed77aeaf35cf6d2325130"
 metafile = true
 
 [[files]]
