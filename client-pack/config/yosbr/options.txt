@@ -169,7 +169,7 @@ key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.bundlesbeyond.scroll_axis:key.keyboard.unknown
 key_key.bundlesbeyond.mod_enabled:key.keyboard.unknown
-key_key.citlist.openlist:key.keyboard.j
+key_key.citlist.openlist:key.keyboard.right.shift
 key_key.clickthrough.toggle:key.keyboard.unknown
 key_key.clientsort.edit:key.keyboard.unknown
 key_key.clientsort.cancelAuto:key.keyboard.unknown
