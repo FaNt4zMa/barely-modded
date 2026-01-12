@@ -1,8 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/crash_assistant/config.toml"
+hash = "dda257c5c08d7ebc2297837675a7eb42d939116ab0ccc0b123330927bd5bab1d"
+
+[[files]]
 file = "config/modmenu.json"
-hash = "dbc43fe5515710f2da43708c73f66f9f0f8ce3319f74c61d307da84aba5c1393"
+hash = "2462b5644234838d06c6f1e0827869f91d62c0ed978f784d9c437212bb6a1cc0"
 
 [[files]]
 file = "config/simpleupdatechecker_modpack.json"
@@ -35,6 +39,10 @@ hash = "b3e8f97c03a57895fb6a37174ece3b9dd9a47c893a4685dab85b7fdeb67afad0"
 [[files]]
 file = "config/yosbr/config/clientsort.json"
 hash = "bd9b4e4749136f44c24701da7d09861e9dc5f510b8ff98511e3ef3f238b9ed25"
+
+[[files]]
+file = "config/yosbr/config/commandaliases-client/cit.json"
+hash = "987ecd26ffbb56b1c97244f01442942c1d2a80a3cc323502599f85855d0fe906"
 
 [[files]]
 file = "config/yosbr/config/held-item-info.json"
@@ -90,7 +98,7 @@ hash = "b3e581c52520478ed00cee66afd8233e9d4155a884078e61e8356b01552e8941"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "d461172c734509053a0e08ec01c99d93057576c69f390b41162602fd6640319a"
+hash = "62d273eb69f000df3fdf69bb20040e6befca99cdecc430fa1e2d655b2f4990a7"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -129,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "f34fa12fe7701cf0776fef1a1f1e2e3c7227f53302b3d87b7ff307f0446a68d2"
+hash = "0a12f0ee21196d7b67ea4904c229b2972358bd8e2189cc481da163b848494c78"
 metafile = true
 
 [[files]]
@@ -184,7 +192,7 @@ metafile = true
 
 [[files]]
 file = "mods/bundles-beyond.pw.toml"
-hash = "0468ce45030e77dc9b3a848b01014e8bb7a3fb7f65bc8db3efde2d0b438498d3"
+hash = "3ea4b56b9ec5ba79f8e491f45647c04cbde80b7e3ea140dfdefadebab026d543"
 metafile = true
 
 [[files]]
@@ -203,13 +211,18 @@ hash = "c7c989827b67cb689eeb1cf8bd6f63f273784b554cbdf4ef141bde578d6e7656"
 metafile = true
 
 [[files]]
+file = "mods/cit-list.pw.toml"
+hash = "7dc417353d84b82321b486e752cab24a22dd3cb9fd70c349d26799fd0a947eeb"
+metafile = true
+
+[[files]]
 file = "mods/clickthrough+.pw.toml"
 hash = "cbf30a1b2794ca9fd3f19d00bb48e841c07a5a422ed2fb24a2533737d9ac4c02"
 metafile = true
 
 [[files]]
 file = "mods/clientsort.pw.toml"
-hash = "2e78bf35b9e6cef85a91377fad015125ba2e457e24650a3ae3ed8b3376ee9d18"
+hash = "274df87e6e32a96bab2135eae4aecb2f42c8df3829ce553c59e989eb022bdd12"
 metafile = true
 
 [[files]]
@@ -218,8 +231,18 @@ hash = "717d8ac591dba59be4767a179e1359747561e54ccfcac42161fd6bf54339a78b"
 metafile = true
 
 [[files]]
+file = "mods/commandaliases.pw.toml"
+hash = "c6baf0c2dbacf06f361a63e4f5574f8cf0fbb8f659dcfcbe82a35d2f6a76bfb3"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "da925d1159906a6c993fa4be167a48ae350d77daa1950a68135bf56c4e0dbb62"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "9e4b7af4e25273baee0d9f2bc9f337d3b71ee52bbdd3d470cdcbb6d7876b1a1e"
 metafile = true
 
 [[files]]
@@ -238,6 +261,11 @@ hash = "a631c57fe299407992eded731b62bfe0ff8c9909337be88e52a50c4e68f0a42b"
 metafile = true
 
 [[files]]
+file = "mods/dark-window-bar.pw.toml"
+hash = "6b6ae67d7d7f532b9053453ef899e43b271f2f444e818b2b86c19947d148ae80"
+metafile = true
+
+[[files]]
 file = "mods/durability-tooltip.pw.toml"
 hash = "5b68880f4f5606aa7848d5b1ed9fbb7351a41094a3e5d1090d943b85a5d8bc0a"
 metafile = true
@@ -250,6 +278,11 @@ metafile = true
 [[files]]
 file = "mods/elytra-physics.pw.toml"
 hash = "75c9ddc7d95af7f17845cf2b003e14372604047c62366c8189d0e0f8e13f15e8"
+metafile = true
+
+[[files]]
+file = "mods/emotecraft.pw.toml"
+hash = "4121537185ab86c66e705e490f672c11163a4edfdf9c6f8f9db790f62e5f6e4b"
 metafile = true
 
 [[files]]
@@ -399,7 +432,12 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "802981efce132e93b99352dacae410bf7b3e356f2e9de14b0ff9cea0beb31bb9"
+hash = "6f9c7fd82681111859ff63446dc8327447adeaad84e9cfb534955afb5eb6c81a"
+metafile = true
+
+[[files]]
+file = "mods/modmenuc.pw.toml"
+hash = "371098025e643d20b3e108c7cf0783afc8aaffba3efb612a741b1825ae0e89ac"
 metafile = true
 
 [[files]]
@@ -438,6 +476,11 @@ hash = "48d1238696802170b744d817003f1eae69e7c6f0a8a77a81c8eea95804c8ec29"
 metafile = true
 
 [[files]]
+file = "mods/online-emotes.pw.toml"
+hash = "5bee31132db3ee68bd1e2cb4f99a528591dd8e8895f0a29cacc280c2c2cd6c52"
+metafile = true
+
+[[files]]
 file = "mods/optigui.pw.toml"
 hash = "08b89b53c392b5fa29198418df8598404d93c58eae40d432caed797c828adbd5"
 metafile = true
@@ -445,6 +488,11 @@ metafile = true
 [[files]]
 file = "mods/otterlib.pw.toml"
 hash = "659fc4e0c38fd1e7b80ab595532c6a800b575f0e7081a3e58f075be60e9b8c98"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "5ba5b2e75d1286477ff22956b486f1fe2a216634e283eea8a123b6529906c7bb"
 metafile = true
 
 [[files]]
@@ -465,6 +513,11 @@ metafile = true
 [[files]]
 file = "mods/ping-view.pw.toml"
 hash = "a25ff2b7f1fe489dcecbbcb67907f15f3e1b18892916615050fb1f741c57440c"
+metafile = true
+
+[[files]]
+file = "mods/player-animation-library.pw.toml"
+hash = "4bddf5982b5dfcdb0a572e14ab3896de68bca5f714064d328d12ebb3ea384cee"
 metafile = true
 
 [[files]]
@@ -603,6 +656,16 @@ hash = "e166f736d7d67c4dd98cac1b927f571c1cabb58e1b3824b399b100fc77f18e44"
 metafile = true
 
 [[files]]
+file = "mods/tightfire.pw.toml"
+hash = "2f8af9643603b1cefe40d4c8a8e08f1b54f537a9be24ba5daceb414afbe082bc"
+metafile = true
+
+[[files]]
+file = "mods/unjank.pw.toml"
+hash = "d1ee5d0d7b2f3142036a3691e2e3c6f725b14ec2029059a8933af1fc23f45742"
+metafile = true
+
+[[files]]
 file = "mods/vkm.pw.toml"
 hash = "fffdc745512a47f794ed2d828bb8bf8009d7c4bbaba4be58c888f9b54ff11c8d"
 metafile = true
@@ -619,12 +682,17 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "e71ac6769675de1d2338a13e116f2aefcc8965ab0bc18b75a53572531c1447dd"
+hash = "976682e613b79e310fe22c5ddc2322bfc76665295cd9fa885787dfa08b7764b2"
 metafile = true
 
 [[files]]
 file = "mods/yosbr.pw.toml"
 hash = "649c259a4777ba1b544b69d04a79f2b1b0e1a3c520033cc86a3c14d5fa53564a"
+metafile = true
+
+[[files]]
+file = "mods/zannaghs-armor-hider.pw.toml"
+hash = "8ea73c95ff86a6ae536dc2fd33afb1a8d37650041dccf82bea437c5e91fc5c23"
 metafile = true
 
 [[files]]

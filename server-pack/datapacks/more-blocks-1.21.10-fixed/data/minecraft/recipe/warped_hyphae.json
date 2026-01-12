@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "warped_stem"
+  },
+  "result": {
+    "id": "warped_hyphae",
+    "count": 4
+  }
+}

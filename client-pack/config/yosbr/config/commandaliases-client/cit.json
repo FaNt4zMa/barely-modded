@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "commandMode": "COMMAND_CUSTOM",
+  "command": "cit",
+  "message": "Opening CIT list...",
+  "actions": [
+    {
+      "command": "config cit-list",
+	  "commandType": "SERVER"
+    }
+  ]
+}

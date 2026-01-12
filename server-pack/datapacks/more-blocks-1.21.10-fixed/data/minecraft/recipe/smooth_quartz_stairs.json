@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "category": "building",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": [
+      "minecraft:smooth_quartz"
+    ]
+  },
+  "result": {
+    "id": "minecraft:smooth_quartz_stairs",
+    "count": 8
+  }
+}

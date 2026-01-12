@@ -1,0 +1,70 @@
+{
+  "pack": {
+    "description": "Disables Duplicate Recipes",
+    "pack_format": 88,
+    "min_format": 88,
+    "max_format": 94
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "new_recipes",
+        "path": "recipe/name_tag.json"
+      },
+      {
+        "namespace": "alternative_recipes",
+        "path": "recipe/alt_bow.json"
+      },
+      {
+        "namespace": "alternative_recipes",
+        "path": "recipe/alt_recovery_compass_1.json"
+      },
+      {
+        "namespace": "alternative_recipes",
+        "path": "recipe/alt_recovery_compass_2.json"
+      },
+      {
+        "namespace": "alternative_recipes",
+        "path": "recipe/copper_powered_rails.json"
+      },
+      {
+        "namespace": "unpacking",
+        "path": "recipe/wool_to_string.json"
+      },
+      {
+        "namespace": "new_recipes",
+        "path": "recipe/copper_horse_armor.json"
+      },
+      {
+        "namespace": "copper_cutting",
+        "path": "advancement/recipes/building_blocks/oxidized_copper_stonecutting.json"
+      },
+      {
+        "namespace": "copper_cutting",
+        "path": "advancement/recipes/building_blocks/waxed_copper_stonecutting.json"
+      },
+      {
+        "namespace": "copper_cutting",
+        "path": "advancement/recipes/building_blocks/waxed_exposed_copper_stonecutting.json"
+      },
+      {
+        "namespace": "copper_cutting",
+        "path": "advancement/recipes/building_blocks/waxed_oxidized_copper_stonecutting.json"
+      },
+      {
+        "namespace": "copper_cutting",
+        "path": "advancement/recipes/building_blocks/waxed_weathered_copper_stonecutting.json"
+      },
+      {
+        "namespace": "copper_cutting",
+        "path": "advancement/recipes/building_blocks/weathered_copper_stonecutting.json"
+      },
+	  {
+        "namespace": "copperrails"
+      },
+	  {
+        "namespace": "create"
+      }
+    ]
+  }
+}

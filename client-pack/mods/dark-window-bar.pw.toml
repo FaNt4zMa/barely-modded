@@ -1,0 +1,13 @@
+name = "Dark Window Bar"
+filename = "darkwindowbar-fabric-1.0.0-1.21.7.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/H7ktFfSH/versions/fYcNLq71/darkwindowbar-fabric-1.0.0-1.21.7.jar"
+hash-format = "sha512"
+hash = "758004adb7b33e0474ac168884e3f32972bfbe88a2a77d552b07e2df62756ad29e709dd8d4f2a568842d3a701fb4cb78bb0de7b65a275275e622518e20692d18"
+
+[update]
+[update.modrinth]
+mod-id = "H7ktFfSH"
+version = "fYcNLq71"

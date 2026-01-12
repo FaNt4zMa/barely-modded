@@ -1,0 +1,13 @@
+name = "Unjank"
+filename = "unjank-0.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YPsa1r2q/versions/CPh1AevX/unjank-0.1.2.jar"
+hash-format = "sha512"
+hash = "e84217cafb4ac61375880659b326f9bc651ecc02972ad319918d0c2d52a7319abdefc7122e42e1663c307f1f0279679e5e239415834f04f9dc4e3e277a259b99"
+
+[update]
+[update.modrinth]
+mod-id = "YPsa1r2q"
+version = "CPh1AevX"

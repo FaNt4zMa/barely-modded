@@ -1,0 +1,13 @@
+name = "Copper Block Beacon Base [PurpurPack]"
+filename = "purpurpacks-copper-block-beacon-base-4.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zFdrE9Wt/versions/yVpWYmQp/purpurpacks-copper-block-beacon-base-4.6.jar"
+hash-format = "sha512"
+hash = "37fd854c83ddee4522200ca25fc514646220d4311a4572699d9d750a53e2ea899100fa2f22193f7a3f099357c6b009e08e8f2c00ef99a4d69488b090a87afa1d"
+
+[update]
+[update.modrinth]
+mod-id = "zFdrE9Wt"
+version = "yVpWYmQp"

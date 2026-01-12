@@ -1,3 +1,37 @@
+## [2.6.0] - 2026-01-11
+
+### Added
+
+- Armor Hider
+- CIT-List ([Fork](https://github.com/FaNt4zMa/CIT-List-Fabric))
+  - Provides a menu to check all name driven CIT
+- Command Aliases
+  - Comes with a `/cit` command alias to open the CIT-List menu
+- Crash Assistant
+- Dark Window Bar
+- Emotecraft
+- Online Emotes
+- Player Animation Library
+- Mod Menu Command
+- Tightfire
+- Unjank
+- owo-lib
+
+### Changed
+
+- Updated mods to their latest version
+  - Client Sort
+  - Bundles Beyond
+  - YetAnotherConfigLib (YACL)
+  - Mod Menu
+  - Balm
+
+### Fixed
+
+- Conflicting keybinds from Notes and Simple Voice Chat in the default `options.txt`
+
+
+
 ## [2.5.1] - 2026-01-05
 
 ### Added

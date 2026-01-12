@@ -39,7 +39,16 @@
 	"polymer-bundled",
 	"server_translations_api",
 	"sidebar-api",
-	"tcdcommons"
+	"tcdcommons",
+  "commandaliases",
+	"crash_assistant",
+	"net_raphimc_noteblocklib",
+	"translationfallbacks",
+	"journeymap-api-fabric",
+	"ar_com_hjg_pngj",
+	"org_redlance_platformtools",
+	"online_emotes",
+  "darkwindowbar"
   ],
   "hidden_configs": [],
   "disable_update_checker": []

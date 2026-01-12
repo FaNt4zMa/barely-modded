@@ -147,6 +147,8 @@ key_key.clientsort.op.sort:key.mouse.middle
 key_key.clientsort.op.stackFill:key.keyboard.unknown
 key_key.clientsort.op.matchTransfer:key.keyboard.unknown
 key_key.clientsort.op.transfer:key.keyboard.unknown
+key_key.emotecraft.fastchoose:key.keyboard.b
+key_key.emotecraft.stop:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.entityculling.toggleBoxes:key.keyboard.unknown
 key_key.fasttrading.overrideBlock:key.keyboard.left.alt
@@ -182,8 +184,12 @@ key_key.lighty.enable:key.keyboard.f6
 key_key.lighty.toggle:key.keyboard.f7
 key_mapfrontiers.key.open_settings:key.keyboard.f9
 key_key.minecraftcapes.gui:key.keyboard.f10
+key_key.mmc.open_mod_list:key.keyboard.unknown
+key_key.mmc.open_config_command:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
 key_Get Portal Location:key.keyboard.f8
+key_key.openNotes:key.keyboard.n
+key_key.optigui.inspect:key.keyboard.f12
 key_key.presencefootsteps.settings:key.keyboard.delete
 key_key.presencefootsteps.toggle:key.keyboard.unknown
 key_key.presencefootsteps.debug_toggle:key.keyboard.unknown
@@ -209,7 +215,7 @@ key_key.status_gui:key.keyboard.u
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m
-key_key.disable_voice_chat:key.keyboard.n
+key_key.disable_voice_chat:key.keyboard.period
 key_key.hide_icons:key.keyboard.h
 key_key.voice_chat:key.keyboard.v
 key_key.voice_chat_settings:key.keyboard.unknown

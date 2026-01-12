@@ -54,9 +54,7 @@ Perfect for community servers, this pack adds **quality-of-life improvements, fu
 
 ---
 
-## 🆕NEW! (2025-12-30)
-
-- 🧩 **Polymer Integration:** Adds **server-side custom blocks and items** — no client mods required!
+- ⛏️ **Polymer Integration:** Adds **server-side custom blocks and items** — no client mods required!
 Seamlessly expands what’s possible on a pure vanilla client, powering new decorative and gameplay content.
 *See the list below for mods taking advantage of Polymer.*
 
@@ -91,6 +89,9 @@ Seamlessly expands what’s possible on a pure vanilla client, powering new deco
   - [A Very 1999 Christmas Music Discs](https://modrinth.com/datapack/a-very-1999-christmas-music-discs-fork): Jam to jschlatt's festive album with all tracks from the Deluxe Edition!
   - [Strings & Things](https://modrinth.com/resourcepack/strings-and-things): String up fairy lights and festive garlands to make your builds sparkle!
   - [Re-Gifted](https://modrinth.com/resourcepack/re-gifted): Transform bundles into wrapped Christmas gifts with a simple rename!
+  - [Crop & Kettle](https://modrinth.com/datapack/crop-and-kettle): Whip up culinary masterpieces with new crops, recipes, and cozy cooking blocks!
+  - [Dark Paintings](https://modrinth.com/mod/dark-paintings):  Gallery-worthy art from talented community artists—because your walls deserve better!
+  - [Too Many Renames](https://modrinth.com/resourcepack/vanilla-named-variants): Over 6000 cosmetic items unlocked just by renaming at an anvil!
   - *More to come...*
 
   </details>

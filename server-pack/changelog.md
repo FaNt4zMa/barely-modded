@@ -1,3 +1,39 @@
+## [2.6.0] - 2026-01-11
+
+### Added
+
+- Armor Hider
+- Crop & Kettle
+- Copper Block Beacon Base
+- Dark Paintings
+- Emotecraft
+  - Comes with a small emotes collection to enhance roleplay. May add more in the future
+- Player Animation Library
+- Toolbar Sounds
+- Unjank
+- owo-lib
+- Too Many Renames (Resourcepack)
+
+### Changed
+
+- Updated mods to their latest version
+  - ViaVersion
+  - Better Craftables
+  - Colorful Lanterns
+  - Balm
+  - Call Your Horse
+  - Client Sort
+  - No Enderman Grief
+  - YetAnotherConfigLib (YACL)
+  - Portfolio
+
+- Updated datapacks to their latest version
+  - Armor Statues Datapack
+
+- Custom Datapacks and More Blocks are now stored as plain folders instead of archives (`.zip/.jar`), making their contents visible on GitHub and easier to modify
+
+
+
 ## [2.5.3] - 2026-01-08
 
 ### Fixed
@@ -16,7 +52,7 @@
 ### Fixed
 
 - Strings & Lights and Re-Gifted resourcepacks now download properly for server installs
-- SimpleGolden recipes not showingdue to incorrect configuration in RecipeRemover Datapack
+- SimpleGolden recipes not showing due to incorrect configuration in RecipeRemover Datapack
 
 
 

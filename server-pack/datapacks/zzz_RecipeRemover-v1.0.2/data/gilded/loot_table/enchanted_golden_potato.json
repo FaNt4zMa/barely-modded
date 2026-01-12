@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 6,
+                  "saturation": 8,
+                  "can_always_eat": true
+                },
+                "minecraft:item_name": "Enchanted Golden Potato",
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "rare",
+                "minecraft:consumable": {
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:haste",
+                          "duration": 800
+                        },
+                        {
+                          "id": "minecraft:speed",
+                          "duration": 1600
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:item_model": "gilded:golden_potato"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

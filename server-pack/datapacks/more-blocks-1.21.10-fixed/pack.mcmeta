@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "pack_format": 71,
+    "description": "Get More Bang for Your Buck!§r - §eMore Blocks§r By §dKxffie§r",
+    "supported_formats": [
+      71,
+      88
+    ],
+    "min_format": 71,
+    "max_format": 88
+  }
+}
