@@ -1,0 +1,13 @@
+name = "Roughly Enough Items (REI)"
+filename = "RoughlyEnoughItems-21.11.9999-fabric.jar"
+side = "both"
+
+[download]
+url = "https://github.com/michiel1106/RoughlyEnoughItems-port/releases/download/1.21.11/RoughlyEnoughItems-21.11.9999-fabric.jar"
+hash-format = "sha512"
+hash = "1df6b7b577cb52e5fc9181d48ffac7daaee810bf80c2bad225d41777ecd572fc9d1c9ac39be3728b8afdf47a5c9c0210d0f36c02b5f10e07fa045349e42217a7"
+
+[update]
+[update.modrinth]
+mod-id = "nfn13YXA"
+version = ""
