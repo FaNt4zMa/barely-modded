@@ -113,6 +113,7 @@
   - Clucking Ducks
   - Mini Blocks
   - Wooly Animals
+  - DefaultGamerules
 
 - Updated resourcepacks to their latest version
   - Frog Concept Variants RP
