@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/NoConsoleSpam/spamfilters.json"
-hash = "056b4d24846d8fb4b71b357228c339827742341667ee0248e7d0de94d7790933"
+hash = "2bff23b2fe4b53a4abcb16f76211beb9eb96b3bc6d53964869a3563e09b03173"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"

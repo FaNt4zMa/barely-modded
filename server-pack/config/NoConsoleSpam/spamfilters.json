@@ -13,7 +13,8 @@
     ".*Couldn't load mr_banner_flags pack metadata.*",
     ".*Couldn't load mr_banner_text pack metadata.*",
     ".*Couldn't load mr_happy_ghastscaffolding pack metadata.*",
-    ".*Couldn't load portfolio pack metadata.*"
+    ".*Couldn't load portfolio pack metadata.*",
+    ".*Couldn't load file/pk_racks_v.3.2.0_mc_1.21.11.zip pack metadata.*"
   ],
   "ignoredLoggers": [
     "net.minecraft.class_5458",
