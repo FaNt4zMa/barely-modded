@@ -150,6 +150,11 @@ hash = "cad0a9ff3fa91278e077049f8e8db3e51e8ccbaa1990f8291660e8bc088b548a"
 metafile = true
 
 [[files]]
+file = "mods/better-clouds.pw.toml"
+hash = "d3d66222804e58d9b88cdf6a9ffef299a2260822f37e0683d2d70133378ff733"
+metafile = true
+
+[[files]]
 file = "mods/better-f1-reborn.pw.toml"
 hash = "90ca1338261e113e8a69b4eae7410faf1567b09f3a71286b6f8ee7b613119a1c"
 metafile = true
@@ -522,6 +527,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "383d8df46529ce54b4b0574be2fd9eba4f45d8c85aa668604e152fca3e439f5a"
+metafile = true
+
+[[files]]
+file = "mods/rei.pw.toml"
+hash = "b382f1b37b1db21ecfcb9709d8863d2e98e1eb420335b734baf4952b64c21d3f"
 metafile = true
 
 [[files]]
