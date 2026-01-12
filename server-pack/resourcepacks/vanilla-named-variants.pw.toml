@@ -1,13 +1,13 @@
 name = "Too Many Renames"
-filename = "TooManyRenamesV19.5.zip"
+filename = "TooManyRenamesV19.6.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ybctGziT/versions/hOwESJKP/TooManyRenamesV19.5.zip"
+url = "https://cdn.modrinth.com/data/ybctGziT/versions/5FoIxoz1/TooManyRenamesV19.6.zip"
 hash-format = "sha512"
-hash = "ff6df5b331deda268ceb41cb54f5daa371a9a3fbb9e49bc7a46d2824e41ff62b28f12013a8334fbf08a07fa25b62ebc8d556c3191d2da151a57d80711ad7ce0b"
+hash = "ddd63fc1bda20e14611f5556bdaa1d06117940430d50e92e22d7437de004a3bbfbf295f2d9b2a1ae801ad055323877a413ba96eabc4057958e44f3f0c7cb3249"
 
 [update]
 [update.modrinth]
 mod-id = "ybctGziT"
-version = "hOwESJKP"
+version = "5FoIxoz1"

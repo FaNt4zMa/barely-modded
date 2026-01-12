@@ -10,6 +10,7 @@
 - Updated mods to their latest version
   - Roughly Enough Items ([Fork](https://github.com/michiel1106/RoughlyEnoughItems-port))
   - Textile Backup ([Fork](https://github.com/MordorsElite/textile_backup/tree/mc_1.21.11))
+  - Geophilic
   - Architectury API
   - NoisiumForked
   - Dismount Entity

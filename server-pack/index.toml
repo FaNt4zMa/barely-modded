@@ -10,7 +10,7 @@ hash = "1c6197db656f6427aedc3c0eec48c950475ab7be0610837d9a186a3c852b9113"
 
 [[files]]
 file = "config/polymer/resource-pack.json"
-hash = "9acf9742e732f91d4c419b80b46f7fb0916de4245fac26187a5274cb038b21b6"
+hash = "a4982ae3e9510b4d754ee6568a7d5da2989f254a0061c2d9c0a24dc093656894"
 
 [[files]]
 file = "config/simpleupdatechecker_modpack.json"
@@ -1084,7 +1084,7 @@ metafile = true
 
 [[files]]
 file = "mods/geophilic.pw.toml"
-hash = "17a39f71985dd963c15fe6ed5acf7cff675c7d5d0a8508a2664767c911faea51"
+hash = "cdc66a084161b07f0f07e8a445272862270f1f7be71a8ec94959365395eadc86"
 metafile = true
 
 [[files]]
@@ -1509,7 +1509,7 @@ metafile = true
 
 [[files]]
 file = "mods/zannaghs-armor-hider.pw.toml"
-hash = "aba7d2324ae6ae86fa1da42d6d1f3e88bed5a7a271ac4fa926301791806e8ecf"
+hash = "fb262a9de86f09d9245c6944b1a2702a4d20248176f3be0f9a9b8f5d5b10a998"
 metafile = true
 
 [[files]]
@@ -1562,7 +1562,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/vanilla-named-variants.pw.toml"
-hash = "92723468ba6fc535401477b9a6ef325643b78ca6ec871d709536b882cb2db46d"
+hash = "47455b1244505193460c3241c25c362f722f97ce58d54d6baa5aad43eaeb43aa"
 metafile = true
 
 [[files]]

@@ -440,7 +440,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenuc.pw.toml"
-hash = "371098025e643d20b3e108c7cf0783afc8aaffba3efb612a741b1825ae0e89ac"
+hash = "c2ff367df635a6dcf0a8755c15160c1542f42bb4134872ea0c34ca4e78c3ac09"
 metafile = true
 
 [[files]]
@@ -685,7 +685,7 @@ metafile = true
 
 [[files]]
 file = "mods/zannaghs-armor-hider.pw.toml"
-hash = "aba7d2324ae6ae86fa1da42d6d1f3e88bed5a7a271ac4fa926301791806e8ecf"
+hash = "fb262a9de86f09d9245c6944b1a2702a4d20248176f3be0f9a9b8f5d5b10a998"
 metafile = true
 
 [[files]]

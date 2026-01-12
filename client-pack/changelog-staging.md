@@ -10,6 +10,7 @@
 - Updated mods to their latest version
   - Better Clouds ([Fork](https://github.com/orangishcat/better-clouds))
   - Roughly Enough Items ([Fork](https://github.com/michiel1106/RoughlyEnoughItems-port))
+  - Mod Menu Command
   - Online Emotes
   - Remove Reloading Screen
   - Auth Me
