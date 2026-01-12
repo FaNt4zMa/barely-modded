@@ -114,6 +114,7 @@
   - Mini Blocks
   - Wooly Animals
   - DefaultGamerules
+  - More Blocks
 
 - Updated resourcepacks to their latest version
   - Frog Concept Variants RP
