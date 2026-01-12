@@ -1418,6 +1418,11 @@ hash = "59cedf50678754b3b28d88450c5245c4227697958bb922c6562cfefb32f6368c"
 metafile = true
 
 [[files]]
+file = "mods/textile_backup.pw.toml"
+hash = "cec5bbe2e5bacc3de1036fcb5bcd24419615e085319196b67a49c9bb3b462c11"
+metafile = true
+
+[[files]]
 file = "mods/timber-enchantment.pw.toml"
 hash = "0a2f49f77ce5da724ef47712e84019d3dee1c9f595d5314e8c43ffd7570711f8"
 metafile = true

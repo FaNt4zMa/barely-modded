@@ -7,6 +7,7 @@
 - Update to Minecraft 1.21.11
 
 - Updated mods to their latest version
+  - Textile Backup ([Fork](https://github.com/MordorsElite/textile_backup/tree/mc_1.21.11))
   - Architectury API
   - NoisiumForked
   - Dismount Entity
@@ -126,6 +127,5 @@
   - owo-lib
   - REI
   - Polydex2REI-Forked
-  - Textile Backup
   - ViaVersion
   - ViaFabric
