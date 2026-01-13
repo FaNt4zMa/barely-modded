@@ -97,61 +97,72 @@ $zippedFiles = @()
 $datapackFolders = @()
 $packwizIgnorePath = Join-Path $packDir ".packwizignore"
 $packwizIgnoreBackup = $null
+$hasCustomDatapacks = $false
 
 if ($datapacksMatch) {
     $datapacksSection = $datapacksMatch.Matches.Groups[1].Value
+
+    # Key exists but may be empty
+    if (-not [string]::IsNullOrWhiteSpace($datapacksSection)) {
+        $hasCustomDatapacks = $true
     
-    # Extract folder and version pairs
-    $folderMatches = [regex]::Matches($datapacksSection, 'folder:\s*"?([^"\n]+)"?')
-    $versionMatches = [regex]::Matches($datapacksSection, 'version:\s*"?([^"\n]+)"?')
+        # Extract folder and version pairs
+        $folderMatches = [regex]::Matches($datapacksSection, 'folder:\s*"?([^"\n]+)"?')
+        $versionMatches = [regex]::Matches($datapacksSection, 'version:\s*"?([^"\n]+)"?')
     
-    if ($folderMatches.Count -gt 0 -and $folderMatches.Count -eq $versionMatches.Count) {
-        $datapacksDir = Join-Path $packDir "datapacks"
-        
-        # Backup and modify .packwizignore
-        if (Test-Path $packwizIgnorePath) {
-            $packwizIgnoreBackup = Get-Content $packwizIgnorePath -Raw
-            Write-Host "  ✓ Backing up .packwizignore" -ForegroundColor Green
+        if ($folderMatches.Count -ne $versionMatches.Count) {
+            Write-Host "  ⚠ Invalid custom_datapacks entry (folder/version mismatch), skipping" -ForegroundColor Yellow
         }
+        else {
+            $datapacksDir = Join-Path $packDir "datapacks"
         
-        for ($i = 0; $i -lt $folderMatches.Count; $i++) {
-            $folder = $folderMatches[$i].Groups[1].Value.Trim()
-            $version = $versionMatches[$i].Groups[1].Value.Trim()
-            $sourcePath = Join-Path $datapacksDir $folder
-            $zipName = "$folder-v$version.zip"
-            $zipPath = Join-Path $datapacksDir $zipName
+            # Backup and modify .packwizignore
+            if (Test-Path $packwizIgnorePath) {
+                $packwizIgnoreBackup = Get-Content $packwizIgnorePath -Raw
+                Write-Host "  ✓ Backing up .packwizignore" -ForegroundColor Green
+            }
+        
+            for ($i = 0; $i -lt $folderMatches.Count; $i++) {
+                $folder = $folderMatches[$i].Groups[1].Value.Trim()
+                $version = $versionMatches[$i].Groups[1].Value.Trim()
+                $sourcePath = Join-Path $datapacksDir $folder
+                $zipName = "$folder-v$version.zip"
+                $zipPath = Join-Path $datapacksDir $zipName
             
-            if (Test-Path $sourcePath) {
-                Write-Host "  ✓ Zipping $folder -> $zipName" -ForegroundColor Green
+                if (Test-Path $sourcePath) {
+                    Write-Host "  ✓ Zipping $folder -> $zipName" -ForegroundColor Green
                 
-                # Remove old zip if it exists
-                if (Test-Path $zipPath) {
-                    Remove-Item $zipPath -Force
+                    # Remove old zip if it exists
+                    if (Test-Path $zipPath) {
+                        Remove-Item $zipPath -Force
+                    }
+                
+                    # Zip the folder
+                    Compress-Archive -Path "$sourcePath\*" -DestinationPath $zipPath -Force
+                    $zippedFiles += $zipPath
+                    $datapackFolders += $folder
+                } else {
+                    Write-Host "  ⚠ Skipping $folder (folder not found)" -ForegroundColor Yellow
                 }
-                
-                # Zip the folder
-                Compress-Archive -Path "$sourcePath\*" -DestinationPath $zipPath -Force
-                $zippedFiles += $zipPath
-                $datapackFolders += $folder
-            } else {
-                Write-Host "  ⚠ Skipping $folder (folder not found)" -ForegroundColor Yellow
             }
-        }
         
-        # Add folders to .packwizignore temporarily
-        if ($datapackFolders.Count -gt 0) {
-            $ignoreContent = if ($packwizIgnoreBackup) { $packwizIgnoreBackup } else { "" }
-            if (-not $ignoreContent.EndsWith("`n") -and $ignoreContent.Length -gt 0) {
-                $ignoreContent += "`n"
+            # Add folders to .packwizignore temporarily
+            if ($datapackFolders.Count -gt 0) {
+                $ignoreContent = if ($packwizIgnoreBackup) { $packwizIgnoreBackup } else { "" }
+                if (-not $ignoreContent.EndsWith("`n") -and $ignoreContent.Length -gt 0) {
+                    $ignoreContent += "`n"
+                }
+                foreach ($folder in $datapackFolders) {
+                    $ignoreContent += "datapacks/$folder/`n"
+                }
+                Set-Content -Path $packwizIgnorePath -Value $ignoreContent -NoNewline
+                Write-Host "  ✓ Temporarily added folders to .packwizignore" -ForegroundColor Green
             }
-            foreach ($folder in $datapackFolders) {
-                $ignoreContent += "datapacks/$folder/`n"
-            }
-            Set-Content -Path $packwizIgnorePath -Value $ignoreContent -NoNewline
-            Write-Host "  ✓ Temporarily added folders to .packwizignore" -ForegroundColor Green
         }
     }
-} else {
+}
+
+if (-not $hasCustomDatapacks) {
     Write-Host "  → No custom datapacks configured" -ForegroundColor Gray
 }
 
