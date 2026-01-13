@@ -43,6 +43,43 @@ jobs:
           echo "minecraft_version=$MINECRAFT_VERSION" >> $GITHUB_OUTPUT
           echo "loader_version=$LOADER_VERSION" >> $GITHUB_OUTPUT
 
+      - name: Process custom datapacks
+        working-directory: server-pack
+        run: |
+          # Check if custom datapacks are configured
+          DATAPACK_COUNT=$(yq '.server.custom_datapacks // [] | length' ../pack-config.yml)
+          
+          if [ "$DATAPACK_COUNT" -gt 0 ]; then
+            echo "Processing custom datapacks..."
+            
+            # Backup .packwizignore if it exists
+            if [ -f .packwizignore ]; then
+              cp .packwizignore .packwizignore.bak
+            fi
+            
+            # Process each datapack
+            for i in $(seq 0 $((DATAPACK_COUNT - 1))); do
+              FOLDER=$(yq ".server.custom_datapacks[$i].folder" ../pack-config.yml)
+              VERSION=$(yq ".server.custom_datapacks[$i].version" ../pack-config.yml)
+              
+              if [ -d "datapacks/$FOLDER" ]; then
+                echo "  ✓ Zipping $FOLDER -> $FOLDER-v$VERSION.zip"
+                
+                # Zip the folder
+                cd "datapacks/$FOLDER"
+                zip -r "../$FOLDER-v$VERSION.zip" .
+                cd ../..
+                
+                # Add folder to .packwizignore temporarily
+                echo "datapacks/$FOLDER/" >> .packwizignore
+              else
+                echo "  ⚠ Skipping $FOLDER (folder not found)"
+              fi
+            done
+          else
+            echo "No custom datapacks configured"
+          fi
+
       - name: Export modpack
         working-directory: server-pack
         run: |

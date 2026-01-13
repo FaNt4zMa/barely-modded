@@ -81,19 +81,19 @@ file = "config/yosbr/config/vmp.properties"
 hash = "15eec0092ca5c54f97fc46953311e20e63a5eb6bca4672bfec9dae63f61cc456"
 
 [[files]]
-file = "datapacks/DefaultGamerules-v1.0.1/LICENSE.txt"
+file = "datapacks/DefaultGamerules/LICENSE.txt"
 hash = "5b39f5d55605a2ccacee047cd9f4abb418d5070031db3baf25d9b2e25aabcc6c"
 
 [[files]]
-file = "datapacks/DefaultGamerules-v1.0.1/data/default-gamerules/function/load.mcfunction"
+file = "datapacks/DefaultGamerules/data/default-gamerules/function/load.mcfunction"
 hash = "3358066b91001017d54efe5d77a5f594d9fc72fff5c311d5dab442fd60827455"
 
 [[files]]
-file = "datapacks/DefaultGamerules-v1.0.1/data/minecraft/tags/function/load.json"
+file = "datapacks/DefaultGamerules/data/minecraft/tags/function/load.json"
 hash = "c7344e4b3e475e38de05c11db8ff35013f8dd9833d0547d5dd3d44578c90d4a2"
 
 [[files]]
-file = "datapacks/DefaultGamerules-v1.0.1/pack.mcmeta"
+file = "datapacks/DefaultGamerules/pack.mcmeta"
 hash = "f272f86461ca136339b4dd42cfce0ae8ee59fe109993a94f455aa281b8f724a0"
 
 [[files]]
@@ -169,395 +169,395 @@ hash = "76a9d7cbb776ddabae3779248fbce201422a71985df7ef8481ad1d51406ff21e"
 metafile = true
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/LICENSE.txt"
+file = "datapacks/more-blocks-fixed/LICENSE.txt"
 hash = "5b39f5d55605a2ccacee047cd9f4abb418d5070031db3baf25d9b2e25aabcc6c"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/acacia_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/acacia_stairs.json"
 hash = "c47f28b4171edce9a4e5650b76f74c9ddc04b6c19da6b7b1ed152497d3a6f5c6"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/acacia_trapdoor.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/acacia_trapdoor.json"
 hash = "eaeb0d1903abfac34b5bd3f3a8d7c14c592e363464c032b0bc5bc1d8f44f797f"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/acacia_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/acacia_wood.json"
 hash = "2e32d46bb2d88ca3c6111434ce793f3fe0dfb6af27af21c8dabb73072d289aeb"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/andesite_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/andesite_stairs.json"
 hash = "2fb6ff090bf8d9defb7be2691be229703f686058a5fe66f100e50bf6ebb21165"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/bamboo_mosaic_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/bamboo_mosaic_stairs.json"
 hash = "98e4138d008a28fff31f6e2523f94d64ea7129f8dd3a7311c7fc0b0f44f83eef"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/bamboo_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/bamboo_stairs.json"
 hash = "c10d4e2086b6a1080cb421b1b02ee0a9492ae0b8105ad14e4d427ceff2aea2c9"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/bamboo_trapdoor.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/bamboo_trapdoor.json"
 hash = "c2d94b561ac6e0f0239278b50b033854a77b6d20fc8fcb6107e8c5aef5a79f2e"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/birch_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/birch_stairs.json"
 hash = "d9423edddea3279176128bd7e94f25541d91d33fb68cce7ac3b72b2936c354a2"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/birch_trapdoor.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/birch_trapdoor.json"
 hash = "1537cc27e8401175534274346653f23bc59a9af3540747d3465f25a0de55fd47"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/birch_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/birch_wood.json"
 hash = "14e4f7f4a6e0e524f12e3e0c9b94904c90b443b02722673786f6713e8ab876e5"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/blackstone_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/blackstone_stairs.json"
 hash = "bac5e71ca8efdd50b14d96b33707a49e4197a5ff5a11cb6de18da41846c12e5d"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/brick_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/brick_stairs.json"
 hash = "65c1d775fb3feb3d980a9f7671e2a1442a929f08280cfdb3fdf0404fae977c18"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/bricks.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/bricks.json"
 hash = "1c324bf0dfc16ce99b9e2ae0edca18b3c21bf83c81aa06a1a3700f4498597e77"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/cherry_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/cherry_stairs.json"
 hash = "b90fe4f546f1ee39d4291f487196407ca29a700647cb58bbd526b0510ee4f9fe"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/cherry_trapdoor.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/cherry_trapdoor.json"
 hash = "23509ef3eda5d9cfa144f31142536fb479a30bc720fcb937095a112944ac7f39"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/cherry_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/cherry_wood.json"
 hash = "d3a6426593e4f6b78d34bc4288d434f4e9ba369a7627ab7e11805e7899cb7c2e"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/cobbled_deepslate_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/cobbled_deepslate_stairs.json"
 hash = "2df7f6b89af61bfbfefa69bf56621e75854ce55fd12a9ad024dc7e5bc3fd567b"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/cobblestone_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/cobblestone_stairs.json"
 hash = "24dfdffc71ea509a878f96127e6aa37b39f7ef3c0fe70057bdaa8dc43a62086c"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/crimson_hyphae.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/crimson_hyphae.json"
 hash = "9124517b02d04572c4fbf677a23883f709c18039665e3675f865f070cca7bab5"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/crimson_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/crimson_stairs.json"
 hash = "7cea15ac60b8fbc6c77c76a979be1fded862a49ada371242bcc1beee43cb33df"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/crimson_trapdoor.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/crimson_trapdoor.json"
 hash = "0765573776045879e2d40f428ff5438359ebc57ea0a81f49d270269703195e86"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/cut_copper_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/cut_copper_stairs.json"
 hash = "e748aaf56b28a6b5695a07bd0ebc0eae07c00286e82448935a0771ef2b778e62"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/dark_oak_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/dark_oak_stairs.json"
 hash = "a315efb6588f6970549fa2901923a90f9a572f17c59101dfd7194785c8ea5d13"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/dark_oak_trapdoor.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/dark_oak_trapdoor.json"
 hash = "fc0d34b6314d062f334b544d4d434c701d76857554e259f43eb8c65a3b0f98e1"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/dark_oak_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/dark_oak_wood.json"
 hash = "b1959d6358640d641ba0ac48f4a58337c2affbe388ff3010be5467c1e82def2c"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/dark_prismarine_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/dark_prismarine_stairs.json"
 hash = "9aba8f3962e038908bdfec82fb674a8b2b37b6637b5fffbe4d869e7e0f37124f"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/deepslate_brick_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/deepslate_brick_stairs.json"
 hash = "dc3a80fb59047dd80618c625a49f30fcb898f338f6bd0326ca1e48be5df81a9a"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/deepslate_tile_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/deepslate_tile_stairs.json"
 hash = "018f5cb7ff25921e4839cfb5468505873e1363f948aace9a37e1e7502a7a32c1"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/diorite_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/diorite_stairs.json"
 hash = "1dc5f25102af9e95d51fef1062bb09b552e2da089e0e32ec5a02595fa16b0542"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/end_stone_brick_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/end_stone_brick_stairs.json"
 hash = "0814b38d03b32c2d75e482957ab3b2c7327c78cf6efdc6f7b038ee58ce4e376b"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/exposed_cut_copper_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/exposed_cut_copper_stairs.json"
 hash = "72f0a63a3bd88b412fc2cb1d17ef7b4d0003f5277bf5a9c1d60253ec1302ed4f"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/granite_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/granite_stairs.json"
 hash = "9168c5d0bd6235be9ab73b03efdaa149f0b69e4ed4f3685eeb82a59d367ca1f9"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/jungle_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/jungle_stairs.json"
 hash = "d0cfc74dab4e3e2f020aec869630cbc6b420e336546f7a1254309f005b52398d"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/jungle_trapdoor.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/jungle_trapdoor.json"
 hash = "cd93e23ea35b61062539d06a23e39fa232c168941abb5fd1e220549f8db4bd3f"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/jungle_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/jungle_wood.json"
 hash = "ad8faa3cfd07017d4a541743ac85204ab2c13144b249ad71ed2ee4ce47f0b241"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/mangrove_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/mangrove_stairs.json"
 hash = "051dbd8e73a4bf956ec9924dab974fc13d348bba9bb90fbd01647968574d8f78"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/mangrove_trapdoor.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/mangrove_trapdoor.json"
 hash = "42e8bb4ac1d1ee79e7792d89b63e4f35377ccd7c6c8d2500ed52cf17e134db77"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/mangrove_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/mangrove_wood.json"
 hash = "8ad41054481f923285a0dfc7eb5c5df14e3f85c8b29ede12dcc65f7f40ec3aaf"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/mossy_cobblestone_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/mossy_cobblestone_stairs.json"
 hash = "7c05ecc6f5a05e0211a959a57fed84ebe6398193cc13fc5ce11fea13a0083b26"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/mossy_stone_brick_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/mossy_stone_brick_stairs.json"
 hash = "f81f7150e0fe4d1a3b1b466528f677749d76f56a43308195d42bfeca8e547cae"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/mud_brick_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/mud_brick_stairs.json"
 hash = "1327a3df0900cb38052f85b5f13ca6c03041bdb4476055b5aff9ae4bb1dd1bb7"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/nether_brick_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/nether_brick_stairs.json"
 hash = "ecd6e5ad981266ebb029bad19883eca515bf55020778e4c42def4bb197d73933"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/oak_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/oak_stairs.json"
 hash = "2f12bd1e17c6c3942d1947dbff90c9d157e4e414fe34a2242f54e97a1c77307e"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/oak_trapdoor.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/oak_trapdoor.json"
 hash = "bf6db1c44e129f99601416d74122ded63dba642ccb4364bc459025ee3ce031a7"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/oak_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/oak_wood.json"
 hash = "9dac97deee292259daf1c27ef4257991d5252aca28d512501ddbf01b4016d668"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/oxidized_cut_copper_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/oxidized_cut_copper_stairs.json"
 hash = "6d768f38cc6c8864de1a30ed260c5edc4e515cd017ecb1f791438fa3a9545a85"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/pale_oak_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/pale_oak_stairs.json"
 hash = "8024772faa99e983dc033a74ae4281e5e34143785ef94322e14083d42053ac1e"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/pale_oak_trapdoor.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/pale_oak_trapdoor.json"
 hash = "61eca80fdd3d6afe6cbf555be69398cd816d1c18a288377b08c0068e331edecc"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/pale_oak_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/pale_oak_wood.json"
 hash = "da1af9197226b8f2754600b8375a389d3628812f75f0359252b5aec6c7feddaa"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/polished_andesite_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/polished_andesite_stairs.json"
 hash = "5d3716246cdf5771da0d5c71408184fc76ca307e5255c99d7ef171e4cabac654"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/polished_blackstone_brick_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/polished_blackstone_brick_stairs.json"
 hash = "a8a431ee09fbbfe2363acb79b8c7af832374638cfff04f261cb27a3f61edaa43"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/polished_blackstone_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/polished_blackstone_stairs.json"
 hash = "270a8233ebb6c644811f5557fff05e344a1146a888f7933609d0228fc2bcded3"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/polished_deepslate_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/polished_deepslate_stairs.json"
 hash = "50fa7f328466837b4f3cd16f058775395486716838ef406f3c76c09ef92161d9"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/polished_diorite_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/polished_diorite_stairs.json"
 hash = "6476f7488cdd3ff549ae07c7e5543197425f434f17c89bc0f9b94e624dd930cb"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/polished_granite_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/polished_granite_stairs.json"
 hash = "c0255b53ea1d3a3215763f9ef092da1ae158ac68b5528b2e89f63c35415538d9"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/polished_tuff_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/polished_tuff_stairs.json"
 hash = "e0c85b323b8e531d647b64c57adeceaa7243f6657a20bf3879fafa726239dcb5"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/prismarine_brick_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/prismarine_brick_stairs.json"
 hash = "4c84cf480e841bd4203a89af5b00c9a0cafd8d543ba155cbf407933237e74ae6"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/prismarine_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/prismarine_stairs.json"
 hash = "3637bd0dc9746baa540c05f3fda4fafd0c2fa66462576375bfb4522d70e0fa53"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/purpur_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/purpur_stairs.json"
 hash = "a5e1623232892c1b1c02b98edd20eccd78cf72c37767573415256bcf93eee9df"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/quartz_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/quartz_stairs.json"
 hash = "f4fd001391a8a26812497432b50594a490695c38eb7aaae980e097be654cc060"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/red_nether_brick_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/red_nether_brick_stairs.json"
 hash = "0a2b473fdcbe2a1985d8157ef9f5c9628ba0d66a48c5075b6cd40016c36004fc"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/red_sandstone_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/red_sandstone_stairs.json"
 hash = "8b1f23f8af0dbadc2b1df4bb3c292d9f64f607267de9d1d855a4885652f09aa4"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/resin_brick_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/resin_brick_stairs.json"
 hash = "55a9704352e221f8ec119d34370596a4e80fa17fcdcfc5333e61758b6c67961a"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/resin_bricks.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/resin_bricks.json"
 hash = "e6233dc3ed8266c433b39c9670e7ef64536e6f3cc13aa651f969e92897c0efc7"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/sandstone_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/sandstone_stairs.json"
 hash = "c5e15f17e46845736cb4abda3a15480558f7b0b06637a2913c7a5db66e4beec0"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/smooth_quartz_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/smooth_quartz_stairs.json"
 hash = "04097c8e46a6fd0b28de3e5bd2c73ea9c87d1456b8394685bcc127b7e767cf91"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/smooth_red_sandstone_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/smooth_red_sandstone_stairs.json"
 hash = "079a06e37c332bc12a491ee5f37981c851b22767487d1b5f5253eca5e5551bc9"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/smooth_sandstone_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/smooth_sandstone_stairs.json"
 hash = "df9e2975b01e3b05be66433226163ef8f917d2117ab9cc9271773eef1f1361f2"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/spruce_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/spruce_stairs.json"
 hash = "4bdf9944b8f74ce6788f88e16b0fe07e22d642e370315987bac88c5d88c1a413"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/spruce_trapdoor.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/spruce_trapdoor.json"
 hash = "15bfdbef080bab55fc2c4d09c49fb759bbd2725bd391b1d6a43983f835a08ba9"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/spruce_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/spruce_wood.json"
 hash = "11179b006b4cfa2af43e3dc21707fe2971dcc28f4818b2b3aa7b6820e2740aab"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/stone_brick_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/stone_brick_stairs.json"
 hash = "c1633c2069e92bf1cb8f5dd1e11022e39fd15ab96ab60db323c4d9c95d844836"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/stone_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/stone_stairs.json"
 hash = "bd07f840edf52df05679a80da820798afed73cc0572a4cdd6ee611bc2ef6ee80"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/stripped_acacia_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/stripped_acacia_wood.json"
 hash = "d7044686074dc7e9bbfb2b74ac17526205496c1f5469dc8c31d952a3c6bac977"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/stripped_birch_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/stripped_birch_wood.json"
 hash = "b172fe686907d5f391140accd4f1c86e9ad073082bec53bd077b7341e86606a8"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/stripped_cherry_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/stripped_cherry_wood.json"
 hash = "ea164ac1ae12957543d51635742a45185099ef139f20f293bf52e2002a0eea49"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/stripped_crimson_hyphae.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/stripped_crimson_hyphae.json"
 hash = "d257a43e0a3ed7b4ceaecd78c12647d5be28fc82cd6446b2418cadeacfd7755c"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/stripped_dark_oak_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/stripped_dark_oak_wood.json"
 hash = "0bc035aa2ebeaa0cafc8bc3f9f82bb86263ea41eac31efb90ad852f4b1151126"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/stripped_jungle_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/stripped_jungle_wood.json"
 hash = "349748f299ac2b17e5357fca5e6f7852e339e88a33f9e8b9baecd0bed8117e7c"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/stripped_mangrove_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/stripped_mangrove_wood.json"
 hash = "f035aae2a76de0537202adb48875e5061f65ce5240f085a7af833633dad6317c"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/stripped_oak_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/stripped_oak_wood.json"
 hash = "40aba830f0627fcb123cc5a62f03d701d7bd042854ec9b43e3ef625feb5ed9ff"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/stripped_pale_oak_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/stripped_pale_oak_wood.json"
 hash = "19f9559eaf27e59266580039da0670d5f717f0d1a040b768d1722d1424b9740d"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/stripped_spruce_wood.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/stripped_spruce_wood.json"
 hash = "33bef85c23c5a9eacb00a1e7de762b5612b57875e48a2e5225cfbad514b362cd"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/stripped_warped_hyphae.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/stripped_warped_hyphae.json"
 hash = "4736a1e085117189c49bdf5d81d0a3193f1b21ef5ec0b7613a17a1ef74e01195"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/tuff_brick_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/tuff_brick_stairs.json"
 hash = "c2ab1dac49f1608cd0479b1ad8d99198ba82b7ffa9f20f8443a048dc837e9cd8"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/tuff_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/tuff_stairs.json"
 hash = "d4cace1b3257ccd9ed355ff7225cd151353772c5fa72608c13d35177e3c7ca62"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/warped_hyphae.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/warped_hyphae.json"
 hash = "8a10d2ccd675e2ce14ac677d23efcc80cddb26ac0d8df06319956426a8533f5a"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/warped_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/warped_stairs.json"
 hash = "302465171a89e81a15be516ec7bd683bb82dd617cd0adc3829d263b75a4b73ac"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/warped_trapdoor.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/warped_trapdoor.json"
 hash = "702ebda2e337567ded13a1b9a7a83ea1aec0d77404a0cf8c22a0635a5fffac99"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/waxed_cut_copper_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/waxed_cut_copper_stairs.json"
 hash = "10d42c9f515b669f79b6ad72759f4a7ccc75a9ea5239c4bfda4d6ef90412f29b"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/waxed_exposed_cut_copper_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/waxed_exposed_cut_copper_stairs.json"
 hash = "036a8db95a8723fc9dca87de3239cb98149308bd42d0cc0f458424879c5ad731"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/waxed_oxidized_cut_copper_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/waxed_oxidized_cut_copper_stairs.json"
 hash = "59828e1053f7d40629203a5858e65d23f5ba6eb6c484e5a476592b69a4942858"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/waxed_weathered_cut_copper_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/waxed_weathered_cut_copper_stairs.json"
 hash = "128cc8027bf0fa67518607456576451189a3ab47e37ab386b4e6027826eb315a"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/minecraft/recipe/weathered_cut_copper_stairs.json"
+file = "datapacks/more-blocks-fixed/data/minecraft/recipe/weathered_cut_copper_stairs.json"
 hash = "0fb446144e154b6b894e31e2ba7e2c4c54394a17b50ce5192bc5d576553fd815"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/data/more_stairs/tags/item/quartz.json"
+file = "datapacks/more-blocks-fixed/data/more_stairs/tags/item/quartz.json"
 hash = "5a1c4c7211be5532783b70f223d2502966b60850208817aaa8abea43c529774a"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/pack.mcmeta"
+file = "datapacks/more-blocks-fixed/pack.mcmeta"
 hash = "80e64f10e58d249c16a9fd94dfa7eaf33f21002c23a0c23bc21eede563a6c12c"
 
 [[files]]
-file = "datapacks/more-blocks-1.21.11-fixed/pack.png"
+file = "datapacks/more-blocks-fixed/pack.png"
 hash = "5fb514399129be8d56e1cf628b96121209ae3039d361d9fc11f134ce1f4f6d95"
 
 [[files]]
@@ -581,55 +581,55 @@ hash = "14e740d59c44f5dc9b037c7963fdb0e00f09cebc0bebf673cd3d73b920c418e4"
 metafile = true
 
 [[files]]
-file = "datapacks/zzz_777-Custom-Rewards-v1.0.0/LICENSE.txt"
+file = "datapacks/zzz_777-Custom-Rewards/LICENSE.txt"
 hash = "5b39f5d55605a2ccacee047cd9f4abb418d5070031db3baf25d9b2e25aabcc6c"
 
 [[files]]
-file = "datapacks/zzz_777-Custom-Rewards-v1.0.0/data/777-custom-rewards/function/load.mcfunction"
+file = "datapacks/zzz_777-Custom-Rewards/data/777-custom-rewards/function/load.mcfunction"
 hash = "959a163b01d24d5a8642a6bcacfc8635e49b46f8eb04c53e55cf6ba0326400fa"
 
 [[files]]
-file = "datapacks/zzz_777-Custom-Rewards-v1.0.0/data/777/function/slot_machine/rewards/tiers/1.mcfunction"
+file = "datapacks/zzz_777-Custom-Rewards/data/777/function/slot_machine/rewards/tiers/1.mcfunction"
 hash = "f32f0e992f8c5789a70de30a7dc07bd4d9c21ef1c5580aecf7f5c5e6991bd7f8"
 
 [[files]]
-file = "datapacks/zzz_777-Custom-Rewards-v1.0.0/data/777/function/slot_machine/rewards/tiers/2.mcfunction"
+file = "datapacks/zzz_777-Custom-Rewards/data/777/function/slot_machine/rewards/tiers/2.mcfunction"
 hash = "4f940e5b053416dece8de915fe1ca306b5e8ffbcd3f6500426cbaea553c3f760"
 
 [[files]]
-file = "datapacks/zzz_777-Custom-Rewards-v1.0.0/data/777/function/slot_machine/rewards/tiers/3.mcfunction"
+file = "datapacks/zzz_777-Custom-Rewards/data/777/function/slot_machine/rewards/tiers/3.mcfunction"
 hash = "36503427c137959b18b28b2bc071c45c1528226a5efd9b0dc6156740ff137546"
 
 [[files]]
-file = "datapacks/zzz_777-Custom-Rewards-v1.0.0/data/777/function/slot_machine/rewards/tiers/4.mcfunction"
+file = "datapacks/zzz_777-Custom-Rewards/data/777/function/slot_machine/rewards/tiers/4.mcfunction"
 hash = "3ade841e318497dc55910438e360371fd7ec8c323b216cd8c7af3ed34b89fee0"
 
 [[files]]
-file = "datapacks/zzz_777-Custom-Rewards-v1.0.0/data/minecraft/tags/function/load.json"
+file = "datapacks/zzz_777-Custom-Rewards/data/minecraft/tags/function/load.json"
 hash = "742d7b1e77902a98dc8609fc9a3266922f8b9ae56cbf47acf3f84edf76405d96"
 
 [[files]]
-file = "datapacks/zzz_777-Custom-Rewards-v1.0.0/pack.mcmeta"
+file = "datapacks/zzz_777-Custom-Rewards/pack.mcmeta"
 hash = "b63b63c955227da1041a7f5ee01a6258cd8c0a6d827d855ad20e5d69af9d830b"
 
 [[files]]
-file = "datapacks/zzz_RecipeRemover-v1.0.2/LICENSE.txt"
+file = "datapacks/zzz_RecipeRemover/LICENSE.txt"
 hash = "5b39f5d55605a2ccacee047cd9f4abb418d5070031db3baf25d9b2e25aabcc6c"
 
 [[files]]
-file = "datapacks/zzz_RecipeRemover-v1.0.2/data/gilded/loot_table/enchanted_golden_potato.json"
+file = "datapacks/zzz_RecipeRemover/data/gilded/loot_table/enchanted_golden_potato.json"
 hash = "9790c6a550590c83d4d9a79e8be1a43aa04fb06cc52fd26613fc51aee362d4e7"
 
 [[files]]
-file = "datapacks/zzz_RecipeRemover-v1.0.2/data/minecraft/tags/function/load.json"
+file = "datapacks/zzz_RecipeRemover/data/minecraft/tags/function/load.json"
 hash = "7a17238cb28074aa1c00b12581922e0eb3929974cc9e054ad7cd7954010762ef"
 
 [[files]]
-file = "datapacks/zzz_RecipeRemover-v1.0.2/data/recipe-remover/function/load.mcfunction"
+file = "datapacks/zzz_RecipeRemover/data/recipe-remover/function/load.mcfunction"
 hash = "66855924bbbec9a5836b927da67ffeb01e0a9bdca9322fedaeff97a243bebd9b"
 
 [[files]]
-file = "datapacks/zzz_RecipeRemover-v1.0.2/pack.mcmeta"
+file = "datapacks/zzz_RecipeRemover/pack.mcmeta"
 hash = "c6b14dcb5489b6725a90bda22f39daf98e24d8b6eb0d265f605d7eba2e7742b8"
 
 [[files]]
