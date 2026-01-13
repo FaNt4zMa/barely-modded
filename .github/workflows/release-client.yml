@@ -1,4 +1,4 @@
-name: GitHub Release - Client
+name: GitHub & Modrinth Release - Client
 
 on:
   push:
@@ -36,12 +36,54 @@ jobs:
         run: |
           PACK_NAME=$(yq '.client.pack_name' pack-config.yml)
           MODRINTH_ID=$(yq '.client.modrinth_id' pack-config.yml)
+          MODRINTH_SLUG=$(yq '.client.modrinth_slug' pack-config.yml)
           MINECRAFT_VERSION=$(yq '.client.minecraft_version' pack-config.yml)
           LOADER_VERSION=$(yq '.client.loader_version' pack-config.yml)
+          LOADER=$(yq '.client.loader' pack-config.yml)
+
           echo "pack_name=$PACK_NAME" >> $GITHUB_OUTPUT
           echo "modrinth_id=$MODRINTH_ID" >> $GITHUB_OUTPUT
+          echo "modrinth_slug=$MODRINTH_SLUG" >> $GITHUB_OUTPUT
           echo "minecraft_version=$MINECRAFT_VERSION" >> $GITHUB_OUTPUT
           echo "loader_version=$LOADER_VERSION" >> $GITHUB_OUTPUT
+          echo "loader=$LOADER" >> $GITHUB_OUTPUT
+
+      - name: Process custom datapacks
+        working-directory: client-pack
+        run: |
+          # Check if custom datapacks are configured
+          DATAPACK_COUNT=$(yq '.client.custom_datapacks // [] | length' ../pack-config.yml)
+          
+          if [ "$DATAPACK_COUNT" -gt 0 ]; then
+            echo "Processing custom datapacks..."
+            
+            # Backup .packwizignore if it exists
+            if [ -f .packwizignore ]; then
+              cp .packwizignore .packwizignore.bak
+            fi
+            
+            # Process each datapack
+            for i in $(seq 0 $((DATAPACK_COUNT - 1))); do
+              FOLDER=$(yq ".client.custom_datapacks[$i].folder" ../pack-config.yml)
+              VERSION=$(yq ".client.custom_datapacks[$i].version" ../pack-config.yml)
+              
+              if [ -d "datapacks/$FOLDER" ]; then
+                echo "  ✓ Zipping $FOLDER -> $FOLDER-v$VERSION.zip"
+                
+                # Zip the folder
+                cd "datapacks/$FOLDER"
+                zip -r "../$FOLDER-v$VERSION.zip" .
+                cd ../..
+                
+                # Add folder to .packwizignore temporarily
+                echo "datapacks/$FOLDER/" >> .packwizignore
+              else
+                echo "  ⚠ Skipping $FOLDER (folder not found)"
+              fi
+            done
+          else
+            echo "No custom datapacks configured"
+          fi
 
       - name: Export modpack
         working-directory: client-pack
@@ -81,8 +123,34 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
+          name: "${{ steps.config.outputs.pack_name }} v${{ steps.version.outputs.number }}"
           body: ${{ steps.changelog.outputs.body }}
           files: "client-pack/export/v${{ steps.version.outputs.number }}/barely-modded-${{ steps.version.outputs.number }}.mrpack"
-          name: "${{ steps.config.outputs.pack_name }} v${{ steps.version.outputs.number }}"
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to Modrinth
+        uses: Kir-Antipov/mc-publish@v3
+        with:
+          modrinth-id: ${{ steps.config.outputs.modrinth_id }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          files: "client-pack/export/v${{ steps.version.outputs.number }}/barely-modded-${{ steps.version.outputs.number }}.mrpack"
+          name: "${{ steps.config.outputs.pack_name }} v${{ steps.version.outputs.number }}"
+          version: ${{ steps.version.outputs.number }}
+          version-type: release
+          changelog: |
+            ${{ steps.changelog.outputs.body }}
+            
+            ---
+            *This release was automatically published via GitHub Actions*
+          loaders: ${{ steps.config.outputs.loader }}
+          game-versions: ${{ steps.config.outputs.minecraft_version }}
+
+      - name: Update Modrinth project description
+        run: |
+          DESCRIPTION=$(jq -Rs . < client-pack/readme.md)
+
+          curl -X PATCH "https://api.modrinth.com/v2/project/${{ steps.config.outputs.modrinth_id }}" \
+            -H "Authorization: Bearer ${{ secrets.MODRINTH_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d "{\"body\": $DESCRIPTION}"
