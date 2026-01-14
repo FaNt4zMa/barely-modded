@@ -10,7 +10,7 @@ hash = "1c6197db656f6427aedc3c0eec48c950475ab7be0610837d9a186a3c852b9113"
 
 [[files]]
 file = "config/polymer/resource-pack.json"
-hash = "17638e52ab21f7c0729fc284713cc46ef03dcfbe0ecd00f20167deb010040928"
+hash = "e6191763d10bd55b8351b8fc2d5894a7f1e6818d1caeecf6e43e612afefabb0f"
 
 [[files]]
 file = "config/simpleupdatechecker_modpack.json"
@@ -930,11 +930,6 @@ metafile = true
 [[files]]
 file = "mods/colorful-campfires.pw.toml"
 hash = "9878f5e735e3ff959b96f061b39931fe9210056fc006a1457ddf80b1bab845e0"
-metafile = true
-
-[[files]]
-file = "mods/colorful-copper-lanterns.pw.toml"
-hash = "2e1f1afe9746d30be7ad23c6b7d0767f070a1b896a08078ff3c7aa42b9d85aa6"
 metafile = true
 
 [[files]]

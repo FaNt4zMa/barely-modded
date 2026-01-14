@@ -1,3 +1,17 @@
+## [3.0.2] - 2026-01-14
+
+### Removed
+
+- Colorful Copper Lanters
+  - Colorful Lanterns added copper variants in its latest update. Not needed anymore
+
+### Fixed
+
+- Polymer now correctly includes all resourcepacks when updating
+  - Now uses a global pattern (`resourcepacks/*.zip`) in the `include_zips` block to automatically include all zip files from the resourcepack directory
+
+
+
 ## [3.0.1] - 2026-01-14
 
 ### Hotfix
