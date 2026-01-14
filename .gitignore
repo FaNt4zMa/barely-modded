@@ -1,6 +1,8 @@
 client-pack/export/
 client-pack/update-logs/
+client-pack/reports/
 server-pack/export/
 server-pack/update-logs/
+server-pack/reports/
 GEMINI.md
 *.bat

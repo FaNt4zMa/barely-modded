@@ -1,13 +1,13 @@
 name = "Racks"
-filename = "pk_racks_V.3.1.5_mc_1.21.9.zip"
+filename = "pk_racks_v.3.2.0_mc_1.21.11.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Ws2vw51R/versions/m1Nmg57f/pk_racks_V.3.1.5_mc_1.21.9.zip"
+url = "https://cdn.modrinth.com/data/Ws2vw51R/versions/8STI1wX4/pk_racks_v.3.2.0_mc_1.21.11.zip"
 hash-format = "sha512"
-hash = "b67aa3b3fc39174f7730ee230a9e88ca127b5723857a095f8e755dfccdffbafc9e5f8dfadff3f60935220e2d2958756105857b996e5636d4df6c8ac96865d01e"
+hash = "bef66effeb5c2ab0fc24e1bd01b293a0fc708790dd58ac0ffc6837ab8c61a5bc7c3e69c932017566244c2a01ecc801d633be1dfea21e4c1a6a33e3231d276ed6"
 
 [update]
 [update.modrinth]
 mod-id = "Ws2vw51R"
-version = "m1Nmg57f"
+version = "8STI1wX4"

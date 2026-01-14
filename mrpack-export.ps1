@@ -88,7 +88,85 @@ foreach ($file in $versionFiles) {
     }
 }
 
-Write-Host "`nStep 2: Exporting modpack..." -ForegroundColor Cyan
+Write-Host "`nStep 2: Processing custom datapacks..." -ForegroundColor Cyan
+
+# Parse custom datapacks for this pack type
+$datapacksPattern = "(?sm)^${PackName}:.*?custom_datapacks:(.*?)(?=^\S|\z)"
+$datapacksMatch = $config | Select-String -Pattern $datapacksPattern
+$zippedFiles = @()
+$datapackFolders = @()
+$packwizIgnorePath = Join-Path $packDir ".packwizignore"
+$packwizIgnoreBackup = $null
+$hasCustomDatapacks = $false
+
+if ($datapacksMatch) {
+    $datapacksSection = $datapacksMatch.Matches.Groups[1].Value
+
+    # Key exists but may be empty
+    if (-not [string]::IsNullOrWhiteSpace($datapacksSection)) {
+        $hasCustomDatapacks = $true
+    
+        # Extract folder and version pairs
+        $folderMatches = [regex]::Matches($datapacksSection, 'folder:\s*"?([^"\n]+)"?')
+        $versionMatches = [regex]::Matches($datapacksSection, 'version:\s*"?([^"\n]+)"?')
+    
+        if ($folderMatches.Count -ne $versionMatches.Count) {
+            Write-Host "  ⚠ Invalid custom_datapacks entry (folder/version mismatch), skipping" -ForegroundColor Yellow
+        }
+        else {
+            $datapacksDir = Join-Path $packDir "datapacks"
+        
+            # Backup and modify .packwizignore
+            if (Test-Path $packwizIgnorePath) {
+                $packwizIgnoreBackup = Get-Content $packwizIgnorePath -Raw
+                Write-Host "  ✓ Backing up .packwizignore" -ForegroundColor Green
+            }
+        
+            for ($i = 0; $i -lt $folderMatches.Count; $i++) {
+                $folder = $folderMatches[$i].Groups[1].Value.Trim()
+                $version = $versionMatches[$i].Groups[1].Value.Trim()
+                $sourcePath = Join-Path $datapacksDir $folder
+                $zipName = "$folder-v$version.zip"
+                $zipPath = Join-Path $datapacksDir $zipName
+            
+                if (Test-Path $sourcePath) {
+                    Write-Host "  ✓ Zipping $folder -> $zipName" -ForegroundColor Green
+                
+                    # Remove old zip if it exists
+                    if (Test-Path $zipPath) {
+                        Remove-Item $zipPath -Force
+                    }
+                
+                    # Zip the folder
+                    Compress-Archive -Path "$sourcePath\*" -DestinationPath $zipPath -Force
+                    $zippedFiles += $zipPath
+                    $datapackFolders += $folder
+                } else {
+                    Write-Host "  ⚠ Skipping $folder (folder not found)" -ForegroundColor Yellow
+                }
+            }
+        
+            # Add folders to .packwizignore temporarily
+            if ($datapackFolders.Count -gt 0) {
+                $ignoreContent = if ($packwizIgnoreBackup) { $packwizIgnoreBackup } else { "" }
+                if (-not $ignoreContent.EndsWith("`n") -and $ignoreContent.Length -gt 0) {
+                    $ignoreContent += "`n"
+                }
+                foreach ($folder in $datapackFolders) {
+                    $ignoreContent += "datapacks/$folder/`n"
+                }
+                Set-Content -Path $packwizIgnorePath -Value $ignoreContent -NoNewline
+                Write-Host "  ✓ Temporarily added folders to .packwizignore" -ForegroundColor Green
+            }
+        }
+    }
+}
+
+if (-not $hasCustomDatapacks) {
+    Write-Host "  → No custom datapacks configured" -ForegroundColor Gray
+}
+
+Write-Host "`nStep 3: Exporting modpack..." -ForegroundColor Cyan
 
 # Create version-specific export directory
 $exportDir = Join-Path $packDir "export/v$newVer"
@@ -111,7 +189,7 @@ Push-Location $packDir
 packwiz modrinth export --output $outputFile
 Pop-Location
 
-Write-Host "`nStep 3: Restoring original files..." -ForegroundColor Cyan
+Write-Host "`nStep 4: Restoring original files..." -ForegroundColor Cyan
 
 # Restore version files
 foreach ($file in $versionFiles) {
@@ -120,6 +198,22 @@ foreach ($file in $versionFiles) {
         Move-Item "$file.bkp" $file -Force
         Write-Host "  ✓ Restored $file" -ForegroundColor Green
     }
+}
+
+# Clean up zipped datapacks
+if ($zippedFiles -and $zippedFiles.Count -gt 0) {
+    Write-Host "  ✓ Cleaning up temporary zip files" -ForegroundColor Green
+    foreach ($zipFile in $zippedFiles) {
+        if (Test-Path $zipFile) {
+            Remove-Item $zipFile -Force
+        }
+    }
+}
+
+# Restore .packwizignore
+if ($null -ne $packwizIgnoreBackup) {
+    Set-Content -Path $packwizIgnorePath -Value $packwizIgnoreBackup -NoNewline
+    Write-Host "  ✓ Restored .packwizignore" -ForegroundColor Green
 }
 
 Push-Location $packDir

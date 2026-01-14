@@ -1,13 +1,13 @@
 name = "Better Hanging Signs"
-filename = "better-hanging-signs-5.4.jar"
+filename = "better-hanging-signs-6.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/l6VVh2KR/versions/AwZERPJH/better-hanging-signs-5.4.jar"
+url = "https://cdn.modrinth.com/data/l6VVh2KR/versions/X2Tmx8PW/better-hanging-signs-6.0.jar"
 hash-format = "sha512"
-hash = "56ebad26bb0cb3e6977bc0579faaba0239651875108488b7563930418a42c3db3555a76ab7d762f7b9c4879134cf503952c19d452c1444cda63d7805aaf2c2aa"
+hash = "d1dc387f398cfe10c71ab4962dc34c35ff3c89b67ad8564141ae2bfc5e409b7f1e55bd3864c74f3f5bac53f3e5fc51528169aa97ac95b6c8a9d0a1a0d8723c1d"
 
 [update]
 [update.modrinth]
 mod-id = "l6VVh2KR"
-version = "AwZERPJH"
+version = "X2Tmx8PW"

@@ -1,13 +1,13 @@
 name = "Frog Concept Variants"
-filename = "frog-concept-variants-v1-0-0-mc-1-21-9.zip"
+filename = "frog-concept-variants-mc-1-21-11.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/nCPMn0pj/versions/7il9buAn/frog-concept-variants-v1-0-0-mc-1-21-9.zip"
+url = "https://cdn.modrinth.com/data/nCPMn0pj/versions/GediFLKg/frog-concept-variants-mc-1-21-11.zip"
 hash-format = "sha512"
-hash = "d1b9937aff4d18efb66135f2aeb6eb305e7400fec28fe778766b73aeb2d79ac471b33b4f40acf01701b79c20cdcc1bb9db8b40e93816aa24f7133fb56b1ce5fb"
+hash = "69ec58dd42e4bf89bc33c36c1bb622772b2e738b896d722c82e63b54b7a2d92b03f94b511375e05ff6a359dfe762162152399c62b6658c09d4bed4e2f197d71b"
 
 [update]
 [update.modrinth]
 mod-id = "nCPMn0pj"
-version = "7il9buAn"
+version = "GediFLKg"

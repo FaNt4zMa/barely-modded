@@ -1,13 +1,13 @@
 name = "Crop & Kettle"
-filename = "crop-and-kettle-v1.2.0.5.jar"
+filename = "crop-and-kettle-v1.2.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/hd2YH2vf/versions/Ky2ni89k/crop-and-kettle-v1.2.0.5.jar"
+url = "https://cdn.modrinth.com/data/hd2YH2vf/versions/5UOjXdMk/crop-and-kettle-v1.2.6.jar"
 hash-format = "sha512"
-hash = "3c31f6ee9c71088321a82218078a0871ac78aa65b4ccb3ff4dba4f0895e3d2f1780ebcb5b069d874d13bf3451149f51df1216c8bbb9b1e534ff12a3a62be8061"
+hash = "b4bb98033c533a69b31273b86abfceeec604da97ef55f6edb6e861f6a02d235beb61431d6ee6ad5b65b35f353e16a68fa7729e22fad0a501327862ae8064d626"
 
 [update]
 [update.modrinth]
 mod-id = "hd2YH2vf"
-version = "Ky2ni89k"
+version = "5UOjXdMk"

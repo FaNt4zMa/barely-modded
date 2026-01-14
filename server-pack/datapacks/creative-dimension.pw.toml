@@ -1,13 +1,13 @@
 name = "Creative Dimension"
-filename = "pk_creative_dimension_V.3.2.3_mc_1.21.9.zip"
+filename = "pk_creative_dimension_V.3.2.4_mc_1.21.11.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/o6I0DdR8/versions/MyDXpF2y/pk_creative_dimension_V.3.2.3_mc_1.21.9.zip"
+url = "https://cdn.modrinth.com/data/o6I0DdR8/versions/nSEty7j9/pk_creative_dimension_V.3.2.4_mc_1.21.11.zip"
 hash-format = "sha512"
-hash = "48e9c56ae2cbb61093c2f7e70a15b8ce84cb1110d062e648aade42c03b3c2b23a3d9b7ac414c6254aa1c061a107870ecbf1f79250284abe98c9098f1e21b9608"
+hash = "207891ebee6b54ae45cc07076ec468bc856043b5d77f8e80c630850797288df20a25e3ce1b76258a305fedb156bb8b9715d11a10b9225bb9a85ebc0518377ab5"
 
 [update]
 [update.modrinth]
 mod-id = "o6I0DdR8"
-version = "MyDXpF2y"
+version = "nSEty7j9"

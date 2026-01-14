@@ -1,8 +1,8 @@
 name = "Earth Animals RP"
-filename = "earth-animals-rp-v1-1-2-mc-1-21-9.zip"
+filename = "earth-animals-rp-v1-1-3-mc-1-21-11.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/doNucsNZ/versions/DaUehx61/earth-animals-rp-v1-1-2-mc-1-21-9.zip"
+url = "https://cdn.modrinth.com/data/doNucsNZ/versions/gTcCry01/earth-animals-rp-v1-1-3-mc-1-21-11.zip"
 hash-format = "sha512"
-hash = "ae69137838755062be3613df10321c94cadb11261f87eea48f962a78661d0a6a390f60080d05097fc53115702b046ca42cbdf838bb8e75b1d4f69ca60ffb51bb"
+hash = "5ec3aa9e1cbf6a7557ef68f5e7307cf35b6a17fb17eb2158cbb5fc596d856ef43b81ac0aa1a303a86712934dfcb86579dfc73d4001bb244ca1030e810fab976c"

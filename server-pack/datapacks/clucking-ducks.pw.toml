@@ -1,13 +1,13 @@
 name = "Clucking Ducks"
-filename = "clucking-ducks-v1-0-0-mc-1-21-9.zip"
+filename = "clucking-ducks-mc-1-21-11.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/pDnk8s7J/versions/5UlEJOMT/clucking-ducks-v1-0-0-mc-1-21-9.zip"
+url = "https://cdn.modrinth.com/data/pDnk8s7J/versions/cZsCryUM/clucking-ducks-mc-1-21-11.zip"
 hash-format = "sha512"
-hash = "b3fe865aceae541d06ed3745e20d2e04521fa3bdfbbcd74dff69a0f48ae7804ff7b3224edd3fb15644326b2baffea87aebd3a7859a7e2b441ed49989d096fa49"
+hash = "c74b598f40a00c2d8753286df45f4149dd93052fb2ee5e9971e131610fd96112957d7e8bc6191adca4530621b8080e1ab533098fc26882a9603ae5e07b9ffb19"
 
 [update]
 [update.modrinth]
 mod-id = "pDnk8s7J"
-version = "5UlEJOMT"
+version = "cZsCryUM"

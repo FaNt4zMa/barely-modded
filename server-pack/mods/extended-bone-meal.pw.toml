@@ -1,13 +1,13 @@
 name = "Extended Bone Meal"
-filename = "extendedbonemeal-1.21.10-3.6.jar"
+filename = "extendedbonemeal-1.21.11-3.6.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/bHkCoxMs/versions/JCnCJ0Zf/extendedbonemeal-1.21.10-3.6.jar"
+url = "https://cdn.modrinth.com/data/bHkCoxMs/versions/Z4hgjtLH/extendedbonemeal-1.21.11-3.6.jar"
 hash-format = "sha512"
-hash = "c483dee430b4f7c1e265e759fb248efa185c826ff6dc486f5687ae423fe49e00d65d407a2dfeb7f08b0c4da493d9346e396c1cb4775f17335ded019f81f22147"
+hash = "0e04c92a41f235a211f73ef024e2e584ecca50db42366376a1e13162ee5b9e853fe28be7978b1c8ab21e7d691cb4063414a8cdd85667861a11119542df6a5e93"
 
 [update]
 [update.modrinth]
 mod-id = "bHkCoxMs"
-version = "JCnCJ0Zf"
+version = "Z4hgjtLH"

@@ -1,0 +1,13 @@
+name = "Big Sign Writer"
+filename = "bigsignwriter-1.5.0+1.21.11-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/UCpxwAAu/versions/Sy4UZsfj/bigsignwriter-1.5.0%2B1.21.11-fabric.jar"
+hash-format = "sha512"
+hash = "76332d9cfbd21747a7e108ec432b6dd8a9bfc98d0000c7dfafc8e29b7bf90ddea083f9089f126a86bc7b5726edbaf60f55879e70b7ac64a011f2d5d6b2983ca9"
+
+[update]
+[update.modrinth]
+mod-id = "UCpxwAAu"
+version = "Sy4UZsfj"

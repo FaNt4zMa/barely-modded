@@ -1,13 +1,13 @@
 name = "Wool Tweaks"
-filename = "wooltweaks-1.21.10-4.0.jar"
+filename = "wooltweaks-1.21.11-4.0.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/lqQsKUma/versions/lfHOshCr/wooltweaks-1.21.10-4.0.jar"
+url = "https://cdn.modrinth.com/data/lqQsKUma/versions/54YN4yMF/wooltweaks-1.21.11-4.0.jar"
 hash-format = "sha512"
-hash = "56769ded2f84d8da4cd915c8840bb60a308d94e5b80e2ba4fa46fb275fa649f6e7df4f30b065f652f7c732c05874af409bcca3561463be0838c29cd2c5fa0ad6"
+hash = "9578ccfe6521adcfa3ab4e8d7d4d908989acd7311cab361a71adff3671c2d5de8de6e45a83c88760ed4f96e554d0bb46c5f67fc232e8df35ce13587bf33d4bda"
 
 [update]
 [update.modrinth]
 mod-id = "lqQsKUma"
-version = "lfHOshCr"
+version = "54YN4yMF"

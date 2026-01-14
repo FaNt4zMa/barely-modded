@@ -1,13 +1,13 @@
 name = "Notes"
-filename = "Notes-1.21.10-2.1.1-fabric.jar"
+filename = "Notes-1.21.11-2.1.1-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/ko8Qabo1/versions/BiN5MOFB/Notes-1.21.10-2.1.1-fabric.jar"
+url = "https://cdn.modrinth.com/data/ko8Qabo1/versions/4IubzWJ2/Notes-1.21.11-2.1.1-fabric.jar"
 hash-format = "sha512"
-hash = "e35e372ee8766855cb6a218841944f4ec710725a9b5d491e65f3d892a59b820b7b62193c187d08df2f333c2dfff1d7ac770d50345c16b63b46fdc39e29058197"
+hash = "87c88a48eaf733d7d33b7099e9d0049f51753683dfab3707dd96a5dcd4ecfbe195d77e4acb868042ce831a623a1555f516f55177ce1161f2e876b223bec7f277"
 
 [update]
 [update.modrinth]
 mod-id = "ko8Qabo1"
-version = "BiN5MOFB"
+version = "4IubzWJ2"
