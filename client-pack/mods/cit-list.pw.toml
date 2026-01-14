@@ -1,13 +1,13 @@
 name = "CIT List"
-filename = "cit-list-1.4.1_1.21.11.jar"
+filename = "cit-list-1.4.2_1.21.11.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/LUSDWwLk/versions/79vLhFvM/cit-list-1.4.1_1.21.11.jar"
+url = "https://cdn.modrinth.com/data/LUSDWwLk/versions/e96yBGo2/cit-list-1.4.2_1.21.11.jar"
 hash-format = "sha512"
-hash = "65b3d2ae3cd1a226deb903b177e25d9475cab1c2612f57478f420791f7226762c4ea0c28ae0d27870d29af55e5d9a2073ad6f68fd56716fc6917292c331bcaab"
+hash = "2c7be4ffd7fa9a8556150752ff385c918e31e296a9e633f626d2481a460d9bee2086da0014d99b693e7fa81383351539bb352e06ee4361efd8f30ade4d700ed4"
 
 [update]
 [update.modrinth]
 mod-id = "LUSDWwLk"
-version = "79vLhFvM"
+version = "e96yBGo2"

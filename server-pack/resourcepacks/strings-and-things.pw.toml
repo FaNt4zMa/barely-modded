@@ -1,13 +1,13 @@
 name = "Strings & Things"
-filename = "§eStrings & Things 1.21.5-11.zip"
+filename = "§eStrings & Things 1.21.5-26.1.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/4ALa3Lnq/versions/qfHhVyI1/%C2%A7eStrings%20%26%20Things%201.21.5-11.zip"
+url = "https://cdn.modrinth.com/data/4ALa3Lnq/versions/ho8MOiq7/%C2%A7eStrings%20%26%20Things%201.21.5-26.1.zip"
 hash-format = "sha512"
-hash = "8af0b188b3b5f47bac448f5ed0f25be1d224fd5f95c87bc7f97ac02f9ce26206e9ecaca7e6219475cf5ed8bf8cdecec9ed23b7837df7e54c0370fa0991f5c025"
+hash = "01971d39399c40550d520065538ff0cdd24120341d8c440561c7f4ac3efe80bc69fc98d265f85231ce7f93fb865fbdf20e5d34fe51ff7aa8f7d6b9c5450e2433"
 
 [update]
 [update.modrinth]
 mod-id = "4ALa3Lnq"
-version = "qfHhVyI1"
+version = "ho8MOiq7"

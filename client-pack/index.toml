@@ -215,17 +215,17 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "092508af534efeb380b9551663980ab1f701d88583a63227d02cb02843335f7a"
+hash = "3574ca8f34cf9e005046179d449af1abd0c7475d3889d2cb2bc187ff28b360d1"
 metafile = true
 
 [[files]]
 file = "mods/chatnotify.pw.toml"
-hash = "4c7e38b9ab7afa2ba9a68f33a66fdae792f77f7f57fade0405e1e0c875f3bfb5"
+hash = "1d2b43ac046735db3be2e0091f8c84fd4aecd18fcdb33bc110142346ad3d2edb"
 metafile = true
 
 [[files]]
 file = "mods/cit-list.pw.toml"
-hash = "e23f1ae1ccf1a200255265211d8011e54a68ea116e9fa7748c5bb90da716f474"
+hash = "05a05aa62fd0bc4cf68709a20b0b54e843e8189beb773f47bd9c5c0deb3186a1"
 metafile = true
 
 [[files]]
@@ -520,7 +520,7 @@ metafile = true
 
 [[files]]
 file = "mods/player-animation-library.pw.toml"
-hash = "255328a49b5dbf428a2b2abdfbf085e9724e3da9eab498abfbc8372ba5a65cec"
+hash = "f7d3fe9e062e5af46ee2ee5684e2842502f622a73461fe897da1dac83f15a45a"
 metafile = true
 
 [[files]]

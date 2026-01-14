@@ -889,7 +889,7 @@ metafile = true
 
 [[files]]
 file = "mods/call-your-happy-ghast.pw.toml"
-hash = "6ad901dc0605d4e92a1badab252df1a4919ddad520f7820479c17bac1f16e088"
+hash = "097456236b164c6b4f91a282173b32105f69f51ef73b2414802bd5980c796145"
 metafile = true
 
 [[files]]
@@ -1279,7 +1279,7 @@ metafile = true
 
 [[files]]
 file = "mods/player-animation-library.pw.toml"
-hash = "255328a49b5dbf428a2b2abdfbf085e9724e3da9eab498abfbc8372ba5a65cec"
+hash = "f7d3fe9e062e5af46ee2ee5684e2842502f622a73461fe897da1dac83f15a45a"
 metafile = true
 
 [[files]]
@@ -1557,7 +1557,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/strings-and-things.pw.toml"
-hash = "3c64267f9ce70c32364b7206fd092f55274a6250c6211d2872962616a3756141"
+hash = "84eeef5c16f708033c3948e8a56b767fd3e1da8adb84d794cb8487422d596447"
 metafile = true
 
 [[files]]
