@@ -1,3 +1,11 @@
+## [3.0.1] - 2026-01-14
+
+### Hotfix
+
+- Fixed missing Strings and Things in Polymer RP generation
+
+
+
 ## [3.0.0] - 2026-01-14
 
 ### Added
