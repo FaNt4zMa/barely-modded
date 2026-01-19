@@ -2,7 +2,7 @@
 
 ### Removed
 
-- Colorful Copper Lanters
+- Colorful Copper Lanterns
   - Colorful Lanterns added copper variants in its latest update. Not needed anymore
 
 ### Fixed

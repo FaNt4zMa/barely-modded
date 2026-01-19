@@ -27,7 +27,6 @@ Seamlessly expands what’s possible on a pure vanilla client, powering new deco
   - [Colorful Campfires](https://modrinth.com/mod/colorful-campfires): Fire can have different colors, like in real life! 
   - [Colorful Lamp](https://modrinth.com/mod/colorful-lamp): Brighten up your builds with lamps in every shade you can imagine!
   - [Colorful Lanterns](https://modrinth.com/mod/colorful-lanterns): Want colored lanterns instead? There, you have it!
-  - [Colorful Copper Lanterns](https://modrinth.com/mod/colorful-copper-lanterns): If we have colored lanterns, we must have copper ones too!
   - [Copper Fire](https://modrinth.com/mod/copperfire): Who knew that copper burned with a green flame!?
   - [Visual Armor Trims](https://modrinth.com/resourcepack/visual-armor-trims): See your armor trims right in your inventory so you always know what you've got!
   - [Clucking Ducks](https://modrinth.com/datapack/clucking-ducks): Quack up your farm with adorable ducks straight from Minecraft Dungeons!
