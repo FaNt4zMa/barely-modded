@@ -1,3 +1,23 @@
+## [3.0.1] - 2026-01-18
+
+### Changed
+
+- Updated mods to their latest version
+  - Balm
+  - MaLiLib
+  - Ping View
+  - Zoomify
+  - CIT List
+  - Armor Hider
+  - Emotecraft
+
+### Fixed
+
+- CIT List was updated for performance improvements when enabling very big resourcepack
+  - Auto reload disabled by default
+
+
+
 ## [3.0.0] - 2026-01-14
 
 ### Added

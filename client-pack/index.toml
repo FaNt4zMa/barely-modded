@@ -37,6 +37,10 @@ file = "config/yosbr/config/chatnotify.json"
 hash = "b3e8f97c03a57895fb6a37174ece3b9dd9a47c893a4685dab85b7fdeb67afad0"
 
 [[files]]
+file = "config/yosbr/config/cit-list.json"
+hash = "f326be38048bf72110966653ff19ef7327cdb8cb41db212b5d9289f151ace912"
+
+[[files]]
 file = "config/yosbr/config/clientsort.json"
 hash = "bd9b4e4749136f44c24701da7d09861e9dc5f510b8ff98511e3ef3f238b9ed25"
 
@@ -145,7 +149,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "2d58b7783694c38d8264f263b9ee1f8b31c1aa9dd98866deb20719b252dc4b47"
+hash = "a4fa394020116893d1d6bbea9ef304fe3fea55348c81a7cd62de3ccba55adadd"
 metafile = true
 
 [[files]]
@@ -225,7 +229,7 @@ metafile = true
 
 [[files]]
 file = "mods/cit-list.pw.toml"
-hash = "05a05aa62fd0bc4cf68709a20b0b54e843e8189beb773f47bd9c5c0deb3186a1"
+hash = "bac44e41694fd91c948ecbffd369335e411aae43f15fc7af593d174e29e65825"
 metafile = true
 
 [[files]]
@@ -295,7 +299,7 @@ metafile = true
 
 [[files]]
 file = "mods/emotecraft.pw.toml"
-hash = "4d934bc4b56f39d810fe5ebbdafc866c6b5d9c57360af6d0525154ab7dcb7114"
+hash = "6d1f5c0c558e5b5c74dea46b1fad33e3ceef3ced5e97531f7a4c7a8b64bd943b"
 metafile = true
 
 [[files]]
@@ -410,7 +414,7 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "498b1e53ad324ef235f61366ead140bde04c3108a51973a17e7de8243c5de208"
+hash = "6324b634d5e464cf2606cce4e1d9b923701cad31764858d982fe0738129e0e4e"
 metafile = true
 
 [[files]]
@@ -510,7 +514,7 @@ metafile = true
 
 [[files]]
 file = "mods/ping-view.pw.toml"
-hash = "a25ff2b7f1fe489dcecbbcb67907f15f3e1b18892916615050fb1f741c57440c"
+hash = "5feb5943b2d67736363b69cd5b14021573f835f7c9dd376f7597b03ba83030f7"
 metafile = true
 
 [[files]]
@@ -685,10 +689,10 @@ metafile = true
 
 [[files]]
 file = "mods/zannaghs-armor-hider.pw.toml"
-hash = "fb262a9de86f09d9245c6944b1a2702a4d20248176f3be0f9a9b8f5d5b10a998"
+hash = "e7dc0248aba471ed7b9644328114d27102a6958528723800ede65e5d245d26c4"
 metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "d74d244b3524bea2326becd2ceaa27b8e231156aba33448533cd29b12ed48318"
+hash = "671e1badbd1d6b1fe20851202a5328f0600534af609afb0b8b1a0840aa222246"
 metafile = true
